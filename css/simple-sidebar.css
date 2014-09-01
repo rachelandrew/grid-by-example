@@ -103,6 +103,10 @@
         display: none;
     }
 
+    #menu-toggle.always-visible {
+        display: inline-block;
+    }
+
     #wrapper {
         padding-left: 250px;
     }
