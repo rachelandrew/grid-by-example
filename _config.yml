@@ -10,4 +10,3 @@ github_username:  rachelandrew
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: rouge
