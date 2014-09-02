@@ -2,11 +2,12 @@
 title: Grid by Example
 email: me@rachelandrew.co.uk
 description: "My collection of simple examples of the CSS3 Grid Layout Module."
-baseurl: ""
 url: "http://gridbyexample.com"
 twitter_username: rachelandrew
 github_username:  rachelandrew
 
 # Build settings
+baseurl: ""
 markdown: kramdown
 permalink: pretty
+exclude: [vendor]
