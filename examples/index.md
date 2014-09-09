@@ -26,6 +26,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 12. [No Clearing Required](#example12)
 13. [Redefining Grid Areas with Media Queries](#example13)
 14. [Source independence](#example14)
+15. [Layering items](#example15)
+16. [Grid area as a new positioning context](#example16)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -702,5 +704,156 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example14.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example15">
+<div class="panel-heading">
+<h3 class="panel-title">Example 15: Layering Items</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example15.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>You can layer items in the Grid, using z-index to control the order that they stack. In this example I have boxes arranged on a grid, my box `F` is last in the source order and positioned on the Grid so it partly overlaps box `D`.</p>
+
+<p>Without any z-index property it will display on top of box D. However I can add a z-index and control the position which works as you would expect if you have used the z-index property with positioned elements.</p>
+
+
+</div>
+</div>
+~~~
+// HTML
+<div class="wrapper">
+  <div class="box a">A</div>
+  <div class="box b">B</div>
+  <div class="box c">C</div>
+  <div class="box d">D</div>
+  <div class="box e">E</div>
+  <div class="box f">F</div>
+</div>
+
+// CSS
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, (col) 100px (gutter) 10px) ;
+  grid-template-rows: repeat(3, (row) auto (gutter) 10px );
+}
+.box {
+    background-color: #444;
+    z-index:10;
+}
+.a { 
+  grid-column: col / span gutter 2; 
+  grid-row: row ;
+}
+.b { 
+  grid-column: col 3 / span gutter 3 ; 
+  grid-row: row ;
+}
+.c { 
+  grid-column: col ; 
+  grid-row: row 2 ;
+}
+.d { 
+  grid-column: col 2 / span gutter 3 ; 
+  grid-row: row 2 ;
+}
+.e {
+  grid-column: col / span gutter 5;
+  grid-row: row 3;
+}
+.f {
+  grid-column: col 3 / span gutter 3;
+  grid-row: row 2  ;
+  background-color: rgba(49,121,207, 0.5);
+  z-index: 20;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example15.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example16">
+<div class="panel-heading">
+<h3 class="panel-title">Example 16: Grid Area as a new positioning context</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example16.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>You can absolutely position items inside an area of the Grid. In this example I have used `position: relative` on my `.content` Grid Area. I can then position the four arrow images using absolute positioning inside that area, and it works as you would expect.</p>
+
+
+</div>
+</div>
+~~~
+// HTML
+<div class="wrapper">
+  <div class="box header">Header</div>
+  <div class="box sidebar">Sidebar</div>
+  <div class="box content">Content
+    <br /> The four arrows are inline images inside the content area.
+    <img src="arrow-top-left.png" alt="top left" class="topleft" />
+    <img src="arrow-top-right.png" alt="top right" class="topright" />
+    <img src="arrow-bottom-left.png" alt="bottom left" class="bottomleft" />
+    <img src="arrow-bottom-right.png" alt="bottom right" class="bottomright" /></div>
+  <div class="box footer">Footer</div>
+</div>
+
+// CSS
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+  position: relative;
+}
+.header {
+  grid-area: header;
+}
+.footer {
+  grid-area: footer;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 10px 200px 10px 200px;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header header header" 
+    "sidebar . content content content"
+    "footer footer footer footer footer";
+}
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example16.html">View example</a>
 </div>
 </div>
