@@ -28,6 +28,9 @@ I will add to this list as I create tidy versions of some of the other tests I h
 14. [Source independence](#example14)
 15. [Layering items](#example15)
 16. [Grid area as a new positioning context](#example16)
+17. [Grid Auto Flow](#example17)
+18. [Grid Auto Flow Column](#example18)
+19. [Grid Auto Flow with a positioned element](#example19)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -855,5 +858,132 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example16.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example17">
+<div class="panel-heading">
+<h3 class="panel-title">Example 17: Grid Auto Flow</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example17.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>If you declare a Grid on an element and do not position the child elements then the [auto-placememt algorithm](http://dev.w3.org/csswg/css-grid/#auto-placement) dictates what the browser should do about those unplaced grid items.</p>
+
+<p>In this example I have a set of 12 boxes. I've used nth-child to switch the backgroud color on the even boxes to make this example clear. I have declared a Grid and created rows and columns but not positioned any of the children. As you can see the boxes all lay out on the Grid despite having no placement assigned to them.</p>
+
+
+</div>
+</div>
+~~~
+// HTML
+<div class="wrapper">
+  <div class="box box1">1</div>
+  <div class="box box2">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+  <div class="box">8</div>
+  <div class="box">9</div>
+  <div class="box">10</div>
+  <div class="box">11</div>
+  <div class="box">12</div>
+</div>
+
+// CSS
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+.box:nth-child(even){
+  background-color: #ccc;
+  color: #000;
+}
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: auto ;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example17.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example18">
+<div class="panel-heading">
+<h3 class="panel-title">Example 18: Grid Auto Flow - Column</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example18.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>The default behavior of Grid Auto Flow is to layout the elements by row, working along the row until there ar no more slots then moving on to the next row. If a row is not declared then an implicit grid track will be created to hold the items.</p>
+
+<p>You can change this behavior by using the `grid-auto-flow` property. The default value is `row` but you can also specify `column`. The elements will then be laid out column by column, adding new columns if needed.</p>
+
+</div>
+</div>
+~~~
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px ;
+  grid-auto-flow: column;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example18.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example19">
+<div class="panel-heading">
+<h3 class="panel-title">Example 19: Grid Auto Flow with a positioned element</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example19.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>If a child element has been placed then the auto-placement algorithm will place that first and then work out what to do with any child elements that have not been placed.</p>
+<p>In this example I have placed `box2` on the grid and also made it span 3 grid lines. The rest of the boxes continue to lay out as before.</p>
+
+</div>
+</div>
+~~~
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: auto ;
+}
+.box2 {
+  grid-column: 3 / 6;
+  grid-row: 2 / 3;
+  outline: 2px solid red;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example19.html">View example</a>
 </div>
 </div>
