@@ -604,7 +604,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <div class="col-sm-6">
 
-<p>We can easily redefine the grid and the position of the elements on it using Media Queries. I define the Grid Areas as before outside of the Media Queries and then redefine the Grid Tracks and the position of the elements onto that grid inside my Media Queries.</p>
+<p>We can easily redefine the grid and the position of the elements on it using Media Queries. I define the Grid Areas as before outside of the Media Queries and then redefine the Grid Tracks and the position of the elements onto that grid inside my Media Queries. Due to a <a href="https://code.google.com/p/chromium/issues/detail?id=427481">logged bug</a> I needed to declare a min and max width. You should be able to override the Media Query without setting a max-width however.</p>
 
 
 

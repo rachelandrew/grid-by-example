@@ -18,6 +18,10 @@ At present there are not many tutorials and examples on Grid, as I find them I w
 * [How to enable support for Grid Layout in various browsers](http://igalia.github.io/css-grid-layout/enable.html)
 * [Can I Use](http://caniuse.com/#feat=css-grid)
 
+## Presentations
+
+* [Video of my presentation for CSSConf.eu](https://www.youtube.com/watch?v=GRexIOtGhBU)
+
 ## Articles and tutorials
 
 * [CSS Grid Layout: getting to grips with the Chrome Implementation](http://rachelandrew.co.uk/archives/2014/06/27/css-grid-layout-getting-to-grips-with-the-chrome-implementation/) - an article I wrote on 27 June 2014 looking at the implementation in Chrome.
@@ -32,4 +36,5 @@ At present there are not many tutorials and examples on Grid, as I find them I w
 
 ## Other things
 
+* [CSS Grid Layout Polyfill](http://fremycompany.com/BG/2014/CSS-Grid-Polyfill-Level-1-346/) - polyfill for the current spec
 * [CSS Grid Layout Polyfill](https://github.com/codler/Grid-Layout-Polyfill) - polyfills the IE10 implementation
