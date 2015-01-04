@@ -31,6 +31,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 17. [Grid Auto Flow](#example17)
 18. [Grid Auto Flow Column](#example18)
 19. [Grid Auto Flow with a positioned element](#example19)
+20. [The auto keyword](#example20)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -985,5 +986,36 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example19.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example20">
+<div class="panel-heading">
+<h3 class="panel-title">Example 20: The auto keyword</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example9.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>In <a href="#example9">example 9</a> we stated that we wanted our row track list to repeat three times, giving a content row then a 10 pixel gutter. In the [20th December Editor's Draft](http://dev.w3.org/csswg/css-grid/#repeat-notation) of the spec an `auto` keyword was introduced. Meaning that we can state we want to repeat the track list as many times as is required by the content.</p>
+<p>The `auto` keyword is not currently implemented in a browser</p>
+
+
+
+</div>
+</div>
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, (col) 100px (gutter) 10px) ;
+  grid-template-rows: repeat(auto, (row) auto (gutter) 10px );
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example20.html">View example (currently this is unimplemented in Chrome)</a>
 </div>
 </div>
