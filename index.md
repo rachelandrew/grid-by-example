@@ -14,7 +14,7 @@ In addition to my examples I have linked to other [resources and examples](/reso
 
 ## Latest Grid News
 
-The [Editors Draft of Grid published 20th December 2014](http://dev.w3.org/csswg/css-grid/) has made a few changes, one of which I'm very happy about as it solves an issue I had with some of my experiments. You can read all of the [changes to the spec](http://dev.w3.org/csswg/css-grid/#changes). I am particularly interested in the `auto` keyword for repeating grid tracks, as it will enable a track list to be defined, then that pattern repeated as often as is required by the content.
+The [Editor's Draft of Grid published 20th December 2014](http://dev.w3.org/csswg/css-grid/) has made a few changes, one of which I'm very happy about as it solves an issue I had with some of my experiments. You can read all of the [changes to the spec](http://dev.w3.org/csswg/css-grid/#changes). I am particularly interested in the `auto` keyword for repeating grid tracks, as it will enable a track list to be defined, then that pattern repeated as often as is required by the content.
 
 The `auto` keyword is not as yet implemented in Chrome. I have added an example which I believe is the correct usage - [example 20](/examples/#example20).
 
