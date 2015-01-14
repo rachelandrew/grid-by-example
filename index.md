@@ -20,6 +20,10 @@ The `auto` keyword is not as yet implemented in Chrome. I have added an example 
 
 [There is an excellent blog post](http://blogs.igalia.com/mrego/2014/12/30/css-grid-layout-2014-recap-specification-evolution/) from Manuel Rego Casasnovas, who works at Igalia and is involved in implementing Grid in Chrome and Blink. Read how the spec has evolved over 2014. 
 
+[A second post](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/) from Manuel describes the current browser implementation status.
+
+In [Box Alignment and Grid Layout II](http://blogs.igalia.com/jfernandez/2015/01/12/box-alignment-and-grid-layout-ii/) Javier Fernández writes about the box alignment implementation. THis work meant I needed to redo many of the screenshots in my examples as `stretch` is now implemented.
+
 <div class="bg-info book">
 	<h3>CSS3 Layout Modules, 2nd Edition</h3>
 	<p>A lot of the examples here were my test examples as I researched Grid for my latest book - CSS3 Layout Modules, 2nd edition. If you are interested in modern layout for the web, <a href="http://rachelandrew.co.uk/books/css3-layout-modules/">take a look at the book</a>.</p>

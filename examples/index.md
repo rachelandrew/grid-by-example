@@ -242,7 +242,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>To create Grid Areas that are larger than individual cells we specify an end line that is more than one cell away.</p>
 
-<p>In this example I have set box `.b` to span all three rows of the grid however visually this is not the case. From <a href="http://lists.w3.org/Archives/Public/www-style/2014Aug/0364.html">discussion on the www-style list</a> I understand that by default the box should stretch to the full height even if the content does not force it to.</p>
+
 
 
 </div>
