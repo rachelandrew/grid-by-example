@@ -6,13 +6,15 @@ title: Grid by Example
 
 I have been writing and speaking about the CSS Grid Layout Module for some time now. In order to learn how Grid works I've put together lots of small examples, and I am publishing them here as a resource for anyone else interested in this emerging specification. 
 
-I wanted to try and demonstrate Grid in a way that broke down the spec into smaller chunks, rather than large examples that show lots of different aspects of the specification at once. I have also posted some of the [examples I use in my presentation](examples/page-layout/), as these are simple layouts than show a few of the properties discussed in the examples at once.
+I wanted to try and demonstrate Grid in a way that broke down the spec into smaller chunks, rather than large examples that show lots of different aspects of the specification at once. I have also posted some [complete layout examples](examples/page-layout/), as these are simple layouts that show a few of the properties discussed in the examples at once.
 
 If you spot any problems, have an enhancement suggestion or would like to see a certain aspect of the module explained then feel free to either submit a pull request or just drop me a line on [me@rachelandrew.co.uk](mailto:me@rachelandrew.co.uk). I'm also on Twitter as <a href="http://twitter.com/rachelandrew">rachelandrew</a>.
 
 In addition to my examples I have linked to other [resources and examples](/resources) and will try and keep this listing up to date. However I would welcome any additions.
 
 ## Latest Grid News
+
+Mozilla have posted an [Intent to Implement CSS Grid Layout Module Level 1](http://article.gmane.org/gmane.comp.mozilla.devel.platform/12343).
 
 The [Editor's Draft of Grid published 20th December 2014](http://dev.w3.org/csswg/css-grid/) has made a few changes, one of which I'm very happy about as it solves an issue I had with some of my experiments. You can read all of the [changes to the spec](http://dev.w3.org/csswg/css-grid/#changes). I am particularly interested in the `auto` keyword for repeating grid tracks, as it will enable a track list to be defined, then that pattern repeated as often as is required by the content.
 

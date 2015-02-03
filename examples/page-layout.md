@@ -118,3 +118,25 @@ The following examples are more complete page layout examples. Most of these wer
   </div>
   <div class="panel-footer"><a href="/examples/code/layout5.html">View the layout</a></div>
 </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Layout 6: AG Grid Example</h3>
+  </div>
+  <div class="panel-body">
+    <div class="col-sm-6">
+      <img src="/examples/images/layout6.png" class="img-rounded" />
+    </div>
+
+    <div class="col-sm-6">
+      <p>I was interested in whether I could recreate the example used in <a href="http://www.zell-weekeat.com/susy2-tutorial/">this blog post</a> about the <a href="http://susy.oddbird.net/">Susy Grid System</a>. Susy is a very clever semantic Grid system that relies on pre-processing CSS to calculate your grid.</p>
+
+      <ul>
+        <li>I have fixed the row heights just to match the Susy example. In Grid Layout you actually have the benefit of being able to easily have full height columns if you want them.</li>
+        <li>This is an example where the lack of subgrid became an issue. The layout is absolutley doable but you can see the problem of fraction widths in the gutters. I'd have liked the nested grids to conform to the main grid.</li>
+        <li>It works! Other than the subgrid issue I could create this complex nested grid without any need for a preprocessor, complicated math, or clear fixes.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel-footer"><a href="/examples/code/layout6.html">View the layout</a></div>
+</div>

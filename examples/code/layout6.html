@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AG Test</title>
+    <meta charset="utf-8">
+    <!-- -->
+    <style>
+
+    /* text */
+
+    h1 {
+    	text-align: center;
+    	font: 3em Helvetica, Arial, sans-serif;
+    }
+
+    h2 {
+    	text-align: center;
+    	font: 1.5em Helvetica, Arial, sans-serif;
+    	padding: 1em 0 0 0;
+    	width: 100%;
+    }
+
+    /**
+ * Styles for AG grids & Container
+ */
+
+.container {
+  background-color: #fbeecb;
+}
+
+.ag {
+	border-radius: 5px;
+}
+
+.ag1, .ag3 {
+  background-color: #71dad2;
+}
+
+.ag2 {
+  background-color: #fae7b3;
+}
+
+.ag4,.ag5,.ag8,.ag9 {
+  background-color: #ee9e9c;
+}
+
+.ag6 {
+  background-color: #f09671;
+}
+
+.ag7 {
+  background-color: #f6d784;
+}
+
+.ag10 {
+  background-color: #ea9fc3;
+}
+
+
+
+/* layout */
+
+.container {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	display: grid;
+	grid-template-columns:  (col ) 4.25fr repeat(9, (gutter) 1fr (col) 4.25fr ) ;
+	grid-template-rows: auto repeat(5, 100px);
+}
+
+h1 {
+	grid-column: col / span col 10;
+	grid-row: 1 / 2;
+}
+
+.ag1 {
+	grid-column: col / span gutter 2; 
+	grid-row: 2 / 3;
+}
+
+.ag2 {
+	grid-column: col 3 / span gutter 6;
+	grid-row: 2 / span 5;
+	/* needs to become a grid in order to position ag4 - ag7 
+	this is where subgrid would be useful as the grid could snap to the lines of the outer.
+	If I use fraction units for the gutters they now become a fraction of the nested grid's width not the outer. Could use absolute units to get round this.
+	*/
+	display: grid;
+	grid-template-columns: (col) 4.25fr repeat(5, (gutter) 1fr (col) 4.25fr );
+	grid-template-rows: repeat(5, 100px);
+}
+
+/* need to position this child h2 on the grid after declaring a grid on the parent */
+.ag2 h2 {
+	grid-column: col 1 / span 11;
+}
+
+.ag3 {
+	grid-column: col 9 / span 3; /* would have used span gutter 2 but we don't have a final gutter */
+	grid-row: 2 / 3;
+}
+
+.ag4 {
+	grid-column: col / span 5;
+	grid-row: 2 / 3;
+}
+
+.ag5 {
+	grid-column: col 4 / span 5;
+	grid-row: 2 / 3;
+}
+
+.ag6 {
+	grid-column: col / span 3;
+	grid-row: 3 / 4;
+}
+
+.ag7 {
+	grid-column: col 3 / span 7;
+	grid-row: 3 / span 3;
+	/* becomes a grid to position nested ag8 - ag10 
+	we see the fraction issue here clearly in comparison to the nested grid ag2.
+	*/
+	display: grid;
+	grid-template-columns: (col) 4.25fr (gutter) 1fr (col) 4.25fr ;
+	grid-template-rows: repeat(3, 100px);
+}
+
+/* need to position this child h2 on the grid after declaring a grid on the parent */
+.ag7 h2 {
+	grid-column: col 1 / span 3;
+}
+
+.ag8 {
+	grid-column: col 1 ;
+	grid-row: 2 / 3 ;
+}
+
+.ag9 {
+	grid-column: col 2;
+	grid-row: 2 / 3;
+}
+
+.ag10 {
+	grid-column: col 1 / span 3;
+	grid-row: 3 / 4;
+}
+
+
+</style>
+  </head>
+
+  <body>
+  		<div class="container">
+  		
+			<h1>The 10 column complex nested grid AG test</h1>
+
+			<div class="ag ag1">
+			  <h2>AG 1</h2>
+			</div>
+			<!-- /ag1 -->
+
+			<!-- ag4 to ag7 are nested within ag2.-->
+			<div class="ag ag2">
+			  <h2>AG 2</h2>
+			  <div class="ag ag4">
+			    <h2>AG 4</h2>
+			  </div>
+			  <div class="ag ag5">
+			    <h2>AG 5</h2>
+			  </div>
+			  <div class="ag ag6">
+			    <h2>AG 6</h2>
+			  </div>
+
+			  <!-- ag8, ag9 and ag10 are nested within ag7 -->
+			  <div class="ag ag7">
+			    <h2>AG 7</h2>
+			    <div class="ag ag8">
+			      <h2>AG 8</h2>
+			    </div>
+			    <div class="ag ag9">
+			      <h2>AG 9</h2>
+			    </div>
+			    <div class="ag ag10">
+			      <h2>AG 10</h2>
+			    </div>
+			  </div>
+			  <!-- /ag7 -->
+			</div>
+			<!-- /ag2 -->
+
+			<div class="ag ag3">
+			  <h2>AG 3</h2>
+			</div>
+			<!-- /ag3 -->
+
+		</div>
+		<!-- /container -->
+
+  </body>
+</html>

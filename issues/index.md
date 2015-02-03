@@ -11,13 +11,21 @@ When I built the example of the [16 column grid](http://gridbyexample.com/exampl
 
 However the specification isn't without issues, and if you find issues, and can put together a simple case that demonstrates the problem (or can describe it to me so I can build one) then I'll post it here. It's really important that we - the folk who use these specifications - do engage with them, and instead of grumbling when something doesn't work as we want, put together use cases of these problems.
 
+## Subgrids
+
+Level 1 of the spec currently defines a [subgrid](http://dev.w3.org/csswg/css-grid/#subgrids) keyword. It is currently At risk" of being moved to level two and has not been implemented in Blink. The subgrid keyword would enable a nested grid to follow the same grid as the parent. [This example](/examples/code/layout6.html) demonstrates a problem that I believe it would solve. As the nested grids have to define their own grid, if we use fraction units for the columns, the fractions are calculated from a different width than those of the parent. 
+
 ## The gutter problem
 
 I've already discussed this issue on www-style, however one issue I've found is when using Grid's ability to create an implicit grid, I lose the ability to have fixed size 'gutter' rows or columns. If you take a look at [example 10](/examples/#example10) when I add my area 'e' it creates an implicit grid track. What I would really like to happen is for it to create both the grid track to hold the content AND a gutter track to match those above.
 
 The same issue can be seen in my [16 column grid example](http://gridbyexample.com/examples/code/layout4.html). I have to explicitly create rows and gutter rows on my grid, otherwise I would lose the spacing.
 
-This issue could be solved by having a method of repeating a pattern for auto rows, or by having `column-gap` and `row-gap` properties in the same way that multi-column layout does for `column-gap`. I think the latter would work in the majority of cases and save developers needing to account for gutter columns in their grid systems. However the `column-gap` and `row-gap` properties have been moved to level 2 of the spec.
+This issue could be solved by having `column-gap` and `row-gap` properties in the same way that multi-column layout does for `column-gap`. I think the latter would work in the majority of cases and save developers needing to account for gutter columns in their grid systems. However the `column-gap` and `row-gap` properties have been moved to level 2 of the spec.
+
+### UPDATE
+
+The `auto` keyword will help with this issue as now we can repeat a pattern an automatic number of times. That pattern could include a row track plus a gutter track.
 
 ## An issue of naming
 
