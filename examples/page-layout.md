@@ -140,3 +140,42 @@ The following examples are more complete page layout examples. Most of these wer
   </div>
   <div class="panel-footer"><a href="/examples/code/layout6.html">View the layout</a></div>
 </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Layout 7: Simple Grid + Flexbox example</h3>
+  </div>
+  <div class="panel-body">
+    <div class="col-sm-6">
+      <img src="/examples/images/layout7.png" class="img-rounded" />
+    </div>
+
+    <div class="col-sm-6">
+      <p>A simple example used in my presentation for the Responsive Web Design Summit, to demonstrate using Grid for the main layout and Flexbox for UI items.</p>
+    </div>
+  </div>
+  <div class="panel-footer"><a href="/examples/code/layout7.html">View the layout</a></div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Layout 8: Auto Placement Example</h3>
+  </div>
+  <div class="panel-body">
+    <div class="col-sm-6">
+      <img src="/examples/images/layout8.png" class="img-rounded" />
+    </div>
+
+    <div class="col-sm-6">
+      <p>Playing with the Auto Placement algorithm and dense and sparse grid-auto-flow modes.</p>
+
+      <ul>
+        <li>The example is responsive, and I redefine the grid at 2 breakpoints after the initial single column grid.</li>
+        <li>The list item containing text is actually positioned upon the grid. All other elements are placed using auto-placement.</li>
+        <li>There are no gutter columns, spacing is just margins and padding on the elements.</li>
+        <li>Read <a href="http://blogs.igalia.com/mrego/2015/02/25/grid-auto-placement-is-ready/">an in-depth article about how Grid Auto-Placement works</a> from Manuel Rego Casasnovas who is working on the implementation.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel-footer"><a href="/examples/code/layout8.html">View the layout</a></div>
+</div>
