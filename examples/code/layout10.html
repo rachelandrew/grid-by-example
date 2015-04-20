@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Line-based positioning</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS - using the Skeleton framework for typography -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+
+  <link rel="stylesheet" href="common2.css">
+
+  <style>
+
+  
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 10px (row-header-start) auto (row-header-end) 
+                        10px (row-content-start) auto (row-content-end) 
+                        10px (row-panel-start) auto (row-panel-end) 
+                        10px (row-footer-start) auto (row-footer-end);
+  }
+
+  .mainheader {
+    grid-row: row-header-start / row-header-end ;
+  }
+
+  .content {
+    grid-row:  row-content-start / row-content-end;
+  }
+
+  .panel {
+    grid-row: row-panel-start / row-panel-end ;
+  }
+
+  .mainfooter {
+    grid-row: row-footer-start / row-footer-end;
+  } 
+
+  @media (min-width: 550px) {
+
+    .wrapper {
+      grid-template-columns: (col-left-start) 30% (col-gutter-start) 5% (col-main-start) 65% (col-main-end);
+      grid-template-rows: 2em (row-header-start) auto (row-header-end) 1em (row-content-start) auto (row-content-end) 1em (row-footer-start) auto (row-footer-end);
+    }
+
+    .mainheader {
+      grid-column: col-left-start / col-main-end;
+    }
+
+    .panel {
+      grid-column: col-left-start / col-gutter-start;
+      grid-row: row-content-start / row-content-end;
+    }
+
+    .content {
+      grid-column: col-main-start / col-main-end;
+      grid-row: row-content-start / row-content-end;
+    }
+
+    .mainfooter {
+      grid-column:  col-left-start / col-main-end;
+    } 
+}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="mainheader">
+      <h1>The Dominion of the Air <span>The Story of Aerial Navigation</span></h1>
+      <p>Excerpts from the book by J.M. Bacon</p>
+    </header>
+
+    <footer class="mainfooter">
+      <p>This book is available to read in full on <a href="https://www.gutenberg.org/files/861/861-h/861-h.htm">the Project Gutenburg website</a>.</p>
+    </footer>
+
+    <div class="panel">
+        <h4>Chapter listing</h4>
+        <ul>
+          <li><a href="#">The Dawn of Aeronautics</a></li>
+          <li><a href="#">The Invention of the Balloon</a></li>
+          <li><a href="#">The First Balloon Ascent in England</a></li>
+          <li><a href="#">The Development of Balloon Philosophy</a></li>
+          <li><a href="#">Some Famous Early Voyagers</a></li>
+          <li><a href="#">Charles Green and the Nassau Balloon</a></li>
+          <li><a href="#">John Wise - The American Aeronaut</a></li>
+          <li><a href="#">The Balloon in the Service of Science</a></li>
+          <li><a href="#">Some Noteworthy Ascents</a></li>
+          <li><a href="#">The Highest Ascent on Record</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>The First Balloon Ascent in England</h2>
+        <p>Following his own account, Lunardi's first act on finding himself fairly above the town was to fortify himself with some glasses of wine, and to devour the leg of a chicken. He describes the city as a vast beehive, St. Paul's and other churches standing out prominently; the streets shrunk to lines, and all humanity apparently transfixed and watching him. A little later he is equally struck with the view of the open country, and his ecstasy is pardonable in a novice. The verdant pastures eclipsed the visions of his own lands. The precision of boundaries impressed him with a sense of law and order, and of good administration in the country where he was a sojourner.</p>
+
+        <p>By this time he found his balloon, which had been only two-thirds full at starting, to be so distended that he was obliged to untie the mouth to release the strain. He also found that the condensed moisture round the neck had frozen. These two statements point to his having reached a considerable altitude, which is intelligible enough. It is, however, difficult to believe his further assertion that by the use of his single oar he succeeded in working himself down to within a few hundred feet of the earth. The descent of the balloon must, in point of fact, have been due to a copious outrush of gas at his former altitude. Had his oar really been effective in working the balloon down it would not have needed the discharge of ballast presently spoken of to cause it to reascend. Anyhow, he found himself sufficiently near the earth to land a passenger who was anxious to get out. His cat had not been comfortable in the cold upper regions, and now at its urgent appeal was deposited in a corn field, which was the point of first contact with the earth. It was carefully received by a country-woman, who promptly sold it to a gentleman on the other side of the hedge, who had been pursuing the balloon. </p>
+    </div>
+  </div>
+
+</body>
+</html>

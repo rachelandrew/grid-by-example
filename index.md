@@ -4,13 +4,48 @@ title: Grid by Example
 ---
 # Grid by Example <small>simple usage examples for the CSS3 Grid Layout Module</small>
 
-I have been writing and speaking about the CSS Grid Layout Module for some time now. In order to learn how Grid works I've put together lots of small examples, and I am publishing them here as a resource for anyone else interested in this emerging specification. 
+I have been writing and speaking about the CSS Grid Layout Module for some time now. In order to learn how Grid works I've put together lots of small examples, and I am publishing them here as a resource for anyone else interested in this emerging specification.
 
-I wanted to try and demonstrate Grid in a way that broke down the spec into smaller chunks, rather than large examples that show lots of different aspects of the specification at once. I have also posted some [complete layout examples](examples/page-layout/), as these are simple layouts that show a few of the properties discussed in the examples at once.
+## Grid Examples
+
+<div class="row">
+<div class="col-md-4">
+<div><a href="/examples/#example5">Line based placement spanning cells</a></div>
+<img src="/examples/images/example5.png" alt="Line based placement spanning cells" />
+</div>
+<div class="col-md-4">
+<div><a href="/examples/#example8">Line based placement named lines with span</a></div>
+<img src="/examples/images/example8.png" alt="Line based placement named lines with span" />
+</div>
+<div class="col-md-4">
+<div><a href="/examples/#example19">Grid auto flow with a positioned element</a></div>
+<img src="/examples/images/example19.png" alt="Line based placement spanning cells" />
+</div>
+</div>
+
+<div class="alert alert-info"><a href="/examples">Explore all of the examples</a></div>
+
+## Examples of layout with Grid
+
+<div class="row">
+<div class="col-md-4">
+<div><a href="/examples/code/layout11.html">Two column responsive layout with footer</a></div>
+<img src="/examples/images/layout-twocol.png" alt="Two column responsive layout with footer" />
+</div>
+<div class="col-md-4">
+<div><a href="/examples/code/layout12.html">Skeleton 12 column grid experiments</a></div>
+<img src="/examples/images/layout12.png" alt="Skeleton 12 column grid experiments" />
+</div>
+<div class="col-md-4">
+<div><a href="/examples/code/layout8.html">Auto placement example</a></div>
+<img src="/examples/images/layout8.png" alt="Auto placement" />
+</div>
+</div>
+
+<div class="alert alert-info"><a href="/examples/page-layout">Explore all of the layouts</a></div>
+
 
 If you spot any problems, have an enhancement suggestion or would like to see a certain aspect of the module explained then feel free to either submit a pull request or just drop me a line on [me@rachelandrew.co.uk](mailto:me@rachelandrew.co.uk). I'm also on Twitter as <a href="http://twitter.com/rachelandrew">rachelandrew</a>.
-
-In addition to my examples I have linked to other [resources and examples](/resources) and will try and keep this listing up to date. However I would welcome any additions.
 
 ## Latest Grid News
 
