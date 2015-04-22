@@ -9,13 +9,13 @@ I have been writing and speaking about CSS Grid Layout since 2012. Many of the e
 
 ## Upcoming Presentations
 
-* [Fluent 2015](http://fluentconf.com/javascript-html-2015/public/schedule/detail/38261) - presenting my new talk on Grid (30 minute version).
 * [An Event Apart Boston](http://aneventapart.com/event/boston-2015) - presenting my new talk on Grid.
 * [Future Insights Live](https://futureinsightslive.com/las-vegas-2015/) - CSS Layout Modules Workshop, covering Grid in addition to other modern layout methods.
 * [Future of Web Apps](https://futureofwebapps.com/) - CSS Layout Modules Workshop, a developer focused version of this workshop.
 
 ## Past Presentations
 
+* [Fluent Conference](/presentations/2015-fluent)
 * [Responsive Web Design Summit 2015](/presentations/2015-rwd-summit)
 * [CSS Conf EU 2014](/presentations/2014-css-conf-eu)
 
