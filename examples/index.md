@@ -32,6 +32,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 18. [Grid Auto Flow Column](#example18)
 19. [Grid Auto Flow with a positioned element](#example19)
 20. [The auto keyword](#example20)
+21. [Nested Grid](#example21)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -1017,5 +1018,37 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example20.html">View example (currently this is unimplemented in Chrome)</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example21">
+<div class="panel-heading">
+<h3 class="panel-title">Example 21: Nested Grid</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example21.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>A simple example of nesting one grid inside another. Any Grid Area can become a grid itself, by setting display:grid and then defining the rows and columns.</p>
+
+
+
+</div>
+</div>
+~~~
+.d{
+  grid-column: col 3 / span gutter 2;
+  grid-row: row 2;
+  display: grid;
+  grid-template-columns: 1fr 10px 1fr;
+  grid-template-rows: auto 10px auto;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example21.html">View example</a>
 </div>
 </div>

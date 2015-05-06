@@ -210,6 +210,27 @@ The following examples are some page layout examples and experiments. I have inc
   <div class="panel-footer"><a href="/examples/code/layout12.html">View the layout</a></div>
 </div>
 
+<div class="panel panel-default" id="layout13">
+  <div class="panel-heading">
+    <h3 class="panel-title">Skeleton Grid Layout</h3>
+  </div>
+  <div class="panel-body">
+    <div class="col-sm-6">
+      <img src="/examples/images/layout13.png" class="img-rounded" />
+    </div>
+
+    <div class="col-sm-6">
+      <p>Taking the grid used in my Skeleton experiments and using that for a layout.</p>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
+        <li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
+        <li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel-footer"><a href="/examples/code/layout13.html">View the layout</a></div>
+</div>
+
 <div class="panel panel-default" id="layout6">
   <div class="panel-heading">
     <h3 class="panel-title">AG Grid Example</h3>
