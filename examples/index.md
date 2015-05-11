@@ -33,6 +33,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 19. [Grid Auto Flow with a positioned element](#example19)
 20. [The auto keyword](#example20)
 21. [Nested Grid](#example21)
+22. [Implicit Named Grid Lines](#example22)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -1050,5 +1051,43 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example21.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example22">
+<div class="panel-heading">
+<h3 class="panel-title">Example 22: Implicit Named Grid Lines</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example22.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>When using Named Areas implicit named lines are created by appending '-start' and '-end' to the named area you have defined. They can be used in the same way as lines you have explicitly named.</p>
+
+
+
+</div>
+</div>
+~~~
+.content {
+  grid-area: content;
+}
+.header {
+  grid-area: header;
+}
+
+.overlay {
+  background-color: red;
+  z-index: 10;
+  grid-column: content-start / content-end;
+  grid-row: header-start / content-end;
+}
+~~~
+<div class="panel-footer">
+<a href="/examples/code/example22.html">View example</a>
 </div>
 </div>
