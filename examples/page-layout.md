@@ -121,6 +121,8 @@ The following examples are some page layout examples and experiments. I have inc
      <ul class="list-group">
      <li class="list-group-item"><a href="/examples/#example7">Naming Grid Lines</a></li>
       </ul>
+
+     <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout10.html">View the layout</a></div>
@@ -162,6 +164,8 @@ The following examples are some page layout examples and experiments. I have inc
     		<li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
     		<li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
     	</ul>
+
+      <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout4.html">View the layout</a></div>
@@ -184,6 +188,8 @@ The following examples are some page layout examples and experiments. I have inc
     		<li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
     		<li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
     	</ul>
+
+      <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout5.html">View the layout</a></div>
@@ -205,6 +211,8 @@ The following examples are some page layout examples and experiments. I have inc
         <li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
         <li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
       </ul>
+
+      <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout12.html">View the layout</a></div>
@@ -226,6 +234,8 @@ The following examples are some page layout examples and experiments. I have inc
         <li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
         <li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
       </ul>
+
+      <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout13.html">View the layout</a></div>
@@ -248,6 +258,8 @@ The following examples are some page layout examples and experiments. I have inc
         <li>This is an example where the lack of subgrid became an issue. The layout is absolutley doable but you can see the problem of fraction widths in the gutters. I'd have liked the nested grids to conform to the main grid.</li>
         <li>It works! Other than the subgrid issue I could create this complex nested grid without any need for a preprocessor, complicated math, or clear fixes.</li>
       </ul>
+
+      <p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
     </div>
   </div>
   <div class="panel-footer"><a href="/examples/code/layout6.html">View the layout</a></div>

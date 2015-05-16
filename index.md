@@ -47,7 +47,12 @@ I have been writing and speaking about the CSS Grid Layout Module for some time 
 
 If you spot any problems, have an enhancement suggestion or would like to see a certain aspect of the module explained then feel free to either submit a pull request or just drop me a line on [me@rachelandrew.co.uk](mailto:me@rachelandrew.co.uk). I'm also on Twitter as <a href="http://twitter.com/rachelandrew">rachelandrew</a>.
 
-## Latest Grid News
+## Latest Grid News {#news}
+
+The Editor's Draft released on May 15, 2015 contains syntax changes which will impact these examples. I'll update the examples once this change is made in Blink.
+
+- [Named Grid Lines](http://dev.w3.org/csswg/css-grid/#named-lines) has changed to use square brackets, this makes the [repeat syntax](http://dev.w3.org/csswg/css-grid/#repeat-notation) far easier to read.
+- [Named Areas](http://dev.w3.org/csswg/css-grid/#grid-template-areas-property) now rather than a single period/full stop indicating a null or empty cell on the grid you can use a sequence - eg '...'. This will allow authors to line up their grid definition making it easier to read.
 
 Mozilla have posted an [Intent to Implement CSS Grid Layout Module Level 1](http://article.gmane.org/gmane.comp.mozilla.devel.platform/12343).
 

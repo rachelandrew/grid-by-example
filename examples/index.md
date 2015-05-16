@@ -326,6 +326,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>We can name lines rather than targetting them by number. Name the line inside brackets. In the code below you can see that I name the very first column line `col1-start` then comes the 100 pixel first column track, then I name the line after it as `col1-end` before giving the sizing value for my first gutter track. Having named the lines you can use the names, rather than numbers.</p>
 
+<p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
+
 
 </div>
 </div>
@@ -373,6 +375,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 <p>You can give lines the same name and then use the span keyword to target lines of a certain name. This is really useful if you want to create a complex grid with multiple content tracks and gutters.</p>
 
 <p>I have made a slightly larger grid here and have named all of the Grid Lines before the content tracks with `col` and all of the lines before the gutter tracks with `gutter`. I can then start at a certain column line by using `col <line number>` and span by saying `span <number of lines of that name>`.</p>
+
+<p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
 
 
 </div>
@@ -424,7 +428,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>In example 8 we repeated the same definitions to create our grid with named lines. We could save some typing by using the `repeat` keyword. The values for the repeat keyword are the number of times you want the expression to repeat and then the expression.</p>
 
-
+<p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> to use square brackets around the line names.</strong></p>
 
 
 </div>
@@ -513,6 +517,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 <p>We can then use the `grid-template-areas` property to describe where on the Grid these elements should sit.</p>
 
 <p>Repeating the name of an area indicates that the area spans that grid track. Using a `.` indicates an empty track. Such as the column between my sidebar and content.</p>
+
+<p><strong><a href="/#news">This example will change based on the 15th May Editor's Draft</a> it is now possible to use a sequence of `.` to indicate an empty cell.</strong></p>
 
 
 
