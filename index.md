@@ -49,6 +49,8 @@ If you spot any problems, have an enhancement suggestion or would like to see a 
 
 ## Latest Grid News {#news}
 
+The Editor's Draft [released on June 15, 2015](https://lists.w3.org/Archives/Public/www-style/2015Jun/0153.html) adds row-gap and column-gap properties.
+
 The Editor's Draft released on May 15, 2015 contains syntax changes which will impact these examples. I'll update the examples once this change is made in Blink.
 
 - [Named Grid Lines](http://dev.w3.org/csswg/css-grid/#named-lines) has changed to use square brackets, this makes the [repeat syntax](http://dev.w3.org/csswg/css-grid/#repeat-notation) far easier to read.

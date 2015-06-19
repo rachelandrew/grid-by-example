@@ -27,6 +27,8 @@ This issue could be solved by having `column-gap` and `row-gap` properties in th
 
 The `auto` keyword will help with this issue as now we can repeat a pattern an automatic number of times. That pattern could include a row track plus a gutter track.
 
+The [Editor's Draft](http://dev.w3.org/csswg/css-grid-1/#gutters) published on 15th June 2015 adds row-gap and column-gap. I've [written about this on my blog](http://rachelandrew.co.uk/archives/2015/06/19/css-grid-layout-solving-the-gutter-problem/).
+
 ## An issue of naming
 
 When the initial specification was proposed in 2011 Mark Boulton wrote an article [detailing his objections to it](http://www.markboulton.co.uk/journal/rethinking-css-grids). I'm neither a graphic designer or typographer so I'm not really in a position to make an informed opinion about his article. I've included it here as it might be of interest to people who are designers and understand grid systems from that background. 
