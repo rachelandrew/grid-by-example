@@ -5,6 +5,8 @@ title: Discussion, Issues and Things Grid Can't Do
 
 # Discussion, Issues and Things Grid Can't Do
 
+The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year. 
+
 One of my hopes in presenting this information in a digestible format, is that other people will take a look at Grid Layout and see whether it would be "fit for purpose" in terms of the types of layouts that they create. That can be as simple as taking a layout that you recently built and seeing how you would do that using Grid.
 
 When I built the example of the [16 column grid](http://gridbyexample.com/examples/code/layout4.html), that was exactly my thought process. Flexible Grid systems are commonly used already - how does Grid cope with that? I initially developed the same type of layout for the IE10 implementation for [this 24 Ways article](http://24ways.org/2012/css3-grid-layout/), and I think that what we have now is greatly improved.
@@ -14,20 +16,6 @@ However the specification isn't without issues, and if you find issues, and can 
 ## Subgrids
 
 Level 1 of the spec currently defines a [subgrid](http://dev.w3.org/csswg/css-grid/#subgrids) keyword. It is currently At risk" of being moved to level two and has not been implemented in Blink. The subgrid keyword would enable a nested grid to follow the same grid as the parent. [This example](/examples/code/layout6.html) demonstrates a problem that I believe it would solve. As the nested grids have to define their own grid, if we use fraction units for the columns, the fractions are calculated from a different width than those of the parent. 
-
-## The gutter problem
-
-I've already discussed this issue on www-style, however one issue I've found is when using Grid's ability to create an implicit grid, I lose the ability to have fixed size 'gutter' rows or columns. If you take a look at [example 10](/examples/#example10) when I add my area 'e' it creates an implicit grid track. What I would really like to happen is for it to create both the grid track to hold the content AND a gutter track to match those above.
-
-The same issue can be seen in my [16 column grid example](http://gridbyexample.com/examples/code/layout4.html). I have to explicitly create rows and gutter rows on my grid, otherwise I would lose the spacing.
-
-This issue could be solved by having `column-gap` and `row-gap` properties in the same way that multi-column layout does for `column-gap`. I think the latter would work in the majority of cases and save developers needing to account for gutter columns in their grid systems. However the `column-gap` and `row-gap` properties have been moved to level 2 of the spec.
-
-### UPDATE
-
-The `auto` keyword will help with this issue as now we can repeat a pattern an automatic number of times. That pattern could include a row track plus a gutter track.
-
-The [Editor's Draft](http://dev.w3.org/csswg/css-grid-1/#gutters) published on 15th June 2015 adds row-gap and column-gap. I've [written about this on my blog](http://rachelandrew.co.uk/archives/2015/06/19/css-grid-layout-solving-the-gutter-problem/).
 
 ## An issue of naming
 

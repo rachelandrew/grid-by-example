@@ -20,10 +20,16 @@ At present there are not many tutorials and examples on Grid, as I find them I w
 
 ## Presentations
 
+
+* [Video of my presentation at CSS Day](https://vimeo.com/133642780)
+* [Manuel Rego's presentation at CSS Conf](https://www.youtube.com/watch?v=SRblTXsBPrY)
 * [Video of my presentation for CSSConf.eu](https://www.youtube.com/watch?v=GRexIOtGhBU)
 
 ## Articles and tutorials
 
+* [Modern CSS Layout power and responsibility](https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/)
+* [CSS Grid Layout automatic placement and packing modes](https://rachelandrew.co.uk/archives/2015/04/14/grid-layout-automatic-placement-and-packing-modes/)
+* [CSS Grid Layout: creating complex grids](https://rachelandrew.co.uk/archives/2015/02/04/css-grid-layout-creating-complex-grids/)
 * [CSS Grid Layout: getting to grips with the Chrome Implementation](http://rachelandrew.co.uk/archives/2014/06/27/css-grid-layout-getting-to-grips-with-the-chrome-implementation/) - an article I wrote on 27 June 2014 looking at the implementation in Chrome.
 * [Giving Content Priority with CSS Grid Layout](http://24ways.org/2012/css3-grid-layout/) - this article from 2012 covers the IE10 implementation.
 * [Get on the CSS Grid](http://updates.html5rocks.com/2014/03/Get-on-the-CSS-Grid)

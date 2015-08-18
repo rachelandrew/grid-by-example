@@ -5,6 +5,7 @@ title: Resources for my presentations on CSS Grid Layout at CSS Day Amsterdam 20
 
 # CSS Day Amsterdam 2015
 
+- [Video of this talk](https://vimeo.com/133642780)
 - [Slides for this talk](http://www.slideshare.net/rachelandrew/css-day-css-grid-layout)
 
 The layouts demonstrated were:

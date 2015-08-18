@@ -49,6 +49,10 @@ If you spot any problems, have an enhancement suggestion or would like to see a 
 
 ## Latest Grid News {#news}
 
+The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year. 
+
+There is a new Working Draft of the [Level One specification](http://www.w3.org/TR/css-grid-1/), which was released on 6th August.
+
 The Editor's Draft [released on June 15, 2015](https://lists.w3.org/Archives/Public/www-style/2015Jun/0153.html) adds row-gap and column-gap properties.
 
 The Editor's Draft released on May 15, 2015 contains syntax changes which will impact these examples. I'll update the examples once this change is made in Blink.
