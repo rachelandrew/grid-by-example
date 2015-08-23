@@ -28,12 +28,13 @@ I will add to this list as I create tidy versions of some of the other tests I h
 14. [Source independence](#example14)
 15. [Layering items](#example15)
 16. [Grid area as a new positioning context](#example16)
-17. [Grid Auto Flow](#example17)
-18. [Grid Auto Flow Column](#example18)
-19. [Grid Auto Flow with a positioned element](#example19)
-20. [The auto keyword](#example20)
+17. [Grid Auto-placement](#example17)
+18. [Grid Auto-placement by Column](#example18)
+19. [Grid Auto-placement with a positioned element](#example19)
+20. [The auto keyword in repeating track definitions](#example20)
 21. [Nested Grid](#example21)
 22. [Implicit Named Grid Lines](#example22)
+23. [Grid auto-placement and the order property](#example23)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -873,7 +874,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example17">
 <div class="panel-heading">
-<h3 class="panel-title">Example 17: Grid Auto Flow</h3>
+<h3 class="panel-title">Example 17: Grid Auto-placement</h3>
 </div>
 <div class="panel-body">
 <div class="col-sm-6">
@@ -965,7 +966,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example19">
 <div class="panel-heading">
-<h3 class="panel-title">Example 19: Grid Auto Flow with a positioned element</h3>
+<h3 class="panel-title">Example 19: Grid Auto-placement with a positioned element</h3>
 </div>
 <div class="panel-body">
 <div class="col-sm-6">
@@ -1000,7 +1001,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example20">
 <div class="panel-heading">
-<h3 class="panel-title">Example 20: The auto keyword</h3>
+<h3 class="panel-title">Example 20: The auto keyword in repeating track definitions</h3>
 </div>
 <div class="panel-body">
 <div class="col-sm-6">
@@ -1095,5 +1096,32 @@ I will add to this list as I create tidy versions of some of the other tests I h
 ~~~
 <div class="panel-footer">
 <a href="/examples/code/example22.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example23">
+<div class="panel-heading">
+<h3 class="panel-title">Example 23: Auto-placement and the order property</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example23.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>Grid supports the order property also found in Flexbox. If you are explicitly positioning Grid Items then order will affect painting order, and therefore the order in which items stack up where no z-index has been applied.</p>
+
+<p>If using auto-placement then the order property will affect how items are placed on the grid. In this example all boxes have been give an order of 1, so they continue to be positioned in DOM order. However box1 has an order of 3 and box2 an order of 2. These boxes have a higher order value so are positioned <em>after</em> all of the boxes with an order value of 1.</p>
+
+
+
+</div>
+</div>
+<p data-height="268" data-theme-id="0" data-slug-hash="OVKPoy" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/OVKPoy/'>Grid by Example 23: Auto-placement and the order property</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="panel-footer">
+<a href="/examples/code/example23.html">View example</a>
 </div>
 </div>
