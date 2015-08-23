@@ -4,7 +4,7 @@ title: Grid by Example - Usage examples of CSS Grid Layout
 ---
 # Grid by Example
 
-The following examples include a screenshot (taken in Chrome), code sample and link to the worked example. You will need a supporting browser to view these examples. Current supporting browsers and how to enable support in those browsers can be found on the [Igalia site](http://igalia.github.io/css-grid-layout/enable.html).
+The following examples include an image of how the example should look in a supporting browser, code sample and link to the worked example. I have also linked to a CodePen of each example so you can fork and play with these. You will need a supporting browser to view these examples. Current supporting browsers and how to enable support in those browsers can be found on the [Igalia site](http://igalia.github.io/css-grid-layout/enable.html).
 
 Where I know there are issues in displaying an example I have noted that. This changes quickly so drop me a line if you spot something that looks different to you.
 
