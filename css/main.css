@@ -22,6 +22,10 @@ img {
 	margin-top: 4em;
 }
 
+.panel {
+  margin-bottom: 100px;
+}
+
 .post pre.terminal code { background-color: #333; }
 
 /* Syntax highlighting styles */

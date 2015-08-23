@@ -58,24 +58,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-  <div class="box e">E</div>
-  <div class="box f">F</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="BNXyQa" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/BNXyQa/'>Grid by Example 1: Defining a Grid</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 10px 100px 10px 100px;
-  grid-template-rows: auto 10px auto;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example1.html">View example</a>
 </div>
@@ -98,44 +82,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.a { 
-  grid-column-start: 1;
-  grid-column-end: 2; 
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.b {
-  grid-column-start: 3;
-  grid-column-end: 4; 
-  grid-row-start: 1;
-  grid-row-end: 2; 
-}
-.c { 
-  grid-column-start: 5;
-  grid-column-end: 6; 
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.d { 
-  grid-column-start: 1;
-  grid-column-end: 2; 
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-.e { 
-  grid-column-start: 3;
-  grid-column-end: 4; 
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-.f { 
-  grid-column-start: 5;
-  grid-column-end: 6; 
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="RPXNod" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/RPXNod/'>Grid by Example 2: Line-based placement</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example2.html">View example</a>
 </div>
@@ -158,32 +106,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.a { 
-  grid-column: 1 / 2; 
-  grid-row: 1 / 2;
-}
-.b { 
-  grid-column: 3 / 4; 
-  grid-row: 1 / 2;
-}
-.c { 
-  grid-column: 5 / 6; 
-  grid-row: 1 / 2;
-}
-.d { 
-  grid-column: 1 / 2; 
-  grid-row: 3 / 4;
-}
-.e { 
-  grid-column: 3 / 4; 
-  grid-row: 3 / 4;
-}
-.f { 
-  grid-column: 5 / 6; 
-  grid-row: 3 / 4;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="VLoYPV" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/VLoYPV/'>Grid by Example 3: Line-based placement shorthand</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example3.html">View example</a>
 </div>
@@ -205,26 +129,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.a { 
-  grid-area: 1 / 1 / 2 / 2;
-}
-.b { 
-  grid-area: 1 / 3 / 2 / 4;
-}
-.c { 
-  grid-area: 1 / 5 / 2 / 6;
-}
-.d { 
-  grid-area: 3 / 1 / 4 / 2;
-}
-.e { 
-  grid-area: 3 / 3 / 4 / 4;
-}
-.f { 
-  grid-area: 3 / 5 / 4 / 6;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="pJMveN" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/pJMveN/'>Grid by Example 4: Line-based placement shorthand grid-area</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 
 <div class="panel-footer">
 <a href="/examples/code/example4.html">View example</a>
@@ -250,24 +156,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.a { 
-  grid-column: 1 / 4; 
-  grid-row: 1 / 2;
-}
-.b { 
-  grid-column: 5 / 6; 
-  grid-row: 1 / 4;
-}
-.c { 
-  grid-column: 1 / 2; 
-  grid-row: 3 / 4;
-}
-.d { 
-  grid-column: 3 / 4; 
-  grid-row: 3 / 4;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="XbvJMz" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/XbvJMz/'>Grid by Example 5: Line-based placement spanning cells</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example5.html">View example</a>
 </div>
@@ -290,24 +180,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.a { 
-  grid-column: 1 / span 3; 
-  grid-row: 1 ;
-}
-.b { 
-  grid-column: 5 ; 
-  grid-row: 1 / span 3;
-}
-.c { 
-  grid-column: 1 ; 
-  grid-row: 3 ;
-}
-.d { 
-  grid-column: 3 ; 
-  grid-row: 3 ;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="oXKgwa" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/oXKgwa/'>Grid by Example 6: Line-based placement span keyword</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example6.html">View example</a>
 </div>
@@ -332,30 +206,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: (col1-start) 100px (col1-end) 10px (col2-start) 100px (col2-end) 10px (col3-start) 100px (col3-end);
-  grid-template-rows: (row1-start) auto (row1-end) 10px (row2-start) auto (row2-end);
-}
+<p data-height="351" data-theme-id="0" data-slug-hash="yNmyoM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/yNmyoM/'>Grid by Example 7: Line-based placement named lines</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-.a { 
-  grid-column: col1-start / col2-end; 
-  grid-row: row1-start ;
-}
-.b { 
-  grid-column: col3-start ; 
-  grid-row: row1-start / row2-end;
-}
-.c { 
-  grid-column: col1-start; 
-  grid-row: row2-start ;
-}
-.d { 
-  grid-column: col2-start ; 
-  grid-row: row2-start ;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example7.html">View example</a>
 </div>
@@ -382,34 +234,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: (col) 100px (gutter) 10px (col) 100px (gutter) 10px (col) 100px (gutter) 10px (col) 100px (gutter) 10px ;
-  grid-template-rows: (row) auto (gutter) 10px (row) auto (gutter) 10px  (row) auto (gutter) 10px ;
-}
+<p data-height="351" data-theme-id="0" data-slug-hash="oXKgeQ" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/oXKgeQ/'>Grid by Example 8: Line-based placement named lines with span</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-.a { 
-  grid-column: col / span gutter 2; 
-  grid-row: row ;
-}
-.b { 
-  grid-column: col 3 / span gutter 2 ; 
-  grid-row: row ;
-}
-.c { 
-  grid-column: col ; 
-  grid-row: row 2 ;
-}
-.d { 
-  grid-column: col 2 / span gutter 3 ; 
-  grid-row: row 2 ;
-}
-.e {
-  grid-column: col / span gutter 4;
-  grid-row: row 3;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example8.html">View example</a>
 </div>
@@ -434,13 +260,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, (col) 100px (gutter) 10px) ;
-  grid-template-rows: repeat(3, (row) auto (gutter) 10px );
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="yNmyPb" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/yNmyPb/'>Grid by Example 9: The repeat keyword</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example9.html">View example</a>
 </div>
@@ -469,33 +290,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 10px 100px 10px 100px;
-  grid-template-rows: auto 10px auto;
-}
-.a { 
-  grid-column: 1 / 4; 
-  grid-row: 1 / 2;
-}
-.b { 
-  grid-column: 5 / 6; 
-  grid-row: 1 / 4;
-}
-.c { 
-  grid-column: 1 / 2; 
-  grid-row: 3 / 4;
-}
-.d { 
-  grid-column: 3 / 4; 
-  grid-row: 3 / 4;
-}
-.e {
-  grid-column: 1 / 4;
-  grid-row: 4 / 5;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="JdgoOB" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/JdgoOB/'>Grid by Example 10: Explicit and Implicit Grid</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example10.html">View example</a>
 </div>
@@ -525,33 +321,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="box header">Header</div>
-  <div class="box sidebar">Sidebar</div>
-  <div class="box content">Content</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="oXKgoQ" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/oXKgoQ/'>Grid by Example 11: Defining Grid Areas</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-
-.sidebar {
-  grid-area: sidebar;
-}
-.content {
-  grid-area: content;
-}
-.header {
-  grid-area: header;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 10px 100px 10px 100px;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header header header" 
-	"sidebar . content content content";
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example11.html">View example</a>
 </div>
@@ -577,28 +348,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.sidebar {
-  grid-area: sidebar;
-}
-.content {
-  grid-area: content;
-}
-.header {
-  grid-area: header;
-}
-.footer {
-  grid-area: footer;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 10px 100px 10px 100px;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header header header" 
-    "sidebar . content content content"
-    "footer footer footer footer footer";
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="GJVgOV" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/GJVgOV/'>Grid by Example 12: No clearing required</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example12.html">View example</a>
 </div>
@@ -623,41 +374,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.sidebar {
-  grid-area: sidebar;
-}
-.content {
-  grid-area: content;
-}
-.header {
-  grid-area: header;
-}
-.footer {
-  grid-area: footer;
-}
-@media only screen and (min-width: 400px) and (max-width: 540px)  {
-  .wrapper {
-    display: grid;
-	grid-template-columns: 20% 5% auto;
-	grid-template-rows: auto;
-	grid-template-areas: "header header header" 
-		"sidebar . content"
-		"sidebar2 sidebar2 sidebar2"
-		"footer footer footer";
-  }
-}
-@media only screen and (min-width: 540px)   {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 100px 20px auto 20px 100px;
-    grid-template-rows: auto;
-    grid-template-areas: "header header header header header" 
-      "sidebar . content . sidebar2"
-      "footer footer footer footer footer";
-  }
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="waVBpK" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/waVBpK/'>Grid by Example 13: Redefining grid areas with media queries</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example13.html">View example</a>
 </div>
@@ -682,39 +400,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="section1"> ... </div>
-  <div class="section2"> ... </div>	
-  <div class="section3"> ... </div>
-  <div class="box ad1">Advert!</div>
-  <div class="box ad2">Another lovely advert!</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="WvVbMG" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/WvVbMG/'>Grid by Example 14: Source independence</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-.wrapper {
-  width: 400px;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto ;
-}
-.section1 {
-  grid-row: 1 / 2;
-}
-.section2 {
-  grid-row: 3 / 4;
-}
-.section3 {
-  grid-row: 5 / 6;
-}
-.ad1 {
-  grid-row: 2 / 3;
-}
-.ad2 {
-  grid-row: 4 / 5;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example14.html">View example</a>
 </div>
@@ -739,54 +426,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-  <div class="box e">E</div>
-  <div class="box f">F</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="KpOwQW" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/KpOwQW/'>Grid by Example 15: Layering items</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(5, (col) 100px (gutter) 10px) ;
-  grid-template-rows: repeat(3, (row) auto (gutter) 10px );
-}
-.box {
-    background-color: #444;
-    z-index:10;
-}
-.a { 
-  grid-column: col / span gutter 2; 
-  grid-row: row ;
-}
-.b { 
-  grid-column: col 3 / span gutter 3 ; 
-  grid-row: row ;
-}
-.c { 
-  grid-column: col ; 
-  grid-row: row 2 ;
-}
-.d { 
-  grid-column: col 2 / span gutter 3 ; 
-  grid-row: row 2 ;
-}
-.e {
-  grid-column: col / span gutter 5;
-  grid-row: row 3;
-}
-.f {
-  grid-column: col 3 / span gutter 3;
-  grid-row: row 2  ;
-  background-color: rgba(49,121,207, 0.5);
-  z-index: 20;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example15.html">View example</a>
 </div>
@@ -809,63 +450,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="box header">Header</div>
-  <div class="box sidebar">Sidebar</div>
-  <div class="box content">Content
-    <br /> The four arrows are inline images inside the content area.
-    <img src="arrow-top-left.png" alt="top left" class="topleft" />
-    <img src="arrow-top-right.png" alt="top right" class="topright" />
-    <img src="arrow-bottom-left.png" alt="bottom left" class="bottomleft" />
-    <img src="arrow-bottom-right.png" alt="bottom right" class="bottomright" /></div>
-  <div class="box footer">Footer</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="doxPda" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/doxPda/'>Grid by Example 16: Grid Area as a new positioning context</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-.sidebar {
-  grid-area: sidebar;
-}
-.content {
-  grid-area: content;
-  position: relative;
-}
-.header {
-  grid-area: header;
-}
-.footer {
-  grid-area: footer;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 200px 10px 200px 10px 200px;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header header header" 
-    "sidebar . content content content"
-    "footer footer footer footer footer";
-}
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.topright {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.bottomright {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example16.html">View example</a>
 </div>
@@ -890,42 +476,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-// HTML
-<div class="wrapper">
-  <div class="box box1">1</div>
-  <div class="box box2">2</div>
-  <div class="box">3</div>
-  <div class="box">4</div>
-  <div class="box">5</div>
-  <div class="box">6</div>
-  <div class="box">7</div>
-  <div class="box">8</div>
-  <div class="box">9</div>
-  <div class="box">10</div>
-  <div class="box">11</div>
-  <div class="box">12</div>
-</div>
+<p data-height="351" data-theme-id="0" data-slug-hash="PqMwRw" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/PqMwRw/'>Grid by Example 17: Grid Auto-placement</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-// CSS
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
-.box:nth-child(even){
-  background-color: #ccc;
-  color: #000;
-}
-.wrapper {
-  width: 600px;
-  display: grid;
-  grid-template-columns: repeat(6, 100px);
-  grid-template-rows: auto ;
-}
-~~~
 <div class="panel-footer">
 <a href="/examples/code/example17.html">View example</a>
 </div>
@@ -949,15 +501,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  width: 600px;
-  display: grid;
-  grid-template-columns: repeat(6, 100px);
-  grid-template-rows: 100px 100px 100px ;
-  grid-auto-flow: column;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="QbewmG" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/QbewmG/'>Grid by Example 18: Grid auto-placement column</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example18.html">View example</a>
 </div>
