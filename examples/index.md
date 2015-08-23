@@ -980,19 +980,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  width: 600px;
-  display: grid;
-  grid-template-columns: repeat(6, 100px);
-  grid-template-rows: auto ;
-}
-.box2 {
-  grid-column: 3 / 6;
-  grid-row: 2 / 3;
-  outline: 2px solid red;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="eNqmKy" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/eNqmKy/'>Grid by Example 19: Auto-placement with a positioned element</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example19.html">View example</a>
 </div>
@@ -1017,13 +1006,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, (col) 100px (gutter) 10px) ;
-  grid-template-rows: repeat(auto, (row) auto (gutter) 10px );
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="mJNyjb" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/mJNyjb/'>Grid by Example 20: the auto keyword in repeating track definitions</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example20.html">View example (currently this is unimplemented in Chrome)</a>
 </div>
@@ -1047,15 +1031,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.d{
-  grid-column: col 3 / span gutter 2;
-  grid-row: row 2;
-  display: grid;
-  grid-template-columns: 1fr 10px 1fr;
-  grid-template-rows: auto 10px auto;
-}
-~~~
+<p data-height="351" data-theme-id="0" data-slug-hash="NqQPBR" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/NqQPBR/'>Grid by Example 21: a nested Grid</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
 <div class="panel-footer">
 <a href="/examples/code/example21.html">View example</a>
 </div>
@@ -1080,7 +1057,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 </div>
 </div>
 <p data-height="268" data-theme-id="0" data-slug-hash="LVwEBM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/LVwEBM/'>Grid by Example 22: Implicit named grid lines</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 <div class="panel-footer">
 <a href="/examples/code/example22.html">View example</a>
 </div>
