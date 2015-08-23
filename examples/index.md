@@ -1079,21 +1079,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 </div>
 </div>
-~~~
-.content {
-  grid-area: content;
-}
-.header {
-  grid-area: header;
-}
-
-.overlay {
-  background-color: red;
-  z-index: 10;
-  grid-column: content-start / content-end;
-  grid-row: header-start / content-end;
-}
-~~~
+<p data-height="268" data-theme-id="0" data-slug-hash="LVwEBM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/LVwEBM/'>Grid by Example 22: Implicit named grid lines</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <div class="panel-footer">
 <a href="/examples/code/example22.html">View example</a>
 </div>
