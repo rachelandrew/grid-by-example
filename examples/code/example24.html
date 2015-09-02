@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 24</title>
+    <meta charset="utf-8">
+    <style>
+	body {
+  margin: 40px;
+  font: 80% Arial, Helvetica, sans-serif;
+  
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  background: no-repeat url(grid.png);
+  grid-template-columns:  repeat(5, 150px 10px) 150px;
+  grid-template-rows: 150px 10px 150px 10px 150px 10px 150px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  border: 1px solid #444;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+.a {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+}
+
+.b {
+  grid-column: 5 / 8;
+  grid-row: 1 / 4;
+}
+
+.c {
+  grid-column: 1 / 4;
+  grid-row: 5 /  10;
+}
+
+.d {
+  grid-column: 5 / 8;
+  grid-row: 5 / 10;
+}
+
+.e {
+  grid-column: 9 / 12;
+  grid-row: 1 / 10;
+}
+
+
+
+	
+
+   </style>
+</head>
+
+ <body>
+  	
+	<div class="wrapper">
+  <div class="box a">
+    <p>This is box A. </p>
+    
+  </div>
+  <div class="box b">
+    <p>This is box B.</p>
+  
+  </div>
+  <div class="box c">
+    <p>This is box C.</p>
+   
+
+  </div>
+  <div class="box d">
+    <p>This is box D.</p>
+   
+  </div>
+  <div class="box e">
+    <p>Each of the boxes on the left has a grid area of 3 columns and 3 rows (we're counting the gutter col/row). </p>
+    <p>The align-items property is used to align the content inside each grid-area.</p>
+    <p>Other values of align-items are:</p>
+    <ul>
+      <li>stretch</li>
+      <li>start</li>
+      <li>end</li>
+      <li>center</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
