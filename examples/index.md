@@ -655,6 +655,8 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>I'm using the align-items property with a value of center. This centres the content of all of the grid items.</p>
 
+<p><em>Currently Chrome Canary only.</em></p>
+
 
 
 </div>
@@ -682,6 +684,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>I'm using the justify-items property with a value of center. This centres the content of all of the grid items.</p>
 
+<p><em>Currently Chrome Canary only.</em></p>
 
 
 </div>
@@ -709,7 +712,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>I'm using the align-self property on individual grid items to demonstrate the different values.</p>
 
-
+<p><em>Currently Chrome Canary only.</em></p>
 
 </div>
 </div>
@@ -736,7 +739,7 @@ I will add to this list as I create tidy versions of some of the other tests I h
 
 <p>I'm using the justify-self property on individual grid items to demonstrate the different values.</p>
 
-
+<p><em>Currently Chrome Canary only.</em></p>
 
 </div>
 </div>
