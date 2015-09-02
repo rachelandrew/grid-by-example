@@ -35,6 +35,10 @@ I will add to this list as I create tidy versions of some of the other tests I h
 21. [Nested Grid](#example21)
 22. [Implicit Named Grid Lines](#example22)
 23. [Grid auto-placement and the order property](#example23)
+24. [Box alignment align-items](#example24)
+25. [Box alignment justify-items](#example25)
+26. [Box alignment align-self](#example26)
+27. [Box alignment justify-self](#example27)
 
 {::options parse_block_html="true" /}
 <div class="panel panel-default" id="example1">
@@ -629,8 +633,116 @@ I will add to this list as I create tidy versions of some of the other tests I h
 </div>
 </div>
 <p data-height="268" data-theme-id="0" data-slug-hash="OVKPoy" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/OVKPoy/'>Grid by Example 23: Auto-placement and the order property</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 <div class="panel-footer">
 <a href="/examples/code/example23.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example24">
+<div class="panel-heading">
+<h3 class="panel-title">Example 24: Box alignment align-items</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example24.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>I have used a grid background image to show the grid in this example. I've defined 4 equal sized grid areas on the left which cover a square area inside three row and column lines.</p>
+
+<p>I'm using the align-items property with a value of center. This centres the content of all of the grid items.</p>
+
+
+
+</div>
+</div>
+<p data-height="268" data-theme-id="0" data-slug-hash="WQNqKy" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/WQNqKy/'>Grid by Example 24: align-items</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+<div class="panel-footer">
+<a href="/examples/code/example24.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example25">
+<div class="panel-heading">
+<h3 class="panel-title">Example 25: Box alignment justify-items</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example25.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>I have used a grid background image to show the grid in this example. I've defined 4 equal sized grid areas on the left which cover a square area inside three row and column lines.</p>
+
+<p>I'm using the justify-items property with a value of center. This centres the content of all of the grid items.</p>
+
+
+
+</div>
+</div>
+<p data-height="268" data-theme-id="0" data-slug-hash="NGWZLM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/NGWZLM/'>Grid by Example 25: justify-items</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+<div class="panel-footer">
+<a href="/examples/code/example25.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example26">
+<div class="panel-heading">
+<h3 class="panel-title">Example 26: Box alignment align-self</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example26.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>I have used a grid background image to show the grid in this example. I've defined 4 equal sized grid areas on the left which cover a square area inside three row and column lines.</p>
+
+<p>I'm using the align-self property on individual grid items to demonstrate the different values.</p>
+
+
+
+</div>
+</div>
+<p data-height="268" data-theme-id="0" data-slug-hash="KdKLLX" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/KdKLLX/'>Grid by Example 26: align-self</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+<div class="panel-footer">
+<a href="/examples/code/example26.html">View example</a>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="panel panel-default" id="example27">
+<div class="panel-heading">
+<h3 class="panel-title">Example 27: Box alignment justify-self</h3>
+</div>
+<div class="panel-body">
+<div class="col-sm-6">
+<img src="/examples/images/example27.png" class="img-rounded" />
+</div>
+
+<div class="col-sm-6">
+
+<p>I have used a grid background image to show the grid in this example. I've defined 4 equal sized grid areas on the left which cover a square area inside three row and column lines.</p>
+
+<p>I'm using the justify-self property on individual grid items to demonstrate the different values.</p>
+
+
+
+</div>
+</div>
+<p data-height="268" data-theme-id="0" data-slug-hash="dYyBeM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/dYyBeM/'>Grid by Example 27: justify-self</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="panel-footer">
+<a href="/examples/code/example27.html">View example</a>
 </div>
 </div>
