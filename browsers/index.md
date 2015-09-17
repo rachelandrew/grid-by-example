@@ -7,14 +7,16 @@ title: Browser Support for CSS Grid Layout
 
 You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). I'll maintain a list of more detailed information here.
 
+## Microsoft Edge
+
+On launch Edge shipped with the IE11 Grid implementation. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid).
+
 ## Internet Explorer 10 and 11
 
 The original Grid implementation was part of IE10, also in IE11. This implementation is now quite different to the current spec and other implementations.
 
 - [April 2011 Grid Spec](http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/)
 - [My 24 Ways Article covering the IE implementation](http://24ways.org/2012/css3-grid-layout/)
-
-It looks as though this same implementation will be part of the new Edge browser. Hopefully once the Level 1 Grid Specification is complete Microsoft will update to it.
 
 ## Blink Rendering Engine (Chrome, Opera)
 
