@@ -62,7 +62,7 @@ h1 {
 	If I use fraction units for the gutters they now become a fraction of the nested grid's width not the outer. Could use absolute units to get round this.
 	*/
 	display: grid;
-	grid-template-columns: (col) 4.25fr repeat(5, (gutter) 1fr (col) 4.25fr ) (gutter);
+	grid-template-columns: [col] 4.25fr repeat(5, [gutter] 1fr [col] 4.25fr ) [gutter];
 	grid-template-rows: repeat(5, 100px);
 }
 
@@ -99,7 +99,7 @@ h1 {
 	we see the fraction issue here clearly in comparison to the nested grid ag2.
 	*/
 	display: grid;
-	grid-template-columns: (col) 4.25fr (gutter) 1fr (col) 4.25fr (gutter);
+	grid-template-columns: [col] 4.25fr [gutter] 1fr [col] 4.25fr [gutter];
 	grid-template-rows: repeat(3, 100px);
 }
 
