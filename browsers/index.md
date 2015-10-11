@@ -26,6 +26,8 @@ The most complete implementation of Grid is in Blink. This implementation has be
 
 At the present time you need to enable the Experimental Web Platform Features Flag in Chrome or Opera. 
 
+Download Chrome Canary if you want to get the very latest features that have been implemented.
+
 ## Webkit 
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
@@ -38,5 +40,5 @@ Something being in Webkit does not automatically mean it will be part of Safari.
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko.
+Grid is currently being implemented in Gecko. Some of the examples on this site now work if you download a [Firefox Nightly](https://nightly.mozilla.org/), visit about:config in the browser and enable the flag `layout.css.grid.enabled`.
 
