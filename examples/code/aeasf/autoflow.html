@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Autoflow example</title>
+
+  <style>
+  html {
+  	box-sizing: border-box;
+  	font: 87.5%/1.4 HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	*, *:before, *:after {
+  	box-sizing: inherit;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.wrapper li {
+		margin: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 10px;
+	}
+
+	.wrapper {
+		list-style: none;
+		margin: 0 auto 0 auto;
+		padding: 0;
+		display: grid;
+		max-width: 960px;
+		grid-template-columns: 1fr;   
+		grid-template-rows: auto;
+		grid-auto-flow: sparse; 
+	}
+
+	@media (min-width: 460px) {
+	 	.wrapper {
+	 		grid-template-columns: 1fr 1fr;
+	 	} 
+
+		.text {
+	 		grid-column: 1 / 3;
+
+	 	}
+
+	 	.wide {
+	 		grid-column: auto / span 2;
+	 	}
+	 }
+
+	 
+
+	 @media (min-width: 660px) {
+	 	.wrapper {
+	 		grid-template-columns: 1fr 1fr 1fr 1fr;
+	 	} 
+
+	 	.text {
+	 		grid-column: 2 / 4;
+	 		grid-row: 1 / 3;
+	 	}
+
+	 	
+	 }
+
+	
+
+		
+</style>
+</head>
+
+
+
+<body>
+
+	<ul class="wrapper">   
+	  
+	  <li class="text"><p>In this example this text block is given a position on the grid. At the 460 pixel breakpoint it goes into the first row spanning both columns. At 660 pixels it spans 2 rows and goes into the second column, spanning two columns.</p>
+	  <p>The other items are display according to the grid auto placement algorithm, with grid-auto-flow set to dense.</p>
+		<p>At the 460 pixel breakpoint I set two of the images to span 2 columns. These wide images mean that if we set grid-auto-flow to sparse there would be a gap where the image 'balloons 5' sits as it would be displayed in source order after the wider 'balloons 4' image which needs to drop down to the next row to have room.</p></li>
+	  <li><img src="images/balloon1.jpg" alt="hot air balloon" />
+	  <p>Balloons 1</p></li>
+	  <li><img src="images/balloon2.jpg" alt="hot air balloon" />
+	  <p>Balloons 2</p></li>
+	  
+	  <li><img src="images/balloon3.jpg" alt="hot air balloon" />
+	  <p>Balloons 3</p></li>
+	  <li class="wide"><img src="images/balloon4.jpg" alt="hot air balloon" />
+	  <p>Balloons 4</p></li>
+	  <li><img src="images/balloon5.jpg" alt="hot air balloon" />
+	  <p>Balloons 5</p></li>
+	  <li><img src="images/balloon6.jpg" alt="hot air balloon" />
+	  <p>Balloons 6</p></li>
+	  <li class="wide"><img src="images/balloon7.jpg" alt="hot air balloon" />
+	  <p>Balloons 7</p></li>
+	   <li><img src="images/balloon8.jpg" alt="hot air balloon" />
+	   	<p>Balloons 8</p></li>
+	</ul>
+
+</body>
+
+</html>
