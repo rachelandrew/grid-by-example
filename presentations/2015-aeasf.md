@@ -7,8 +7,8 @@ title: Resources for my presentations on CSS Grid Layout at An Event Apart San F
 
 I updated my Grid talk, including the new grid-gap properties for An Event Apart in San Francisco, presenting the same material at Devoxx in Antwerp, Belgium a week later. 
 
-- [Slides for AEA San Francisco](https://speakerdeck.com/rachelandrew/an-event-apart-boston-css-grid-layout)
-- [Slides for Devoxx](https://speakerdeck.com/rachelandrew/an-event-apart-boston-css-grid-layout)
+- [Slides for AEA San Francisco](http://www.slideshare.net/rachelandrew/an-event-apart-sf-css-grid-layout)
+- [Slides for Devoxx](http://www.slideshare.net/rachelandrew/devoxx-belgium-css-grid-layout)
 
 The layouts demonstrated were:
 
