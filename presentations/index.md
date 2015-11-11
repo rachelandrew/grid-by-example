@@ -9,11 +9,14 @@ I have been writing and speaking about CSS Grid Layout since 2012. Many of the e
 
 ## Upcoming Presentations
 
-* [Generate London](http://www.generateconf.com/london-2015)
-* [Future of Web Apps](https://futureofwebapps.com/) - CSS Layout Modules Workshop, a developer focused version of this workshop.
+* [dotCSS Paris](http://www.dotcss.io/)
 
 ## Past Presentations
 
+* [Devoxx Belgium](/presentations/2015-aeasf)
+* [An Event Apart San Francisco 2015](/presentations/2015-aeasf)
+* [Generate London](http://www.generateconf.com/london-2015)
+* [Future of Web Apps](https://futureofwebapps.com/) - CSS Layout Modules Workshop, a developer focused version of this workshop.
 * [CSS Day](/presentations/2015-cssday)
 * [An Event Apart Boston 2015](/presentations/2015-aeabos)
 * [Fluent Conference 2015](/presentations/2015-fluent)
