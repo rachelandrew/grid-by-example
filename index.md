@@ -49,7 +49,7 @@ If you spot any problems, have an enhancement suggestion or would like to see a 
 
 ## Latest Grid News {#news}
 
-The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year. 
+The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year.
 
 There is a new Working Draft of the [Level One specification](http://www.w3.org/TR/css-grid-1/), which was released on 6th August.
 
@@ -66,14 +66,13 @@ The [Editor's Draft of Grid published 20th December 2014](http://dev.w3.org/cssw
 
 The `auto` keyword is not as yet implemented in Chrome. I have added an example which I believe is the correct usage - [example 20](/examples/#example20).
 
-[There is an excellent blog post](http://blogs.igalia.com/mrego/2014/12/30/css-grid-layout-2014-recap-specification-evolution/) from Manuel Rego Casasnovas, who works at Igalia and is involved in implementing Grid in Chrome and Blink. Read how the spec has evolved over 2014. 
+[There is an excellent blog post](http://blogs.igalia.com/mrego/2014/12/30/css-grid-layout-2014-recap-specification-evolution/) from Manuel Rego Casasnovas, who works at Igalia and is involved in implementing Grid in Chrome and Blink. Read how the spec has evolved over 2014.
 
 [A second post](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/) from Manuel describes the current browser implementation status.
 
 In [Box Alignment and Grid Layout II](http://blogs.igalia.com/jfernandez/2015/01/12/box-alignment-and-grid-layout-ii/) Javier Fernández writes about the box alignment implementation. THis work meant I needed to redo many of the screenshots in my examples as `stretch` is now implemented.
 
 <div class="bg-info book">
-	<h3>CSS3 Layout Modules, 2nd Edition</h3>
-	<p>A lot of the examples here were my test examples as I researched Grid for my latest book - CSS3 Layout Modules, 2nd edition. If you are interested in modern layout for the web, <a href="http://rachelandrew.co.uk/books/css3-layout-modules/">take a look at the book</a>.</p>
+	<h3>Get Ready For CSS Grid Layout</h3>
+	<p>My latest book is <a href="http://abookapart.com/products/get-ready-for-css-grid-layout">Get Ready for CSS Grid Layout</a> published by A Book Apart.</p>
 </div>
-		

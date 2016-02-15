@@ -20,13 +20,14 @@ At present there are not many tutorials and examples on Grid, as I find them I w
 
 ## Presentations
 
-
+* [My presentation at dotCSS](http://www.thedotpost.com/2015/12/rachel-andrew-the-new-css-layout)
 * [Video of my presentation at CSS Day](https://vimeo.com/133642780)
 * [Manuel Rego's presentation at CSS Conf](https://www.youtube.com/watch?v=SRblTXsBPrY)
 * [Video of my presentation for CSSConf.eu](https://www.youtube.com/watch?v=GRexIOtGhBU)
 
 ## Articles and tutorials
 
+* [Deep dive into grid layout placement](http://blogs.igalia.com/mrego/2016/02/01/deep-dive-into-grid-layout-placement)
 * [Modern CSS Layout power and responsibility](https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/)
 * [CSS Grid Layout automatic placement and packing modes](https://rachelandrew.co.uk/archives/2015/04/14/grid-layout-automatic-placement-and-packing-modes/)
 * [CSS Grid Layout: creating complex grids](https://rachelandrew.co.uk/archives/2015/02/04/css-grid-layout-creating-complex-grids/)

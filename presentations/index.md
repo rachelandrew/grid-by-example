@@ -5,14 +5,24 @@ title: Resource pages for my presentations on CSS Grid Layout
 
 # Grid Layout Presentations
 
-I have been writing and speaking about CSS Grid Layout since 2012. Many of the examples created here have been used in my presentations. If you've seen me speak about Grid and want to take a look at the examples demonstrated, you can find those along with any supporting material linked here. I have also linked to my upcoming presentations and workshops that cover CSS Grid Layout.
+I have been writing and speaking about CSS Grid Layout since 2012. Many of the examples created here have been used in my presentations. If you've seen me speak about Grid and want to take a look at the examples demonstrated, you can find those along with any supporting material linked here. I have also listed my upcoming presentations and workshops that cover CSS Grid Layout.
 
 ## Upcoming Presentations
 
-* [dotCSS Paris](http://www.dotcss.io/)
+* ConFoo, February 2016
+* Fluent, March 2016 - a talk on new layout including Grid plus a two day workshop on modern web layout.
+* An Event Apart Nashville, March 2016
+* Future of Web Design London - talk and one day workshop on modern web layout
+* CSS Conf Budapest, May 2016
+* An Event Apart Boston, May 2016
+* White October Events, London, June 2016 - full day workshop on modern web layout
+* Webinale Berlin, June 2016 - full day workshop on modern web layout
+* An Event Apart Chicago, August 2016
 
 ## Past Presentations
 
+* [Topconf Linz](/presentations/2016-topconf/)
+* [dotCSS Paris](http://www.dotcss.io/)
 * [Devoxx Belgium](/presentations/2015-aeasf)
 * [An Event Apart San Francisco 2015](/presentations/2015-aeasf)
 * [Generate London](http://www.generateconf.com/london-2015)
