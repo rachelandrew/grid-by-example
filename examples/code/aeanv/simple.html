@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A simple grid example</title>
+
+  <style>
+  html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	padding: 100px;
+}
+
+  	.wrapper {
+	  display: grid;
+	  width: 320px;
+	  grid-template-columns: 100px 100px 100px;   
+	  grid-template-rows: auto auto; 
+	  
+	}
+
+	.wrapper div {
+		border:2px dashed black;
+		padding: 40px 0 40px 0;
+		text-align: center;
+		font-size: 200%;
+		background-color: #fff;
+		color: #fff;
+	}
+
+	.wrapper div.a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* background-color: rebeccapurple;*/
+}
+
+.wrapper div.b {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+ background-color: rebeccapurple;
+}
+
+.c {
+	grid-column: 2 / 3;
+}
+
+.d {
+	grid-column: 3 / 4;
+}
+
+.e {
+	grid-column: 1 /2 ;
+	grid-row: 2 /3 ;
+}
+
+
+  </style>
+</head>
+
+
+
+<body>
+
+	<div class="wrapper">   
+	  <div class="a">A</div>   
+	  <div class="b">B</div>   
+	  <div class="c">C</div>   
+	  <div class="d">D</div>   
+	  <div class="e">E</div>   
+	 
+	</div>
+
+</body>
+
+</html>

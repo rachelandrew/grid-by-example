@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>12 Column Grid</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS - using the Skeleton framework for typography -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+
+  /* need an image showing the grid */
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+
+
+   @media (min-width: 550px) {
+
+    .wrapper {
+    
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr );
+    grid-template-rows: repeat(5, [row] auto) ;
+    grid-column-gap: 1em;
+    grid-row-gap: 15px;
+  }
+
+  .header {
+    grid-column: col / span 12;
+    grid-row: 1 ;
+  }
+
+  .box1 {
+    grid-column: col / span 4;
+    grid-row: row 2;
+  }
+
+  .box1b {
+    grid-column: col / span 4;
+    grid-row: row 2 / span 2;
+  }
+
+  .box2 {
+    grid-column: col 5 / span 4;
+    grid-row: row 2 ;
+  }
+
+  .box2b {
+    grid-column: col 5 / span 4;
+    grid-row: row 2 / span 3;
+  }
+
+  .box3 {
+    grid-column: col 9 / span 4;
+    grid-row: row 2 ;
+  }
+
+  .box4 {
+    grid-column: col / span 8;
+    grid-row: row 3 ;
+  }
+
+  .box5 {
+    grid-column: col 9 / span 4;
+    grid-row: row 3 ;
+  }
+
+  .box6 {
+    grid-column: col / span 3;
+    grid-row: row 4 ;
+  }
+
+  .box7 {
+    grid-column: col 4 / span 3;
+    grid-row: row 4 ;
+  }
+
+  .box7b {
+    grid-column: col 4 ;
+    grid-row: row 4 ;
+  }
+
+  .box8 {
+    grid-column: col 7 / span 3;
+    grid-row: row 4 ;
+  }
+
+  .box8b {
+    grid-column: col 9 ;
+    grid-row: row 4 ;
+  }
+
+  .box9 {
+    grid-column: col 10 / span 3;
+    grid-row: row 4 ;
+  }
+
+  .box10 {
+    grid-column: col / span 6;
+    grid-row: row 5 ;
+  }
+
+  .box11 {
+    grid-column: col 7 / span 6;
+    grid-row: row 5 ;
+  }  
+
+}
+
+  
+  </style>
+
+</head>
+<body style="padding-top: 60px;">
+<div class="container">
+  <h1>Skeleton Grid</h1>
+  <div class="example-grid docs-example">
+        <div class="row">
+          <div class="four columns">Four columns</div>
+          <div class="four columns">Four columns</div>
+          <div class="four columns">Four columns</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">Eight columns</div>
+          <div class="four columns">Four columns</div>
+        </div>
+        <div class="row">
+          <div class="three columns">Three columns</div>
+          <div class="three columns">Three columns</div>
+          <div class="three columns">Three columns</div>
+          <div class="three columns">Three columns</div>
+        </div>
+        <div class="row">
+          <div class="six columns">Six columns</div>
+          <div class="six columns">Six columns</div>
+        </div>
+        
+</div>
+
+<div class="wrapper skeleton">
+  <h1 class="header">CSS Grid Layout Version</h1>
+  <div class="box1">Four columns</div>
+  <div class="box2">Four columns</div>
+  <div class="box3">Four columns</div>
+  <div class="box4">Eight columns</div>
+  <div class="box5">Four columns</div>
+  <div class="box6">Three columns</div>
+  <div class="box7">Three columns</div>
+  <div class="box8">Three columns</div>
+  <div class="box9">Three columns</div>
+  <div class="box10">Six columns</div>
+  <div class="box11">Six columns</div>
+</div>
+
+<div class="wrapper skeleton">
+  <h1 class="header">... and we can do this</h1>
+  <div class="box1b">Four columns
+  <br /> Two rows</div>
+  <div class="box2b">Four columns
+    <br /> Three rows</div>
+  <div class="box3">Four columns</div>
+  <div class="box5">Four columns</div>
+  <div class="box6">Three columns</div>
+  <div class="box7b">One</div>
+  <div class="box8b">One</div>
+  <div class="box9">Three columns</div>
+  <div class="box10">Six columns</div>
+  <div class="box11">Six columns</div>
+</div>
+
+</body>
+</html>

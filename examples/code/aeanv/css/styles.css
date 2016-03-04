@@ -1,0 +1,64 @@
+/* some standard styling, non grid related */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    padding: 0 1em;
+}
+
+.mainheader {
+	border-bottom: 1px dotted #999;
+	margin: 1em 0 1em 0;
+}
+
+.mainheader h1 span {
+	display: block;
+	font-size: 3rem;
+	color: #666;
+}
+
+.panel {
+	background-color: #efefef;
+	padding: 10px;
+}
+
+.mainfooter {
+	background-color: #666;
+	color: #fff;
+	padding: 10px;
+}
+
+/* for 12 column example */
+
+
+
+.example-grid .column, .example-grid .columns {
+    margin-bottom: 15px;
+}
+
+.example-grid .column, .example-grid .columns {
+    background: none repeat scroll 0% 0% #EEE;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.skeleton div {
+    background: none repeat scroll 0% 0% #EEE;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 10px 0 10px 0;
+}
