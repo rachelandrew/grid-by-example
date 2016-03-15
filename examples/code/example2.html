@@ -8,9 +8,9 @@
 		margin: 40px;
 	}
 	.wrapper {
-		display: grid;
-		grid-template-columns: 100px 10px 100px 10px 100px;
-		grid-template-rows: auto 10px auto;
+    display: grid;
+    grid-gap: 10px;
+		grid-template-columns: 100px 100px 100px;
 		background-color: #fff;
 		color: #444;
 	}
@@ -24,51 +24,51 @@
 
 	}
 
-	.a { 
-		grid-column-start: 1;
-		grid-column-end: 2; 
+	.a {
+		grid-column-start: 2;
+		grid-column-end: 3;
 		grid-row-start: 1;
 		grid-row-end: 2;
 	}
 	.b {
-		grid-column-start: 3;
-		grid-column-end: 4; 
-		grid-row-start: 1;
-		grid-row-end: 2; 
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
 	}
-	.c { 
-		grid-column-start: 5;
-		grid-column-end: 6; 
+	.c {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.d {
+		grid-column-start: 1;
+		grid-column-end: 2;
 		grid-row-start: 1;
 		grid-row-end: 2;
 	}
-	.d { 
+	.e {
 		grid-column-start: 1;
-		grid-column-end: 2; 
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
 	}
-	.e { 
+	.f {
 		grid-column-start: 3;
-		grid-column-end: 4; 
-		grid-row-start: 3;
-		grid-row-end: 4;
-	}
-	.f { 
-		grid-column-start: 5;
-		grid-column-end: 6; 
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
 	}
 
-	
+
 
 
    </style>
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 		<div class="box a">A</div>
 		<div class="box b">B</div>

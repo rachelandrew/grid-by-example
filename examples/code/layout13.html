@@ -16,41 +16,43 @@
 
   <style>
 
-  
+
 
   .wrapper {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    
+
   }
 
   @media (min-width: 550px) {
 
     .wrapper {
       display: grid;
-      grid-template-columns: repeat(11, [col] 4fr [gutter] 3.5fr ) [col] 4fr [gutter];
-      grid-template-rows: auto repeat(4, [row] auto [gutter] 15px);
+      grid-template-columns: repeat(12, [col] 1fr );
+      grid-template-rows: repeat(5, [row] auto) ;
+      grid-column-gap: 1em;
+      grid-row-gap: 15px;
     }
 
     .mainheader {
-      grid-column: col / span gutter 12;
-      grid-row: row /span gutter;
+      grid-column: col / span 12;
+      grid-row: row ;
     }
 
     .mainfooter {
-      grid-column: col / span gutter 12;
-      grid-row: row 3 /span gutter;
+      grid-column: col / span 12;
+      grid-row: row 3 ;
     }
 
     .content {
-      grid-column: col 5 / span gutter 8;
-      grid-row: row 2 / span gutter;
+      grid-column: col 5 / span 8;
+      grid-row: row 2 ;
     }
 
     .panel {
-      grid-column: col / span gutter 4;
-      grid-row: row 2 / span gutter ;
+      grid-column: col / span 4;
+      grid-row: row 2 ;
     }
 }
 
@@ -66,9 +68,7 @@
       <p>Excerpts from the book by J.M. Bacon</p>
     </header>
 
-    <footer class="mainfooter">
-      <p>This book is available to read in full on <a href="https://www.gutenberg.org/files/861/861-h/861-h.htm">the Project Gutenburg website</a>.</p>
-    </footer>
+
 
     <div class="panel">
         <h4>Chapter listing</h4>
@@ -92,6 +92,10 @@
 
         <p>By this time he found his balloon, which had been only two-thirds full at starting, to be so distended that he was obliged to untie the mouth to release the strain. He also found that the condensed moisture round the neck had frozen. These two statements point to his having reached a considerable altitude, which is intelligible enough. It is, however, difficult to believe his further assertion that by the use of his single oar he succeeded in working himself down to within a few hundred feet of the earth. The descent of the balloon must, in point of fact, have been due to a copious outrush of gas at his former altitude. Had his oar really been effective in working the balloon down it would not have needed the discharge of ballast presently spoken of to cause it to reascend. Anyhow, he found himself sufficiently near the earth to land a passenger who was anxious to get out. His cat had not been comfortable in the cold upper regions, and now at its urgent appeal was deposited in a corn field, which was the point of first contact with the earth. It was carefully received by a country-woman, who promptly sold it to a gentleman on the other side of the hedge, who had been pursuing the balloon. </p>
     </div>
+
+     <footer class="mainfooter">
+      <p>This book is available to read in full on <a href="https://www.gutenberg.org/files/861/861-h/861-h.htm">the Project Gutenburg website</a>.</p>
+    </footer>
   </div>
 
 </body>

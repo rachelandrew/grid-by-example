@@ -23,10 +23,11 @@
 
 	.wrapper {
 		display: grid;
-		grid-template-columns: 120px 10px 120px 10px 120px;
-		grid-template-rows: auto;
-		grid-template-areas: "header  header header header header" 
-							 "sidebar ...... content content content";
+    grid-gap: 10px;
+		grid-template-columns: 120px  120px  120px;
+		grid-template-areas:
+               "....... header  header"
+							 "sidebar content content";
 		background-color: #fff;
 		color: #444;
 	}
@@ -50,7 +51,7 @@
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 	 	<div class="box header">Header</div>
 		<div class="box sidebar">Sidebar</div>

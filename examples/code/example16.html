@@ -28,11 +28,12 @@
 
 	.wrapper {
 		display: grid;
-		grid-template-columns: 200px 10px 200px 10px 200px;
-		grid-template-rows: auto;
-		grid-template-areas: "header header header header header" 
-		"sidebar . content content content"
-		"footer footer footer footer footer";
+    grid-gap: 10px;
+		grid-template-columns: 200px 200px 200px;
+		grid-template-areas:
+    "header  header  header"
+		"sidebar content content"
+		"footer  footer  footer";
 		background-color: #fff;
 		color: #444;
 	}
@@ -78,7 +79,7 @@
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 	 	<div class="box header">Header</div>
 		<div class="box sidebar">Sidebar</div>

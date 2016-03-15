@@ -33,26 +33,37 @@
 		color: #444;
 	}
 
-	@media only screen and (min-width: 400px) and (max-width: 540px)  {
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "sidebar"
+     "content"
+     "sidebar2"
+     "footer"
+  }
+
+	@media only screen and (min-width: 500px)  {
 	.wrapper {
-		display: grid;
-		grid-template-columns: 20% 5% auto;
-		grid-template-rows: auto;
-		grid-template-areas: "header header header" 
-		"sidebar . content"
-		"sidebar2 sidebar2 sidebar2"
-		"footer footer footer";
+
+		grid-template-columns: 20% auto;
+		grid-template-areas:
+    "header   header"
+		"sidebar  content"
+		"sidebar2 sidebar2"
+		"footer   footer";
 	}
 	}
 
-	@media only screen and (min-width: 540px)   {
+	@media only screen and (min-width: 600px)   {
 		.wrapper {
-			display: grid;
-			grid-template-columns: 120px 20px auto 20px 120px;
-			grid-template-rows: auto;
-			grid-template-areas: "header header header header header" 
-			"sidebar . content . sidebar2"
-			"footer footer footer footer footer";
+      grid-gap: 20px;
+			grid-template-columns: 120px auto 120px;
+			grid-template-areas:
+      "header  header  header"
+			"sidebar content sidebar2"
+			"footer  footer  footer";
 			max-width: 600px;
 		}
 	}
@@ -81,7 +92,7 @@
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 	 	<div class="box header">Header</div>
 		<div class="box sidebar">Sidebar</div>

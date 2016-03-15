@@ -16,7 +16,7 @@
 
   <style>
 
-  /* need an image showing the grid */
+
   .wrapper {
     width: 100%;
     max-width: 960px;
@@ -28,94 +28,97 @@
    @media (min-width: 550px) {
 
     .wrapper {
-    
+
     display: grid;
-    grid-template-columns: repeat(11, [col] 4fr [gutter] 3.5fr ) [col] 4fr [gutter];
-    grid-template-rows: auto repeat(4, [row] auto [gutter] 15px);
+    grid-template-columns: repeat(12, [col] 1fr );
+    grid-template-rows: repeat(5, [row] auto) ;
+    grid-column-gap: 1em;
+    grid-row-gap: 15px;
   }
 
   .header {
-    grid-column: col / span gutter 12;
+    grid-column: col / span 12;
+    grid-row: 1 ;
   }
 
   .box1 {
-    grid-column: col / span gutter 4;
-    grid-row: row / span gutter;
+    grid-column: col / span 4;
+    grid-row: row 2;
   }
 
   .box1b {
-    grid-column: col / span gutter 4;
-    grid-row: row / span gutter 2;
+    grid-column: col / span 4;
+    grid-row: row 2 / span 2;
   }
 
   .box2 {
-    grid-column: col 5 / span gutter 4;
-    grid-row: row / span gutter;
+    grid-column: col 5 / span 4;
+    grid-row: row 2 ;
   }
 
   .box2b {
-    grid-column: col 5 / span gutter 4;
-    grid-row: row / span gutter 3;
+    grid-column: col 5 / span 4;
+    grid-row: row 2 / span 3;
   }
 
   .box3 {
-    grid-column: col 9 / span gutter 4;
-    grid-row: row / span gutter;
+    grid-column: col 9 / span 4;
+    grid-row: row 2 ;
   }
 
   .box4 {
-    grid-column: col / span gutter 8;
-    grid-row: row 2 / span gutter;
+    grid-column: col / span 8;
+    grid-row: row 3 ;
   }
 
   .box5 {
-    grid-column: col 9 / span gutter 4;
-    grid-row: row 2 / span gutter;
+    grid-column: col 9 / span 4;
+    grid-row: row 3 ;
   }
 
   .box6 {
-    grid-column: col / span gutter 3;
-    grid-row: row 3 / span gutter;
+    grid-column: col / span 3;
+    grid-row: row 4 ;
   }
 
   .box7 {
-    grid-column: col 4 / span gutter 3;
-    grid-row: row 3 / span gutter;
+    grid-column: col 4 / span 3;
+    grid-row: row 4 ;
   }
 
   .box7b {
     grid-column: col 4 ;
-    grid-row: row 3 / span gutter;
+    grid-row: row 4 ;
   }
 
   .box8 {
-    grid-column: col 7 / span gutter 3;
-    grid-row: row 3 / span gutter;
+    grid-column: col 7 / span 3;
+    grid-row: row 4 ;
   }
 
   .box8b {
     grid-column: col 9 ;
-    grid-row: row 3 / span gutter;
+    grid-row: row 4 ;
   }
 
   .box9 {
-    grid-column: col 10 / span gutter 3;
-    grid-row: row 3 / span gutter;
+    grid-column: col 10 / span 3;
+    grid-row: row 4 ;
   }
 
   .box10 {
-    grid-column: col / span gutter 6;
-    grid-row: row 4 / span gutter;
+    grid-column: col / span 6;
+    grid-row: row 5 ;
   }
 
   .box11 {
-    grid-column: col 7 / span gutter 6;
-    grid-row: row 4 / span gutter;
-  }  
+    grid-column: col 7 / span 6;
+    grid-row: row 5 ;
+  }
 
 }
 
-  
+
   </style>
 
 </head>
@@ -142,7 +145,7 @@
           <div class="six columns">Six columns</div>
           <div class="six columns">Six columns</div>
         </div>
-        
+
 </div>
 
 <div class="wrapper skeleton">

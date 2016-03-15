@@ -20,291 +20,342 @@ The following examples are some page layout examples and experiments. I have inc
 11. [Simple Grid + Flexbox example](#layout7)
 12. [Auto Placement Example](#layout8)
 
-<div class="panel panel-default" id="layout1">
-  <div class="panel-heading">
-    <h3 class="panel-title">A simple grid</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/layout1.png" class="img-rounded" />
-    </div>
+{::nomarkdown}
+<div class="example" id="layout1">
+<header><h3>A simple grid</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout1.png" alt="image of a simple grid.">
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>This is a simple, non-responsive layout using the line-based placement properties. I have created a layout that is essentially an old school liquid layout with two fixed width columns and an auto stretching content area.</p>
+This is a simple, non-responsive layout using the line-based placement properties. I have created a layout that is essentially an old school liquid layout with two fixed width columns and an auto stretching content area.
 
-    	<ul class="list-group">
-    		<li class="list-group-item"><a href="/examples/#example1">Defining a Grid</a></li>
-    		<li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-    	</ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout1.html">View the layout</a></div>
+- [Defining a Grid](/examples/#example1)
+- [Line-based placement](/examples/#example2)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout2">
-  <div class="panel-heading">
-    <h3 class="panel-title">A simple responsive layout</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/layout2.png" class="img-rounded" />
-    	<img src="/examples/images/layout2-2.png" class="img-rounded" />
-    	<img src="/examples/images/layout2-3.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout1.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>This is a simple, responsive layout using the line-based placement properties and three breakpoints.</p>
-    	<p>I am using the shorthand `grid-row` and `grid-column` properties in this example.</p>
 
-    	<ul class="list-group">
-    		<li class="list-group-item"><a href="/examples/#example1">Defining a Grid</a></li>
-    		<li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-    		<li class="list-group-item"><a href="/examples/#example3">Line-based placement shorthand</a></li>
-    	</ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout2.html">View the layout</a></div>
+{::nomarkdown}
+<div class="example" id="layout2">
+<header><h3>A simple responsive layout</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout2.png" alt="image of A simple responsive layout.">
+<img src="/examples/images/layout2-2.png" alt="image of A simple responsive layout.">
+<img src="/examples/images/layout2-3.png" alt="image of A simple responsive layout.">
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+This is a simple, responsive layout using the line-based placement properties and three breakpoints.
+
+I am using the shorthand `grid-row` and `grid-column` properties in this example.
+
+- [Defining a Grid](/examples/#example1)
+- [Line-based placement](/examples/#example2)
+- [Line-based placement shorthand](/examples/#example3)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout3">
-  <div class="panel-heading">
-    <h3 class="panel-title">A responsive layout using named Grid Areas</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/layout3.png" class="img-rounded" />
-    	<img src="/examples/images/layout3-2.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout2.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>A simple responsive layout with three breakpoints. This time I am using the `grid-area` to define the named areas of the grid and describing the grid with the `grid-template-areas` property within the Media Queries.</p>
+{::nomarkdown}
+<div class="example" id="layout3">
+<header><h3>A responsive layout using named Grid Areas</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout3.png" alt="A responsive layout using named Grid Areas.">
+<img src="/examples/images/layout3-2.png" alt="A responsive layout using named Grid Areas.">
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    	<ul class="list-group">
-    		<li class="list-group-item"><a href="/examples/#example11">Defining Grid Areas</a></li>
-    		<li class="list-group-item"><a href="/examples/#example13">Redefining Grid Areas with Media Queries</a></li>
-    	</ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout3.html">View the layout</a></div>
+A simple responsive layout with three breakpoints. This time I am using the `grid-area` to define the named areas of the grid and describing the grid with the `grid-template-areas` property within the Media Queries.
+
+- [Redefining Grid Areas](/examples/#example11)
+- [Media Queries](/examples/#example13)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout9">
-  <div class="panel-heading">
-    <h3 class="panel-title">Two column responsive layout with footer</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout-twocol.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout3.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-     <ul class="list-group">
-        <li class="list-group-item"><a href="/examples/#example1">Defining a Grid</a></li>
-        <li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-        <li class="list-group-item"><a href="/examples/#example3">Line-based placement shorthand</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout9.html">View the layout</a></div>
+{::nomarkdown}
+<div class="example" id="layout9">
+<header><h3>Two column responsive layout with footer</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout-twocol.png" alt="Two column responsive layout with footer">
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+- [Defining a Grid](/examples/#example1)
+- [Line-based placement](/examples/#example2)
+- [Line-based placement shorthand](/examples/#example3)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout10">
-  <div class="panel-heading">
-    <h3 class="panel-title">Two column responsive layout with footer using named grid lines</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout-twocol.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout9.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-     <ul class="list-group">
-     <li class="list-group-item"><a href="/examples/#example7">Naming Grid Lines</a></li>
-      </ul>
+{::nomarkdown}
+<div class="example" id="layout10">
+<header><h3>Two column responsive layout with footer using named grid lines</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout-twocol.png" alt="Two column responsive layout with footer using named grid lines.">
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout10.html">View the layout</a></div>
+- [Naming Grid Lines](/examples/#example7)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout11">
-  <div class="panel-heading">
-    <h3 class="panel-title">Two column responsive layout with footer using Named Grid Areas</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout-twocol.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout10.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-      <ul class="list-group">
-        <li class="list-group-item"><a href="/examples/#example11">Defining Grid Areas</a></li>
-        <li class="list-group-item"><a href="/examples/#example13">Redefining Grid Areas with Media Queries</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout11.html">View the layout</a></div>
+{::nomarkdown}
+<div class="example" id="layout11">
+<header><h3>Two column responsive layout with footer using Named Grid Areas</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout-twocol.png" alt="Two column responsive layout with footer using Named Grid Areas.">
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+- [Defining Grid Areas](/examples/#example11)
+- [Redefining Grid Areas with Media Queries](/examples/#example13)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout4">
-  <div class="panel-heading">
-    <h3 class="panel-title">16 column flexible grid</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/layout4.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout11.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>An example demonstrating how Grid can be used to create a flexible multiple column grid. This example uses the repeat keyword and named grid lines.</p>
+{::nomarkdown}
+<div class="example" id="layout4">
+<header><h3>16 column flexible grid</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout4.png" alt="16 column flexible grid">
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    	<ul class="list-group">
-    		<li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-    		<li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
-    		<li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
-    	</ul>
+An example demonstrating how Grid can be used to create a flexible multiple column grid. This example uses the repeat keyword and named grid lines.
 
-      
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout4.html">View the layout</a></div>
+- [Line-based placement](/examples/#example2)
+- [Line-based placement named lines with span](/examples/#example8)
+- [The Repeat Keyword](/examples/#example9)
+
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout5">
-  <div class="panel-heading">
-    <h3 class="panel-title">Placing elements into Grid Areas on the 16 column grid</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/layout5.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout4.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>Creating a simple three column layout by placing items onto our 16 column grid, as an example of how this could be used in practice.</p>
+{::nomarkdown}
+<div class="example" id="layout5">
+<header><h3>Placing elements into Grid Areas on the 16 column grid</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout5.png" alt="Placing elements into Grid Areas on the 16 column grid">
 
-    	<ul class="list-group">
-    		<li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-    		<li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
-    		<li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
-    	</ul>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-     
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout5.html">View the layout</a></div>
+Creating a simple three column layout by placing items onto our 16 column grid, as an example of how this could be used in practice.
+
+- [Line-based placement](/examples/#example2)
+- [Line-based placement named lines with span](/examples/#example8)
+- [The Repeat Keyword](/examples/#example9)
+
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout12">
-  <div class="panel-heading">
-    <h3 class="panel-title">Skeleton Grid Experiments</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout12.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout5.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-      <p>Taking the grid used by the <a href="http://getskeleton.com">Skeleton framework</a> as an example. Demonstrating how CSS Grid Layout removes the need to describe layout in markup.</p>
-      <ul class="list-group">
-        <li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-        <li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
-        <li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
-      </ul>
+{::nomarkdown}
+<div class="example" id="layout12">
+<header><h3>Skeleton Grid Experiments</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout12.png" alt="Skeleton Grid">
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-     
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout12.html">View the layout</a></div>
+Taking the grid used by the <a href="http://getskeleton.com">Skeleton framework</a> as an example. Demonstrating how CSS Grid Layout removes the need to describe layout in markup.
+
+- [Line-based placement](/examples/#example2)
+- [Line-based placement named lines with span](/examples/#example8)
+- [The Repeat Keyword](/examples/#example9)
+
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout13">
-  <div class="panel-heading">
-    <h3 class="panel-title">Skeleton Grid Layout</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout13.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout12.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-      <p>Taking the grid used in my Skeleton experiments and using that for a layout.</p>
-      <ul class="list-group">
-        <li class="list-group-item"><a href="/examples/#example2">Line-based placement</a></li>
-        <li class="list-group-item"><a href="/examples/#example8">Line-based placement named lines with span</a></li>
-        <li class="list-group-item"><a href="/examples/#example9">The Repeat Keyword</a></li>
-      </ul>
+{::nomarkdown}
+<div class="example" id="layout13">
+<header><h3>Skeleton Grid Layout</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout13.png" alt="Skeleton Grid Layout.">
 
-     
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout13.html">View the layout</a></div>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+Taking the grid used in my Skeleton experiments and using that for a layout.
+
+- [Line-based placement](/examples/#example2)
+- [Line-based placement named lines with span]([/examples/#example8])
+- [Repeat Keyword](/examples/#example9)
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout6">
-  <div class="panel-heading">
-    <h3 class="panel-title">AG Grid Example</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout6.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout13.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-      <p>I was interested in whether I could recreate the example used in <a href="http://www.zell-weekeat.com/susy2-tutorial/">this blog post</a> about the <a href="http://susy.oddbird.net/">Susy Grid System</a>. Susy is a very clever semantic Grid system that relies on pre-processing CSS to calculate your grid.</p>
+{::nomarkdown}
+<div class="example" id="layout6">
+<header><h3>AG Grid Example</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout6.png" alt="AG Grid Example.">
 
-      <ul>
-        <li>I have fixed the row heights just to match the Susy example. In Grid Layout you actually have the benefit of being able to easily have full height columns if you want them.</li>
-        <li>This is an example where the lack of subgrid became an issue. The layout is absolutley doable but you can see the problem of fraction widths in the gutters. I'd have liked the nested grids to conform to the main grid.</li>
-        <li>It works! Other than the subgrid issue I could create this complex nested grid without any need for a preprocessor, complicated math, or clear fixes.</li>
-      </ul>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-      
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout6.html">View the layout</a></div>
+I was interested in whether I could recreate the example used in[this blog post](http://www.zell-weekeat.com/susy2-tutorial/) about the [Susy Grid System](http://susy.oddbird.net/). Susy is a very clever semantic Grid system that relies on pre-processing CSS to calculate your grid.
+
+- I have fixed the row heights just to match the Susy example. In Grid Layout you actually have the benefit of being able to easily have full height columns if you want them.
+- This is an example where the lack of subgrid became an issue. The layout is absolutely doable but you can see the problem of fraction widths in the gutters. I'd have liked the nested grids to conform to the main grid.
+- It works! Other than the subgrid issue I could create this complex nested grid without any need for a preprocessor, complicated math, or clear fixes.
+
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout7">
-  <div class="panel-heading">
-    <h3 class="panel-title">Simple Grid + Flexbox example</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout7.png" class="img-rounded" />
-    </div>
+<footer>
+<a href="/examples/code/layout6.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-      <p>A simple example used in my presentation for the Responsive Web Design Summit, to demonstrate using Grid for the main layout and Flexbox for UI items.</p>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout7.html">View the layout</a></div>
+{::nomarkdown}
+<div class="example" id="layout7">
+<header><h3>Simple Grid + Flexbox example</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout7.png" alt="Simple Grid + Flexbox example.">
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+A simple example used in my presentation for the Responsive Web Design Summit, to demonstrate using Grid for the main layout and Flexbox for UI items.
+
+{::nomarkdown}
+</div>
 </div>
 
-<div class="panel panel-default" id="layout8">
-  <div class="panel-heading">
-    <h3 class="panel-title">Auto Placement Example</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-      <img src="/examples/images/layout8.png" class="img-rounded" />
-    </div>
-
-    <div class="col-sm-6">
-      <p>Playing with the Auto Placement algorithm and dense and sparse grid-auto-flow modes.</p>
-
-      <ul>
-        <li>The example is responsive, and I redefine the grid at 2 breakpoints after the initial single column grid.</li>
-        <li>The list item containing text is actually positioned upon the grid. All other elements are placed using auto-placement.</li>
-        <li>There are no gutter columns, spacing is just margins and padding on the elements.</li>
-        <li>Read <a href="http://blogs.igalia.com/mrego/2015/02/25/grid-auto-placement-is-ready/">an in-depth article about how Grid Auto-Placement works</a> from Manuel Rego Casasnovas who is working on the implementation.</li>
-      </ul>
-
-      <ul class="list-group">
-        <li class="list-group-item"><a href="/examples/#example17">Grid auto-flow</a></li>
-        <li class="list-group-item"><a href="/examples/#example19">Grid auto-flow with a positioned element</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="panel-footer"><a href="/examples/code/layout8.html">View the layout</a></div>
+<footer>
+<a href="/examples/code/layout7.html">View the layout</a>
+</footer>
 </div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<div class="example" id="layout8">
+<header><h3>Auto Placement Example</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/layout8.png" alt="Auto Placement Example">
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+Playing with the Auto Placement algorithm and dense and sparse grid-auto-flow modes.
+
+- The example is responsive, and I redefine the grid at 2 breakpoints after the initial single column grid.
+- The list item containing text is actually positioned upon the grid. All other elements are placed using auto-placement.
+- There are no gutter columns, spacing is just margins and padding on the elements.
+- Read <a href="http://blogs.igalia.com/mrego/2015/02/25/grid-auto-placement-is-ready/">an in-depth article about how Grid Auto-Placement works</a> from Manuel Rego Casasnovas who is working on the implementation.
+
+- [Grid auto-flow](/examples/#example17)
+- [Grid auto-flow with a positioned element](/examples/#example19)
+
+{::nomarkdown}
+</div>
+</div>
+
+<footer>
+<a href="/examples/code/layout8.html">View the layout</a>
+</footer>
+</div>
+{:/nomarkdown}

@@ -24,6 +24,7 @@ At present there are not many tutorials and examples on Grid, as I find them I w
 * [Video of my presentation at CSS Day](https://vimeo.com/133642780)
 * [Manuel Rego's presentation at CSS Conf](https://www.youtube.com/watch?v=SRblTXsBPrY)
 * [Video of my presentation for CSSConf.eu](https://www.youtube.com/watch?v=GRexIOtGhBU)
+* [Upcoming and past presentations](/presentations)
 
 ## Articles and tutorials
 

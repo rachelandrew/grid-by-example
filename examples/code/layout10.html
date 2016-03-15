@@ -16,40 +16,41 @@
 
   <style>
 
-  
-
   .wrapper {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 10px (row-header-start) auto (row-header-end) 
-                        10px (row-content-start) auto (row-content-end) 
-                        10px (row-panel-start) auto (row-panel-end) 
-                        10px (row-footer-start) auto (row-footer-end);
+    grid-row-gap: 10px;
+    grid-template-rows: [row-header-start] auto
+                        [row-content-start] auto
+                        [row-panel-start] auto
+                        [row-footer-start] auto [row-footer-end];
   }
 
   .mainheader {
-    grid-row: row-header-start / row-header-end ;
+    grid-row: row-header-start;
   }
 
   .content {
-    grid-row:  row-content-start / row-content-end;
+    grid-row:  row-content-start;
   }
 
   .panel {
-    grid-row: row-panel-start / row-panel-end ;
+    grid-row: row-panel-start;
   }
 
   .mainfooter {
-    grid-row: row-footer-start / row-footer-end;
-  } 
+    grid-row: row-footer-start;
+  }
 
   @media (min-width: 550px) {
 
     .wrapper {
-      grid-template-columns: (col-left-start) 30% (col-gutter-start) 5% (col-main-start) 65% (col-main-end);
-      grid-template-rows: 2em (row-header-start) auto (row-header-end) 1em (row-content-start) auto (row-content-end) 1em (row-footer-start) auto (row-footer-end);
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+      grid-template-columns: [col-left-start] 2fr [col-main-start] 4fr [col-main-end];
+      grid-template-rows: [row-header-start] auto [row-content-start] auto [row-footer-start] auto [row-footer-end];
     }
 
     .mainheader {
@@ -57,18 +58,18 @@
     }
 
     .panel {
-      grid-column: col-left-start / col-gutter-start;
-      grid-row: row-content-start / row-content-end;
+      grid-column: col-left-start / col-main-start;
+      grid-row: row-content-start;
     }
 
     .content {
       grid-column: col-main-start / col-main-end;
-      grid-row: row-content-start / row-content-end;
+      grid-row: row-content-start;
     }
 
     .mainfooter {
       grid-column:  col-left-start / col-main-end;
-    } 
+    }
 }
 
   </style>

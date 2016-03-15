@@ -9,10 +9,6 @@ I have been writing and speaking about CSS Grid Layout since 2012. Many of the e
 
 ## Upcoming Presentations
 
-* ConFoo, February 2016
-* Fluent, March 2016 - a talk on new layout including Grid plus a two day workshop on modern web layout.
-* An Event Apart Nashville, March 2016
-* Future of Web Design London - talk and one day workshop on modern web layout
 * CSS Conf Budapest, May 2016
 * An Event Apart Boston, May 2016
 * White October Events, London, June 2016 - full day workshop on modern web layout
@@ -21,6 +17,9 @@ I have been writing and speaking about CSS Grid Layout since 2012. Many of the e
 
 ## Past Presentations
 
+* ConFoo, February 2016
+* Fluent, March 2016 - a talk on new layout including Grid plus a two day workshop on modern web layout.
+* An Event Apart Nashville, March 2016
 * [Topconf Linz](/presentations/2016-topconf/)
 * [dotCSS Paris](http://www.dotcss.io/)
 * [Devoxx Belgium](/presentations/2015-aeasf)

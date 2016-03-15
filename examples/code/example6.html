@@ -9,8 +9,8 @@
 	}
 	.wrapper {
 		display: grid;
-		grid-template-columns: 100px 10px 100px 10px 100px;
-		grid-template-rows: auto 10px auto;
+    grid-gap: 10px;
+		grid-template-columns: 100px 100px 100px;
 		background-color: #fff;
 		color: #444;
 	}
@@ -24,21 +24,20 @@
 
 	}
 
-	.a { 
-		grid-column: 1 / span 3; 
-		grid-row: 1 ;
+	.a {
+		grid-column: 1 / span 2;
 	}
-	.b { 
-		grid-column: 5 ; 
-		grid-row: 1 / span 3;
+	.b {
+		grid-column: 3 ;
+		grid-row: 1 / span 2;
 	}
-	.c { 
-		grid-column: 1 ; 
-		grid-row: 3 ;
+	.c {
+		grid-column: 1 ;
+		grid-row: 2 ;
 	}
-	.d { 
-		grid-column: 3 ; 
-		grid-row: 3 ;
+	.d {
+		grid-column: 2 ;
+		grid-row: 2 ;
 	}
 
 
@@ -47,7 +46,7 @@
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 		<div class="box a">A</div>
 		<div class="box b">B</div>

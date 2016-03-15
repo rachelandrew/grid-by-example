@@ -7,11 +7,11 @@ title: What is CSS Grid Layout?
 
 Grid gives us some new terminology along with additional CSS Properties and values. In this section I'll explain with some basic examples the terminology of Grid Layout.
 
-## Basic Concepts <small>reasons why I love the Grid</small>
+## Basic Concepts
 
-Grid Layout gives us a method of creating structures that are not unlike using "tables for layout". However, being described in CSS and not in HTML they allow us to create layouts that can be redefined using Media Queries and adapt to different contexts.
+Grid Layout gives us a method of creating grid structures that are described in CSS and not in HTML. It helps us to create layouts that can be redefined using Media Queries and adapt to different contexts.
 
-Grid Layout lets us properly separate the order of elements in the source from their visual presentation. As a designer this means you are free to change the location of page elements as is best for your layout at different breakpoints and not need to compromise a sensible structred document for your responsive design.
+Grid Layout lets us properly separate the order of elements in the source from their visual presentation. As a designer this means you are free to change the location of page elements as is best for your layout at different breakpoints and not need to compromise a sensible structured document for your responsive design.
 
 It's very easy to make grid adapt to the available space. With each element having an area on the grid, things are not in risk of overlapping due to text size change, more content than expected or small viewports.
 
@@ -29,84 +29,84 @@ flexbox substitute (we're trying to make sure that a single-column/row
 grid acts very similar to a flexbox), but that's not using its full
 power.
 
+If you only need to define a layout as a row or a column, and you would like the flexibility to respond to the content of that row then you probably want flexbox. If you want to define a grid and fit content into it in two dimensions - you need grid.
+
 ## Grid Terminology
 
 There are a few bits of terminology that are introduced by the Grid Layout specification. I've explained them here as they will make the examples easier to follow.
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Grid Lines</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/concepts-lines.png" class="img-rounded" />
-    </div>
+{::nomarkdown}
+<div class="example">
+<header><h3>Grid Lines</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/concepts-lines.png" alt="image of grid lines.">
+<figcaption>The highlighted line in this image is column line 2.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p><strong>Grid Lines</strong> are the lines that make up the grid. These can be horizontal or vertical. We can refer to them by number, or by name.</p>
+**Grid Lines** are the lines that make up the grid. These can be horizontal or vertical. We can refer to them by number, or by name.
 
-    	<p>The highlighted line in this image is column line 2.</p>
-    </div>
-  </div>
-
+{::nomarkdown}
 </div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Grid Track</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/concepts-track.png" class="img-rounded" />
-    </div>
-
-    <div class="col-sm-6">
-    	<p>A <strong>Grid Track</strong> is the space between two Grid Lines, either horizontal or vertical.</p>
-
-    	<p>The highlighted Grid Track in this image is between row lines 2 and 3.</p>
-    </div>
-  </div>
-
 </div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Grid Cell</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/concepts-cell.png" class="img-rounded" />
-    </div>
-
-    <div class="col-sm-6">
-    	<p>A <strong>Grid Cell</strong> is the space between 4 Grid Lines. So it is the smallest unit on our grid that is available for us to place an item into. Conceptually it is just like a table cell.</p>
-
-    	<p>The highlighted Grid Cell in this image is between row lines 2 and 3 and column lines 2 and 3.</p>
-    </div>
-  </div>
-
 </div>
+{:/nomarkdown}
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Grid Area</h3>
-  </div>
-  <div class="panel-body">
-    <div class="col-sm-6">
-    	<img src="/examples/images/concepts-area.png" class="img-rounded" />
-    </div>
+{::nomarkdown}
+<div class="example">
+<header><h3>Grid Tracks</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/concepts-track.png" alt="image of grid tracks.">
+<figcaption>The highlighted Grid Track in this image is between row lines 2 and 3.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-    <div class="col-sm-6">
-    	<p>A <strong>Grid Area</strong> is any area on the Grid bound by four grid lines. It may contain a number of Grid Cells.</p>
+A **Grid Track** is the space between two Grid Lines, either horizontal or vertical.
 
-    	<p>The highlighted Grid Area in this image is between row lines 1 and 3 and column lines 2 and 4.</p>
-    </div>
-  </div>
-
+{::nomarkdown}
 </div>
+</div>
+</div>
+{:/nomarkdown}
 
+{::nomarkdown}
+<div class="example">
+<header><h3>Grid Cell</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/concepts-cell.png" alt="image of grid cells.">
+<figcaption>The highlighted Grid Cell in this image is between row lines 2 and 3 and column lines 2 and 3.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
+A **Grid Cell** is the space between 4 Grid Lines. So it is the smallest unit on our grid that is available for us to place an item into. Conceptually it is just like a table cell.
 
+{::nomarkdown}
+</div>
+</div>
+</div>
+{:/nomarkdown}
 
+{::nomarkdown}
+<div class="example">
+<header><h3>Grid Area</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/concepts-area.png" alt="image of a grid area">
+<figcaption>The highlighted Grid Area in this image is between row lines 1 and 3 and column lines 2 and 4.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
 
-		
+A **Grid Area** is any area on the Grid bound by four grid lines. It may contain a number of Grid Cells.
+
+{::nomarkdown}
+</div>
+</div>
+</div>
+{:/nomarkdown}

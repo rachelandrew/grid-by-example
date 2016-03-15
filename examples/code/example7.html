@@ -9,8 +9,9 @@
 	}
 	.wrapper {
 		display: grid;
-		grid-template-columns: [col1-start] 100px [col1-end] 10px [col2-start] 100px [col2-end] 10px [col3-start] 100px [col3-end];
-		grid-template-rows: [row1-start] auto [row1-end] 10px [row2-start] auto [row2-end];
+    grid-gap: 10px;
+		grid-template-columns: [col1-start] 100px  [col2-start] 100px  [col3-start] 100px [col3-end];
+		grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
 		background-color: #fff;
 		color: #444;
 	}
@@ -24,20 +25,20 @@
 
 	}
 
-	.a { 
-		grid-column: col1-start / col2-end; 
+	.a {
+		grid-column: col1-start / col3-start;
 		grid-row: row1-start ;
 	}
-	.b { 
-		grid-column: col3-start ; 
+	.b {
+		grid-column: col3-start ;
 		grid-row: row1-start / row2-end;
 	}
-	.c { 
-		grid-column: col1-start; 
+	.c {
+		grid-column: col1-start;
 		grid-row: row2-start ;
 	}
-	.d { 
-		grid-column: col2-start ; 
+	.d {
+		grid-column: col2-start ;
 		grid-row: row2-start ;
 	}
 
@@ -47,7 +48,7 @@
 </head>
 
  <body>
-  	
+
 	 <div class="wrapper">
 		<div class="box a">A</div>
 		<div class="box b">B</div>
