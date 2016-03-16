@@ -479,7 +479,8 @@ h1 small {
     .examples-listing {
       float: none;
       grid-column: 2;
-      width: auto; } } }
+      width: auto;
+      min-width: 1%; } } }
 
 .examples-listing ul {
   list-style: none;
@@ -509,10 +510,12 @@ figure.codefig div {
     clear: both; }
   .example .imagefig {
     float: left;
-    width: 45%; }
+    width: 45%;
+    min-width: 1%; }
   .example .description {
     float: right;
-    width: 45%; }
+    width: 45%;
+    min-width: 1%; }
   @supports (grid-gap: 10px) {
     .example .body {
       display: grid;

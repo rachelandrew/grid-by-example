@@ -170,6 +170,7 @@ h1 small {
       float: none;
       grid-column: 2;
       width: auto;
+      min-width: 1%;
     }
   }
 }
@@ -209,11 +210,13 @@ figure.codefig div {
   .example .imagefig {
     float: left;
     width: 45%;
+    min-width: 1%;
   }
 
   .example .description {
     float: right;
     width: 45%;
+    min-width: 1%;
   }
 
 
