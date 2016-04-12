@@ -19,6 +19,8 @@ These examples have been created by Rachel Andrew. I have been writing and speak
 
 If you spot any problems, have an enhancement suggestion or would like to see a certain aspect of the module explained then feel free to either submit a pull request or just drop me a line on [me@rachelandrew.co.uk](mailto:me@rachelandrew.co.uk). I'm also on Twitter as <a href="http://twitter.com/rachelandrew">rachelandrew</a>.
 
+**If you use these examples in your blog post, presentation or article then I'd appreciate a link back to this site.**
+
 ## Latest Grid News {#news}
 
 The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year.

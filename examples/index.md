@@ -30,7 +30,7 @@ You can also take a look at a page of more complete [layout examples](/examples/
 17. [Grid Auto-placement](#example17)
 18. [Grid Auto-placement by Column](#example18)
 19. [Grid Auto-placement with a positioned element](#example19)
-20. [The auto keyword in repeating track definitions](#example20)
+20. [The auto-fill keyword in repeating track definitions](#example20)
 21. [Nested Grid](#example21)
 22. [Implicit Named Grid Lines](#example22)
 23. [Grid auto-placement and the order property](#example23)
@@ -38,6 +38,9 @@ You can also take a look at a page of more complete [layout examples](/examples/
 25. [Box alignment justify-items](#example25)
 26. [Box alignment align-self](#example26)
 27. [Box alignment justify-self](#example27)
+28. [minmax in auto-fill repeating tracks](#example28)
+29. [minmax() and spanning columns and rows](#example29)
+30. [The auto-fill keyword with named grid lines](#example30)
 
 {::nomarkdown}
 <div class="example" id="example1">
@@ -588,7 +591,7 @@ In this example I have placed `box2` on the grid and also made it span 3 grid li
 
 {::nomarkdown}
 <div class="example" id="example20">
-<header><h3>Example 20: The auto-fill and auto-fit keywords in repeating track definitions</h3></header>
+<header><h3>Example 20: The auto-fill keyword in repeating track definitions</h3></header>
 <div class="body">
 <figure class="imagefig">
 <img src="/examples/images/example20.png" alt="image of display after placing items.">
@@ -599,7 +602,9 @@ In this example I have placed `box2` on the grid and also made it span 3 grid li
 
 In <a href="#example9">example 9</a> we stated that we wanted our row track list to repeat three times. The spec also defines `auto-fill` and `auto-fit` keywords.
 
-These keywords are not currently implemented in a browser.
+In this example I am creating a grid that contains as many 100 pixel column tracks as will fit into the container (in the example this is the viewport).
+
+_This example currently works in Firefox Nightly (12 April 2016)._
 
 {::nomarkdown}
 </div>
@@ -814,6 +819,99 @@ I'm using the justify-self property on individual grid items to demonstrate the 
 
 <footer>
 <a href="/examples/code/example27.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<div class="example" id="example28">
+<header><h3>Example 28: minmax() in auto-fill repeating tracks</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example28.png" alt="image of display after placing items.">
+<figcaption>Using minmax() with auto-fill</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+
+In this example I am creating a grid that contains as many 200 pixel column tracks as will fit into the container with the remaining space shared equally between the columns. In the `minmax()` function the first value is the minimum size I want my tracks to be, the second is the maximum. By using `1fr` as the maximum value the space is equally distributed.
+
+_This example currently works in Firefox Nightly (12 April 2016)._
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="351" data-theme-id="0" data-slug-hash="GZQYOL" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/GZQYOL/">Grid by Example 28: minmax() in auto-fill repeating tracks</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example28.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<div class="example" id="example29">
+<header><h3>Example 29: minmax() and spanning columns and rows</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example29.png" alt="image of display after placing items.">
+<figcaption>Using minmax and spans</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+In this example I am creating a grid that contains as many 200 pixel column tracks as will fit into the container with the remaining space shared equally between the columns. In the `minmax()` function the first value is the minimum size I want my tracks to be, the second is the maximum. By using `1fr` as the maximum value the space is equally distributed.
+
+I am then spanning columns and rows. As the items are auto-placed on our flexible grid they will move around the grid but maintain their spanned size.
+
+_This example currently works in Firefox Nightly (12 April 2016)._
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="400" data-theme-id="0" data-slug-hash="GZQYQa" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/GZQYQa/">Grid by Example 29: minmax() and spanning columns and rows</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example29.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<div class="example" id="example30">
+<header><h3>Example 30: The auto-fill keyword with named grid lines</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example20.png" alt="image of display after placing items.">
+<figcaption>Using auto-fill and named lines</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+In this example I am creating a grid that contains as many 100 pixel column tracks as will fit into the container (in the example this is the viewport) and naming them `col`. I can then position the grid items using named lines and spans.
+
+_This example currently works in Firefox Nightly (12 April 2016)._
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="351" data-theme-id="0" data-slug-hash="XdZydB" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/XdZydB/">Grid by Example 30: auto-fill with named lines</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example30.html">View example</a>
 </footer>
 </div>
 {:/nomarkdown}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 28</title>
+    <meta charset="utf-8">
+    <style>
+    body {
+    margin: 40px;
+  }
+  .wrapper {
+  		display: grid;
+      grid-gap: 10px;
+  		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  		background-color: #fff;
+  		color: #444;
+  	}
+
+  	.box {
+  		background-color: #444;
+  		color: #fff;
+  		border-radius: 5px;
+  		padding: 20px;
+  		font-size: 150%;
+
+  	}
+
+  .a {
+    grid-column: auto / span 2;
+  }
+
+  .k {
+    grid-column: auto / span 3;
+  }
+
+  .g {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+  }
+
+
+
+   </style>
+</head>
+
+ <body>
+
+   <div class="wrapper">
+  <div class="box a">A</div>
+  <div class="box b">B</div>
+  <div class="box c">C</div>
+  <div class="box d">D</div>
+  <div class="box e">E</div>
+  <div class="box f">F</div>
+  <div class="box g">G</div>
+  <div class="box h">H</div>
+  <div class="box i">I</div>
+  <div class="box j">J</div>
+  <div class="box k">K</div>
+  <div class="box l">L</div>
+  <div class="box m">M</div>
+</div>
+</body>
+</html>
