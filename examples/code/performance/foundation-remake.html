@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="foundation.min.css">
+
+    <style>
+    img {
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 64em) {
+
+    .example {
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: repeat(12,1fr);
+      max-width: 75em;
+      margin: 0 auto;
+    }
+
+    .example h3 {
+      grid-column: 1 / 13;
+    }
+
+    .example .main {
+      grid-column: 1 / 9;
+      grid-row: 2;
+    }
+
+    .main .boxes {
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: 50% 50%;
+    }
+
+    .example .panel {
+      grid-column: 9 / 13;
+      grid-row: 2;
+    }
+
+    .panel .item {
+      display: flex;
+      margin: 0 0 1em 0;
+    }
+
+    .item .avatar {
+      flex: 0 1 64px ;
+      margin-right: 2em;
+    }
+
+    .item .text {
+      flex: 1;
+    }
+
+  }
+
+    </style>
+  </head>
+  <body>
+
+<section id="page-content" class="example">
+
+<h3>Page Title (.large-12.columns)</h3>
+
+
+<div class="main">
+  <p>This is an eight column section, starting with this paragraph.<br/>Below this you'll find another row with two sections.</p>
+  <div class="boxes">
+    <div class="box">
+      <img src="http://placehold.it/300x200"/>
+      <h5>Another Section (.large-6.columns)</h5>
+      <p>This is a nested row with two six column sections.</p>
+    </div>
+    <div class="box">
+      <img src="http://placehold.it/300x200"/>
+      <h5>Another Section (.large-6.columns)</h5>
+      <p>This is a nested row with two six column sections.</p>
+    </div>
+  </div>
+  <p>Now the nested row has been closed, and we're back to the original eight column section.</p>
+</div>
+
+
+<div class="panel">
+  <p>And this is a four columns section to represent a sidebar (or similar element).</p>
+  <div class="item">
+    <div class="avatar">
+      <img src="http://placehold.it/64x64"/>
+    </div>
+    <div class="text">
+      This is a callout with three columns on the left (for the avatar) and nine columns here for the text. This row is inside the four column.
+    </div>
+  </div>
+  <div class="item">
+    <div class="avatar">
+      <img src="http://placehold.it/64x64"/>
+    </div>
+    <div class="text">
+      This is a callout with three columns on the left (for the avatar) and nine columns here for the text. This row is inside the four column.
+    </div>
+  </div>
+  <div class="item">
+    <div class="avatar">
+      <img src="http://placehold.it/64x64"/>
+    </div>
+    <div class="text">
+      This is a callout with three columns on the left (for the avatar) and nine columns here for the text. This row is inside the four column.
+    </div>
+  </div>
+  <div class="item">
+    <div class="avatar">
+      <img src="http://placehold.it/64x64"/>
+    </div>
+    <div class="text">
+      This is a callout with three columns on the left (for the avatar) and nine columns here for the text. This row is inside the four column.
+    </div>
+  </div>
+</div>
+
+</section>
+  </body>
+</html>
