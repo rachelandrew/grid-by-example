@@ -256,3 +256,129 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   color: #fff;
   text-decoration: none;
 }
+
+.card-listing {
+  list-style: none;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.card-listing li {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.card-listing h3 {
+  background-color: #fff;
+  color: #fff;
+  margin: 0;
+  padding: .8rem 20px ;
+}
+
+.card-listing li:hover h3 {
+  transition: all;
+  transition-duration: 1s;
+}
+
+.card-listing .type-article h3 {
+  background-color: rgba(50,205,235,.3);
+}
+
+.card-listing li h3:before {
+  content: "Article";
+  font-size: 0.7rem;
+  font-weight: normal;
+  background-color: #000;
+  border-radius: 10px;
+  float: right;
+  padding: 0 5px;
+}
+
+.card-listing .type-article:hover h3 {
+  background-color: rgba(50,205,235,.8);
+}
+
+.card-listing .type-video h3 {
+  background-color: rgba(255,108,129,.3);
+}
+
+.card-listing .type-video:hover h3 {
+  background-color: rgba(255,108,129,.8);
+}
+
+.card-listing .type-video h3:before {
+  content: "Video";
+}
+
+.card-listing .type-spec h3 {
+  background-color: rgba(119,213,129,.3);
+}
+
+.card-listing .type-spec:hover h3 {
+  background-color: rgba(119,213,129,.8);
+}
+
+.card-listing .type-spec h3:before {
+  content: "Video";
+}
+
+.card-listing .type-browsers h3 {
+  background-color: rgba(253,137,78,.3);
+}
+
+.card-listing .type-browsers:hover h3 {
+  background-color: rgba(253,137,78,.8);
+}
+
+.card-listing .type-browsers h3:before {
+  content: "Video";
+}
+
+.card-listing .type-discussion h3 {
+  background-color: rgba(155,131,209,.3);
+}
+
+.card-listing .type-discussion:hover h3 {
+  background-color: rgba(155,131,209,.8);
+}
+
+.card-listing .type-discussion h3:before {
+  content: "Discuss";
+}
+
+.card-listing .type-example h3 {
+  background-color: rgba(249,175,70,.3);
+}
+
+.card-listing .type-example:hover h3 {
+  background-color: rgba(249,175,70,.8);
+}
+
+.card-listing .type-example h3:before {
+  content: "Code";
+}
+
+.card-listing h3 a:link,
+.card-listing h3 a:visited {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  margin: 0;
+}
+
+.card-listing .details {
+  padding: .8rem 20px 0.2rem 20px;
+}
+
+@media screen and (min-width: 800px) {
+
+@supports (grid-gap: 10px) {
+    .card-listing {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+  }
+
+}

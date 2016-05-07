@@ -10,3 +10,7 @@ github_username:  rachelandrew
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  resources:
+    outpuut: false

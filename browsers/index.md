@@ -9,7 +9,7 @@ You can view data across different browsers at [Can I Use](http://caniuse.com/#f
 
 Grid is under development in browsers, this development is typically happening behind a browser flag or in an experimental version of the browser. This prevents incomplete or experimental parts of the specification being used in production by web developers.
 
-Due to the experimental nature of all off this sometimes examples will not work in one browser or another. *Please don't email me to complain that Firefox Nightlies look different to Chrome Canary!* I have linked to the meta bugs below for each browser so if you need to know exactly why one is different to another, take a look at those. This is the way of experimental features.
+Due to the experimental nature of this sometimes examples will not work in one browser or another. *Please don't email me to complain that Firefox Nightlies look different to Chrome Canary!* I have linked to the meta bugs below for each browser so if you need to know exactly why one is different to another, take a look at those. This is the way of experimental features.
 
 If you find a bug in a browser implementation then the best thing to do is to search the logged bugs for that browser as this will include known bugs and issues still being worked on. If you have found something new then you can find [information about logging bugs with browsers here](http://testthewebforward.org/docs/bugs.html).
 
@@ -40,7 +40,7 @@ Download Chrome Canary if you want to get the very latest features that have bee
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
 
-Grid is available, with a -webkit prefix in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/).
+Grid is available, with a -webkit prefix in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Future versions of Webkit will use browser flags rather than vendor prefixes so Grid should soon be unprefixed in the Nightly and Preview versions.
 
 This implementation is also by Igalia but lags slightly behind the Chrome one.
 
