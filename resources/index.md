@@ -22,4 +22,4 @@ title: Other Grid Resources
            {% endfor %}
          </ul>
 
-_To add a resource submit a pull request adding the resource as a new file in the `_resources` folder._
+_To add a resource [submit a pull request](https://github.com/rachelandrew/grid-by-example) adding the resource as a new file in the `_resources` folder._
