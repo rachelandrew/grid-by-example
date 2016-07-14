@@ -30,7 +30,7 @@ The CSS Working Group have posted [asking for community feedback](http://www.w3.
 [A second post](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/) from Manuel describes the current browser implementation status.
 
 In [Box Alignment and Grid Layout II](http://blogs.igalia.com/jfernandez/2015/01/12/box-alignment-and-grid-layout-ii/) Javier Fernández writes about the box alignment implementation. This work meant I needed to redo many of the screenshots in my examples as `stretch` is now implemented.
-</ul>
+
 
 <div class="bg-info book">
 	<h3>Get Ready For CSS Grid Layout</h3>

@@ -6,4 +6,4 @@ resource-date: "2015"
 resource-author: "Jen Simmons"
 ---
 
-Jen Simmons inspires new thinking about layout in this vide from An Event Apart.
+Jen Simmons inspires new thinking about layout in this video from An Event Apart.

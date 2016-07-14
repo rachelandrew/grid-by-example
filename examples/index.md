@@ -41,6 +41,9 @@ You can also take a look at a page of more complete [layout examples](/examples/
 28. [minmax in auto-fill repeating tracks](#example28)
 29. [minmax() and spanning columns and rows](#example29)
 30. [The auto-fill keyword with named grid lines](#example30)
+31. [Simple minmax() example](#example31)
+31. [Aligning the Grid](#example32)
+31. [Aligning the Grid with space-around and space-between](#example33)
 
 {::nomarkdown}
 <div class="example" id="example1">
@@ -812,7 +815,7 @@ I'm using the justify-self property on individual grid items to demonstrate the 
 </div>
 <figure class="codefig">
 <p data-height="268" data-theme-id="0" data-slug-hash="dYyBeM" data-default-tab="result" data-user="rachelandrew" class='codepen'>See the Pen <a href='http://codepen.io/rachelandrew/pen/dYyBeM/'>Grid by Example 27: justify-self</a> by rachelandrew (<a href='http://codepen.io/rachelandrew'>@rachelandrew</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 </figure>
 </div>
@@ -843,7 +846,7 @@ _This example currently works in Firefox Nightly (12 April 2016)._
 </div>
 <figure class="codefig">
 <p data-height="351" data-theme-id="0" data-slug-hash="GZQYOL" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/GZQYOL/">Grid by Example 28: minmax() in auto-fill repeating tracks</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 </figure>
 </div>
@@ -875,7 +878,7 @@ _This example currently works in Firefox Nightly (12 April 2016)._
 </div>
 <figure class="codefig">
 <p data-height="400" data-theme-id="0" data-slug-hash="GZQYQa" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/GZQYQa/">Grid by Example 29: minmax() and spanning columns and rows</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 </figure>
 </div>
@@ -905,13 +908,107 @@ _This example currently works in Firefox Nightly (12 April 2016)._
 </div>
 <figure class="codefig">
 <p data-height="351" data-theme-id="0" data-slug-hash="XdZydB" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/XdZydB/">Grid by Example 30: auto-fill with named lines</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 </figure>
 </div>
 
 <footer>
 <a href="/examples/code/example30.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+
+{::nomarkdown}
+<div class="example" id="example31">
+<header><h3>Example 31: Simple minmax() example</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example31.png" alt="image of display using minmax().">
+<figcaption>Using minmax() to make the first column stretch after placing all three column tracks</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+In this example I am creating a three column track grid. The first column track has a minimum width of 200px and a maximum of 1fr defined using minmax() notation. The other two tracks are fixed at 200 pixels.
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="265" data-theme-id="0" data-slug-hash="RRxPyk" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/RRxPyk/">Grid by Example 31: simple minmax() example</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example31.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+
+{::nomarkdown}
+<div class="example" id="example32">
+<header><h3>Example 32: Aligning the grid</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example32.png" alt="image of grid tracks aligned inside a grid container larger than the total of tracks">
+<figcaption>The total size of these tracks is smaller than the size of the grid container.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+In this example I am creating a four column track grid, the tracks have absolute sizes and in total are smaller than the area of the grid container. Therefore we can align the grid inside the container - the default being `start` on both dimensions.
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="265" data-theme-id="0" data-slug-hash="OXzVAE" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/OXzVAE/">Grid by Example 32: aligning the grid</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example32.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+
+{::nomarkdown}
+<div class="example" id="example33">
+<header><h3>Example 33: Aligning the grid with space-around and space-between</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example33.png" alt="image of grid tracks aligned inside a grid container larger than the total of tracks">
+<figcaption>space-around and space-between may make grid areas and gutters larger than anticipated.</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+In this example I am creating a four column track grid, the tracks have absolute sizes and in total are smaller than the area of the grid container. This time I have used:
+
+- `align-content: space-around`
+- `justify-content: space-between`
+
+This means that extra space is distributed around the tracks and our desired 10 pixel gutter gets more space. However so do any areas which span more than one track as where they cross a gutter they gain this extra space too.
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="265" data-theme-id="0" data-slug-hash="kXvWVN" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/kXvWVN/">Grid by Example 33: fixed sizes can get extra space due to alignment properties</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example33.html">View example</a>
 </footer>
 </div>
 {:/nomarkdown}

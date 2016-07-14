@@ -5,7 +5,7 @@ title: Browser Support for CSS Grid Layout
 
 # Current Browser/Rendering Engine Information
 
-You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). However this information tends to confuse people as it look as though IE is the only browser with support. Read on to understand the status of Grid Layout in browsers.
+You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). However this information tends to confuse people as it looks as though IE is the only browser with support. Read on to understand the status of Grid Layout in browsers.
 
 Grid is under development in browsers, this development is typically happening behind a browser flag or in an experimental version of the browser. This prevents incomplete or experimental parts of the specification being used in production by web developers.
 
@@ -28,7 +28,7 @@ The original Grid implementation was part of IE10, also in IE11. This implementa
 
 [Blink Meta Bug](https://code.google.com/p/chromium/issues/detail?id=79180)
 
-My reference implementation is the one in Blink, unless stated otherwise on an example. I am typically using Chrome (standard, currently at version 49).
+My reference implementation is the one in Blink, unless stated otherwise on an example. I am typically using Chrome and Chrome Canary.
 
 The Blink implementation has been carried out by Igalia, sponsored by Bloomberg. You can [read about the implementation work in this post from Igalia](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/).
 
@@ -40,7 +40,7 @@ Download Chrome Canary if you want to get the very latest features that have bee
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
 
-Grid is available, with a -webkit prefix in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Future versions of Webkit will use browser flags rather than vendor prefixes so Grid should soon be unprefixed in the Nightly and Preview versions.
+Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions. You do not need to enable a flag to see it in action.
 
 This implementation is also by Igalia but lags slightly behind the Chrome one.
 
@@ -48,4 +48,8 @@ This implementation is also by Igalia but lags slightly behind the Chrome one.
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about.config in Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/).
+Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about.config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly and Developer edition you do not need to enable the flag - Grid should just work!
+
+## A Grid Layout tool for Firefox
+
+If you are using Firefox then make sure you also grab a copy of the experimental [CSS Grid Inspector](https://github.com/mozilla/css-grid-inspector) to help you visualize your grids. It is a tool in development - just like Grid Layout - but you can log any issues you find.
