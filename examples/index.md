@@ -42,8 +42,10 @@ You can also take a look at a page of more complete [layout examples](/examples/
 29. [minmax() and spanning columns and rows](#example29)
 30. [The auto-fill keyword with named grid lines](#example30)
 31. [Simple minmax() example](#example31)
-31. [Aligning the Grid](#example32)
-31. [Aligning the Grid with space-around and space-between](#example33)
+32. [Aligning the Grid](#example32)
+33. [Aligning the Grid with space-around and space-between](#example33)
+34. [Multiple tracks in a track-list with auto-fill](#example34)
+35. [Multiple tracks in a track-list with auto-fill and minmax()](#example35)
 
 {::nomarkdown}
 <div class="example" id="example1">
@@ -607,7 +609,6 @@ In <a href="#example9">example 9</a> we stated that we wanted our row track list
 
 In this example I am creating a grid that contains as many 100 pixel column tracks as will fit into the container (in the example this is the viewport).
 
-_This example currently works in Firefox Nightly (12 April 2016)._
 
 {::nomarkdown}
 </div>
@@ -840,7 +841,7 @@ I'm using the justify-self property on individual grid items to demonstrate the 
 
 In this example I am creating a grid that contains as many 200 pixel column tracks as will fit into the container with the remaining space shared equally between the columns. In the `minmax()` function the first value is the minimum size I want my tracks to be, the second is the maximum. By using `1fr` as the maximum value the space is equally distributed.
 
-_This example currently works in Firefox Nightly (12 April 2016)._
+
 
 {::nomarkdown}
 </div>
@@ -872,7 +873,6 @@ In this example I am creating a grid that contains as many 200 pixel column trac
 
 I am then spanning columns and rows. As the items are auto-placed on our flexible grid they will move around the grid but maintain their spanned size.
 
-_This example currently works in Firefox Nightly (12 April 2016)._
 
 {::nomarkdown}
 </div>
@@ -902,7 +902,7 @@ _This example currently works in Firefox Nightly (12 April 2016)._
 
 In this example I am creating a grid that contains as many 100 pixel column tracks as will fit into the container (in the example this is the viewport) and naming them `col`. I can then position the grid items using named lines and spans.
 
-_This example currently works in Firefox Nightly (12 April 2016)._
+
 
 {::nomarkdown}
 </div>
@@ -1001,7 +1001,6 @@ This means that extra space is distributed around the tracks and our desired 10 
 </div>
 <figure class="codefig">
 <p data-height="265" data-theme-id="0" data-slug-hash="kXvWVN" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/kXvWVN/">Grid by Example 33: fixed sizes can get extra space due to alignment properties</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 </figure>
@@ -1009,6 +1008,67 @@ This means that extra space is distributed around the tracks and our desired 10 
 
 <footer>
 <a href="/examples/code/example33.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<div class="example" id="example34">
+<header><h3>Example 34: Multiple tracks in a track-list with auto-fill</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example34.png" alt="image of tracks">
+<figcaption>This example shows a track list of 200 pixels and 100 pixels</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+The repeat syntax can take a track-list rather than a single value, this means you can repeat a more complex track-list.
+
+_Currently requires Chrome Canary_
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="265" data-theme-id="0" data-slug-hash="yJEqmk" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/yJEqmk/">Grid by Example 34: Repeating multiple track lists </a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example34.html">View example</a>
+</footer>
+</div>
+{:/nomarkdown}
+
+
+{::nomarkdown}
+<div class="example" id="example35">
+<header><h3>Example 35: Multiple tracks in a track-list with auto-fill and minmax()</h3></header>
+<div class="body">
+<figure class="imagefig">
+<img src="/examples/images/example35.png" alt="image of tracks">
+<figcaption>Using minmax() to create tracks that grow proportionally</figcaption>
+</figure>
+<div class="description">
+{:/nomarkdown}
+
+The repeat syntax can take a track-list rather than a single value, this means you can repeat a more complex track-list. You can use minmax() in this track list, here I am making the max of my larger tracks `2fr`, and the smaller ones `1fr`. This means that the larger tracks will have more of any leftover space assigned.
+
+_Currently requires Chrome Canary_
+
+{::nomarkdown}
+</div>
+<figure class="codefig">
+<p data-height="265" data-theme-id="0" data-slug-hash="QExBRB" data-default-tab="result" data-user="rachelandrew" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/QExBRB/">Grid by Example 35: Repeating multiple track lists with minmax()</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+</figure>
+</div>
+
+<footer>
+<a href="/examples/code/example35.html">View example</a>
 </footer>
 </div>
 {:/nomarkdown}
