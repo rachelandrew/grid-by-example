@@ -48,8 +48,8 @@ This implementation is also by Igalia but lags slightly behind the Chrome one.
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about.config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly and Developer edition you do not need to enable the flag - Grid should just work!
+Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about.config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly you do not need to enable the flag - Grid should just work!
 
 ## A Grid Layout tool for Firefox
 
-If you are using Firefox then make sure you also grab a copy of the experimental [CSS Grid Inspector](https://github.com/mozilla/css-grid-inspector) to help you visualize your grids. It is a tool in development - just like Grid Layout - but you can log any issues you find.
+If you are using Firefox then make sure you also grab a copy of the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
