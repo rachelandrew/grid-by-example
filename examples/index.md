@@ -340,7 +340,7 @@ By default the implicit grid tracks created by the implicit lines will be auto s
 <div class="description">
 {:/nomarkdown}
 
-We can created named areas on the grid to put content into. To do this we first assign elements in our merkup to a Grid Area, using the `grid-area` property.
+We can created named areas on the grid to put content into. To do this we first assign elements in our markup to a Grid Area, using the `grid-area` property.
 
 We can then use the `grid-template-areas` property to describe where on the Grid these elements should sit.
 
