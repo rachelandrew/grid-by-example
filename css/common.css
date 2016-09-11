@@ -545,6 +545,8 @@ figure.codefig div {
     float: right;
     width: 45%;
     min-width: 1%; }
+  .example footer {
+    clear: both; }
   @supports (grid-gap: 10px) {
     .example .body {
       display: grid;
