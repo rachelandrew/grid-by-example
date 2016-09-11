@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: learn
+active: layouts
 title: Page Layout Examples
 ---
 

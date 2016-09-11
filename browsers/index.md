@@ -42,13 +42,13 @@ Download Chrome Canary if you want to get the very latest features that have bee
 
 Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions. You do not need to enable a flag to see it in action.
 
-This implementation is also by Igalia but lags slightly behind the Chrome one.
+This implementation is also by Igalia but lags slightly behind the Chrome one. Note that Grid being present in Safari Technology Preview _does not mean_ it will be in the next version of Safari.
 
 ## Gecko Rendering Engine (Firefox)
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about.config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly you do not need to enable the flag - Grid should just work!
+Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about:config in regular Firefox or Developer Edition. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly you do not need to enable the flag - Grid should just work!
 
 ## A Grid Layout tool for Firefox
 

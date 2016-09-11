@@ -13,4 +13,8 @@ permalink: pretty
 
 collections:
   resources:
-    outpuut: false
+    output: false
+  patterns:
+    output: true
+  examples:
+    output: true

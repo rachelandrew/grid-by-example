@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include sidebar.html %}
+    {% include learn_nav.html %}
+    <div class="wrapper">
+
+
+        <h1>{{ page.title }}</h1>
+        <ul class="imagegrid">
+        {% for image_hash in page.images %}
+          {% for image in image_hash %}
+            <li><img src="/img/{{ image[0] }}" alt="{{ image[1] }}"></li>
+          {% endfor %}
+        {% endfor %}
+        </ul>
+
+        <div class="patterncontent">
+        {{ content }}
+
+        {{ page.pattern-codepen-embed }}
+      </div>
+      <div class="back">⇦ <a href="/patterns">Back to UI Patterns</a></div>
+    </div>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</body>
+
+</html>

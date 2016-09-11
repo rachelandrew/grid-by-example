@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 37</title>
+    <meta charset="utf-8">
+    <style>
+
+
+    body {
+    margin: 40px;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+
+  	.wrapper {
+  		display: grid;
+      border:1px solid #000;
+      grid-gap: 10px;
+  		grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+      margin-bottom: 2em;
+  	}
+
+  .wrapper2 {
+  		display: grid;
+      border:1px solid #000;
+      grid-gap: 10px;
+  		grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  	}
+   </style>
+</head>
+
+ <body>
+   <div class="wrapper">
+     <div class="box">1</div>
+     <div class="box">2</div>
+     <div class="box">3</div>
+   </div>
+
+   <div class="wrapper2">
+     <div class="box">1</div>
+     <div class="box">2</div>
+     <div class="box">3</div>
+   </div>
+</body>
+</html>

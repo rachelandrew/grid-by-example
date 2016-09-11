@@ -424,6 +424,31 @@ body > footer {
   flex-direction: column;
   justify-content: space-between; }
 
+.subnav {
+  list-style: none;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1050px;
+  padding: 0;
+  display: flex;
+  flex-direction: column; }
+
+.subnav a:link,
+.subnav a:visited {
+  text-decoration: none;
+  display: block;
+  padding: .5rem;
+  margin: 0 0 5px 0;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 3px; }
+
+.subnav a:hover,
+.subnav a.selected:link,
+.subnav a.selected:visited {
+  background-color: #333;
+  color: #fff; }
+
 @media screen and (min-width: 640px) {
   .main .nav {
     flex-direction: row;
@@ -435,6 +460,12 @@ body > footer {
   display: block;
   padding: .5rem;
   margin: 0; }
+
+.subnav {
+  flex-direction: row; }
+
+.subnav li {
+  margin-right: 10px; }
 
 h1 small {
   display: block;
@@ -496,6 +527,11 @@ figure.codefig div {
 .example figcaption {
   text-align: left; }
 
+.examples-detail-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
 @media screen and (min-width: 640px) {
   .example .body:after {
     content: "";
@@ -522,7 +558,9 @@ figure.codefig div {
       float: none;
       width: auto; }
     .example .codefig {
-      grid-column: 1 / 3; } } }
+      grid-column: 1 / 3; }
+    .example footer {
+      grid-column-end: span 2; } } }
 
 code {
   display: inline;
@@ -627,3 +665,37 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 20px; } } }
+
+.imagegrid {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.imagegrid img {
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+@media screen and (min-width: 600px) {
+  .imagegrid li {
+    float: left;
+    max-width: 49%;
+    padding: 10px; }
+  .patterncontent {
+    clear: both; }
+  @supports (grid-gap: 10px) {
+    .imagegrid {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      grid-gap: 10px; }
+    .imagegrid li {
+      float: none;
+      max-width: 100%;
+      padding: 0; }
+    .imagegrid li:first-child {
+      grid-row: 1 / 3; } } }
+
+.examples-listing {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%; }

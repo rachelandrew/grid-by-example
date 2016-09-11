@@ -15,24 +15,38 @@ This site is growing collection of examples, with the aim of helping people unde
 
 ## About this site
 
-These examples have been created by Rachel Andrew. I have been writing and speaking about the specification over the last few years.
+These examples have been created by [Rachel Andrew](https://rachelandrew.co.uk). I'm a CSS Working Group Invited Expert, a Google Developer Expert and co-founder of [Perch CMS](https://grabaperch.com). I've been writing and speaking about the Grid Layout specification over the last few years.
 
 If you spot any problems, have an enhancement suggestion or would like to see a certain aspect of the module explained then feel free to either submit a pull request or just drop me a line on [me@rachelandrew.co.uk](mailto:me@rachelandrew.co.uk). I'm also on Twitter as <a href="http://twitter.com/rachelandrew">rachelandrew</a>.
 
 **If you use these examples in your blog post, presentation or article then I'd appreciate a link back to this site.**
 
+
+## Want more CSS Layout information?
+
+I send out a weekly email with information about all things layout. You can [sign up here](http://csslayout.news/) and also [view the archives](http://csslayout.news/issues).
+
 ## Latest Grid News {#news}
 
-The CSS Working Group have posted [asking for community feedback](http://www.w3.org/blog/CSS/2015/08/10/css-grid-pls-review/) on the CSS Grid Layout module before the Level 1 specification goes to Candidate Recommendation later this year.
+The CSS Working Group have resolved that the CSS Grid Layout specification [should transition to Candidate Recommendation status](https://www.w3.org/blog/CSS/2016/08/04/minutes-telecon-294/) _August 2016_.
 
-[There is an excellent blog post](http://blogs.igalia.com/mrego/2014/12/30/css-grid-layout-2014-recap-specification-evolution/) from Manuel Rego Casasnovas, who works at Igalia and is involved in implementing Grid in Chrome and Blink. Read how the spec has evolved over 2014.
+Browser implementations are happening at great speed. I've put together some information [here](/browsers) - check out the Meta Bugs if you want to track progress in a particular browser.
 
-[A second post](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/) from Manuel describes the current browser implementation status.
+### CSS Grid Layout at an event near you
 
-In [Box Alignment and Grid Layout II](http://blogs.igalia.com/jfernandez/2015/01/12/box-alignment-and-grid-layout-ii/) Javier Fernández writes about the box alignment implementation. This work meant I needed to redo many of the screenshots in my examples as `stretch` is now implemented.
+I am speaking about Grid and related layout modules at a number of conferences. Upcoming are:
 
+- [View Source](https://viewsourceconf.org/berlin-2016/), Berlin
+- [SmartWeb](http://www.smartwebconf.com/), Bucharest
+- [WebExpo](https://webexpo.net/prague2016/), Prague
+- [An Event Apart](http://aneventapart.com/event/orlando-special-edition-2016), Orlando
+- [All Things Open](https://allthingsopen.org/), Raleigh
+- [An Event Apart](http://aneventapart.com/event/san-francisco-2016), San Francisco
+- [FFConf](https://2016.ffconf.org/#workshops), Brighton
+- [GoTo](https://gotocon.com/berlin-2016/), Berlin
+- [CSSConf.Asia](https://2016.cssconf.asia/), Singapore
+- [ConFoo](https://confoo.ca/en/yvr2016), Vancouver
 
-<div class="bg-info book">
-	<h3>Get Ready For CSS Grid Layout</h3>
-	<p>My latest book is <a href="http://abookapart.com/products/get-ready-for-css-grid-layout">Get Ready for CSS Grid Layout</a> published by A Book Apart.</p>
-</div>
+### Get Ready For CSS Grid Layout
+
+My latest book is [Get Ready for CSS Grid Layout](http://abookapart.com/products/get-ready-for-css-grid-layout) published by A Book Apart.
