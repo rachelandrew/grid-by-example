@@ -40,7 +40,9 @@ Download Chrome Canary if you want to get the very latest features that have bee
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
 
-Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions. You do not need to enable a flag to see it in action.
+Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions.
+
+**For Safari Technology Preview** turn Grid support on in the Develop Menu under Experimental Features.
 
 This implementation is also by Igalia but lags slightly behind the Chrome one. Note that Grid being present in Safari Technology Preview _does not mean_ it will be in the next version of Safari.
 
