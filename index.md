@@ -28,6 +28,8 @@ I send out a weekly email with information about all things layout. You can [sig
 
 ## Latest Grid News {#news}
 
+I have published the first seven videos in a new free tutorial series teaching grid layout. [You can find those here](/video).
+
 The CSS Working Group have resolved that the CSS Grid Layout specification [should transition to Candidate Recommendation status](https://www.w3.org/blog/CSS/2016/08/04/minutes-telecon-294/) _August 2016_.
 
 Browser implementations are happening at great speed. I've put together some information [here](/browsers) - check out the Meta Bugs if you want to track progress in a particular browser.
@@ -36,9 +38,6 @@ Browser implementations are happening at great speed. I've put together some inf
 
 I am speaking about Grid and related layout modules at a number of conferences. Upcoming are:
 
-- [View Source](https://viewsourceconf.org/berlin-2016/), Berlin
-- [SmartWeb](http://www.smartwebconf.com/), Bucharest
-- [WebExpo](https://webexpo.net/prague2016/), Prague
 - [An Event Apart](http://aneventapart.com/event/orlando-special-edition-2016), Orlando
 - [All Things Open](https://allthingsopen.org/), Raleigh
 - [An Event Apart](http://aneventapart.com/event/san-francisco-2016), San Francisco

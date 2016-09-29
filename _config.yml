@@ -18,3 +18,5 @@ collections:
     output: true
   examples:
     output: true
+  video:
+    output: true
