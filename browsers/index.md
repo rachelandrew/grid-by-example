@@ -15,7 +15,9 @@ If you find a bug in a browser implementation then the best thing to do is to se
 
 ## Microsoft Edge
 
-On launch Edge shipped with the IE11 Grid implementation. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid).
+On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid).
+
+You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update). 
 
 ## Internet Explorer 10 and 11
 
