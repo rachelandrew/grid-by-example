@@ -28,7 +28,9 @@ I send out a weekly email with information about all things layout. You can [sig
 
 ## Latest Grid News {#news}
 
-I have published the first seven videos in a new free tutorial series teaching grid layout. [You can find those here](/video).
+Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome. This means that it could be enabled by default (no browser flag required) as soon as March 2017. Firefox have also indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).
+
+I have published the first eleven videos in a new free tutorial series teaching grid layout. [You can find those here](/video).
 
 The CSS Working Group have resolved that the CSS Grid Layout specification [should transition to Candidate Recommendation status](https://www.w3.org/blog/CSS/2016/08/04/minutes-telecon-294/) _August 2016_.
 
@@ -38,13 +40,11 @@ Browser implementations are happening at great speed. I've put together some inf
 
 I am speaking about Grid and related layout modules at a number of conferences. Upcoming are:
 
-- [An Event Apart](http://aneventapart.com/event/orlando-special-edition-2016), Orlando
-- [All Things Open](https://allthingsopen.org/), Raleigh
-- [An Event Apart](http://aneventapart.com/event/san-francisco-2016), San Francisco
-- [FFConf](https://2016.ffconf.org/#workshops), Brighton
-- [GoTo](https://gotocon.com/berlin-2016/), Berlin
 - [CSSConf.Asia](https://2016.cssconf.asia/), Singapore
-- [ConFoo](https://confoo.ca/en/yvr2016), Vancouver
+- [ConFoo](https://confoo.ca/en/yvr2016), Vancouver, Canada
+- [An Event Apart St Louis](https://aneventapart.com/event/st-louis-2017), USA
+- [An Event Apart Seattle](https://aneventapart.com/event/seattle-2017), USA
+- [Frontend United](http://frontendunited.org/), Athens, Greece
 
 ### Get Ready For CSS Grid Layout
 

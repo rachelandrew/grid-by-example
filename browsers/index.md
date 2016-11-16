@@ -17,7 +17,7 @@ If you find a bug in a browser implementation then the best thing to do is to se
 
 On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid).
 
-You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update). 
+You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
 
 ## Internet Explorer 10 and 11
 
@@ -27,6 +27,8 @@ The original Grid implementation was part of IE10, also in IE11. This implementa
 - [My 24 Ways Article covering the IE implementation](http://24ways.org/2012/css3-grid-layout/)
 
 ## Blink Rendering Engine (Chrome, Opera)
+
+**Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome. This means that it could be enabled by default (no browser flag required) as soon as March 2017.**
 
 [Blink Meta Bug](https://code.google.com/p/chromium/issues/detail?id=79180)
 
@@ -49,6 +51,8 @@ Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and als
 This implementation is also by Igalia but lags slightly behind the Chrome one. Note that Grid being present in Safari Technology Preview _does not mean_ it will be in the next version of Safari.
 
 ## Gecko Rendering Engine (Firefox)
+
+**Firefox have indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).**
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 

@@ -482,6 +482,29 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   width: 100%;
 }
 
+.video-list li {
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+  margin: 0;
+  padding: 0;
+}
+
+.video-list p,
+.video-list h3 {
+  margin:0;
+  padding:0
+}
+
+.video-list li a {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.video-list li a:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
