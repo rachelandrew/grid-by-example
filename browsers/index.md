@@ -38,7 +38,7 @@ The Blink implementation has been carried out by Igalia, sponsored by Bloomberg.
 
 At the present time you need to enable the Experimental Web Platform Features Flag in Chrome or Opera.
 
-Download Chrome Canary if you want to get the very latest features that have been implemented.
+Download Chrome Canary if you want to get the very latest features that have been implemented. Chrome Canary does not need flags enabled.
 
 ## Webkit Nightlies and Safari Technology Preview
 
@@ -60,4 +60,6 @@ Grid is currently being implemented in Gecko. You need to enable the layout.css.
 
 ## A Grid Layout tool for Firefox
 
-If you are using Firefox then make sure you also grab a copy of the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
+If you are using Firefox then you can use the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
+
+Firefox Nightlies also include a grid inspector in the DevTools.

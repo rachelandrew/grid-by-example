@@ -8,9 +8,19 @@
     {% include sidebar.html %}
 
     <div class="wrapper home-layout">
-      
+
       <div class="home-content">
       {{ content }}
+
+      <h2>Latest Grid News</h2>
+      <ul class="blog-list-home">
+        {% for post in site.categories.news limit:4 %}
+          <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            {{ post.content }}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
 
       {% include examples.html %}

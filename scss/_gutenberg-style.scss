@@ -475,14 +475,18 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
 }
 
 .examples-listing,
-.video-list {
+.video-list,
+.blog-list,
+.blog-list-home {
   margin: 0;
   padding: 0;
   list-style: none;
   width: 100%;
 }
 
-.video-list li {
+.video-list li,
+.blog-list li
+.blog-list-home li  {
   border-bottom: 1px solid rgba(0,0,0, 0.2);
   margin: 0;
   padding: 0;

@@ -1,15 +1,22 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  {% include head.html %}
 
-  <article class="post-content">
-  {{ content }}
-  </article>
+    <body>
 
-</div>
+    {% include sidebar.html %}
+
+    <div class="wrapper">
+
+
+      <h1>{{ page.title }}</h1>
+      <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+
+      {{ content }}
+      <div class="back">⇦ <a href="/posts">Back to Blog listing</a></div>
+    </div>
+</body>
+
+</html>
