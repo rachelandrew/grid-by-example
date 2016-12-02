@@ -62,4 +62,4 @@ Grid is currently being implemented in Gecko. You need to enable the layout.css.
 
 If you are using Firefox then you can use the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
 
-Firefox Nightlies also include a grid inspector in the DevTools.
+Firefox Nightlies and Firefox Developer Edition also include a grid highlighter in DevTools.
