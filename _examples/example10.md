@@ -10,7 +10,7 @@ order: 10
 number: 10
 code: example10.html
 spec: https://drafts.csswg.org/css-grid/#explicit-grids
-example-codepen-embed: '<p data-height="565" data-theme-id="0" data-slug-hash="yNmyPb" data-default-tab="result" data-user="rachelandrew" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/yNmyPb/">Grid by Example 9: The repeat keyword</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>'
+example-codepen-embed: '<p data-height="265" data-theme-id="0" data-slug-hash="JdgoOB" data-default-tab="css,result" data-user="rachelandrew" data-embed-version="2" data-pen-title="Grid by Example 10: Explicit and Implicit Grid" class="codepen">See the Pen <a href="http://codepen.io/rachelandrew/pen/JdgoOB/">Grid by Example 10: Explicit and Implicit Grid</a> by rachelandrew (<a href="http://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="http://codepen.io">CodePen</a>.</p>'
 ---
 
 When we use `grid-template-columns` and `grid-template-rows` we create an **Explicit Grid**. However if we try and place an item outside of that grid the browser will create an **Implicit Grid** line or lines in order to hold that item.
