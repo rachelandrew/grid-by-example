@@ -5,7 +5,7 @@ date:   2016-12-23 13:58:00
 categories: learn
 ---
 
-As we start to create more complex layouts it is worth understanding how grid work with other layout methods. In the video today I take a look at how grid works when grid items or their children use `position: absolute`.
+As we start to create more complex layouts it is worth understanding how grid interacts with other layout methods. In the video today I take a look at how grid works when grid items or their children use `position: absolute`.
 
 Take a look at this in my video, which is part of my [CSS Grid video tutorial series](/video).
 
