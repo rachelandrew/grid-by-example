@@ -17,7 +17,7 @@ You can use minmax() when setting up column and rows tracks, the following CSS w
 }
 ~~~
 
-You can also use minmax() is the value of grid-auto-rows and grid-auto-columns, these properties are used to set the size of tracks created in the implicit grid. The grid outside of the columns and rows you have defined.
+You can also use minmax() as the value of grid-auto-rows and grid-auto-columns, these properties are used to set the size of tracks created in the implicit grid. The grid outside of the columns and rows you have defined.
 
 New rows created in the below grid will be at least 300 pixels tall but have a maximum size of auto.
 
