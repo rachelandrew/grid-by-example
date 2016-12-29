@@ -2,7 +2,7 @@
 title: "Layering items"
 image: example15.png
 image_alt: Image of display after stacking items
-desc: You can layer items in the Grid, using z-index to control the order that they stack
+desc: You can layer items on the Grid, using z-index to control the order that they stack
 layout: example
 active: examples
 group: child
