@@ -25,7 +25,7 @@ The original Grid implementation was part of IE10, also in IE11. This implementa
 
 ## Blink Rendering Engine (Chrome, Opera)
 
-**Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome. This means that it could be enabled by default (no browser flag required) as soon as March 2017.**
+**Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome.** Chrome 57 is when we expect to see it, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
 
 [Blink Meta Bug](https://code.google.com/p/chromium/issues/detail?id=79180)
 
@@ -49,7 +49,7 @@ This implementation is also by Igalia but lags slightly behind the Chrome one. N
 
 ## Gecko Rendering Engine (Firefox)
 
-**Firefox have indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).**
+**Firefox have indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).** The release date for Firefox 52 is listed as the [7th March 2017](https://wiki.mozilla.org/RapidRelease/Calendar).
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
