@@ -1,5 +1,5 @@
 ---
-title: "Line-based placement shorthand - grid-row and grid-column"
+title: "Line-based placement shorthand - grid-area"
 image: example4.png
 image_alt: Image of display after placing items
 desc: Positioning items on the grid using the shorthand properties.

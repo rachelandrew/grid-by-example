@@ -7,7 +7,7 @@ title: Grid by Example
 
 The CSS Grid Layout specification is one of a few new specifications that are redefining how we approach layout for the web. Alongside Flexbox and the Box Alignment Module it will become part of a modern layout system for websites and web applications.
 
-This site is growing collection of examples, with the aim of helping people understand how Grid Layout works.
+This site is growing collection of [examples](/examples) and [video](/video), with the aim of helping people understand how Grid Layout works.
 
 <div class="box info">
 	<p>To view any of the examples in this site you need to enable CSS Grid Layout in your browser, or use a "Nightly" version of a browser that has Grid available. <a href="/browsers">Read more about browser support for Grid</a>.</p>

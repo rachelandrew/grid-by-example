@@ -738,3 +738,11 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.box h4 {
+  margin-top: 0; }
+
+.follow {
+  position: absolute;
+  top: 20px;
+  right: 20px; }
