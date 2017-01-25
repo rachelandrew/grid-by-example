@@ -621,7 +621,7 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   background-color: rgba(119, 213, 129, 0.8); }
 
 .card-listing .type-spec h3:before {
-  content: "Video"; }
+  content: "Spec"; }
 
 .card-listing .type-browsers h3 {
   background-color: rgba(253, 137, 78, 0.3); }

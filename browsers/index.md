@@ -11,7 +11,7 @@ If you find a bug in a browser implementation then the best thing to do is to se
 
 ## Microsoft Edge
 
-On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid).
+On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid). Do add your votes to encourage implementation.
 
 You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
 
@@ -37,15 +37,13 @@ At the present time you need to enable the Experimental Web Platform Features Fl
 
 Download Chrome Canary if you want to get the very latest features that have been implemented. Chrome Canary does not need flags enabled.
 
-## Webkit Nightlies and Safari Technology Preview
+## Safari
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
 
 Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions.
 
-There is no information as to when or if Apple will ship grid in Safari. A hopeful guess would be March, a somewhat more pessimistic one October, but this is just a guess based on release dates and the fact grid is not now behind a flag by default in Preview.
-
-This implementation is also by Igalia but lags slightly behind the Chrome one. Note that Grid being present in Safari Technology Preview _does not mean_ it will be in the next version of Safari. We can but hope.
+On the 24th January 2017, [Apple announced the features](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) that would be part of the Safari 10.1 Spring update now in beta. This includes Grid!
 
 ## Gecko Rendering Engine (Firefox)
 
