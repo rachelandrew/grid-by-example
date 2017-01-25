@@ -9,20 +9,6 @@ You can view data across different browsers at [Can I Use](http://caniuse.com/#f
 
 If you find a bug in a browser implementation then the best thing to do is to search the logged bugs for that browser as this will include known bugs and issues still being worked on. If you have found something new then you can find [information about logging bugs with browsers here](http://testthewebforward.org/docs/bugs.html).
 
-## Microsoft Edge
-
-On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid). Do add your votes to encourage implementation.
-
-You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
-
-## Internet Explorer 10 and 11
-
-The original Grid implementation was part of IE10, also in IE11. This implementation is now quite different to the current spec and other implementations. Internet Explorer 11 will never be updated to the new specification. There is some possibility in using the old spec to provide some grid layout for these browsers however.
-
-- [April 2011 Grid Spec](http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/)
-- [My 24 Ways Article covering the IE implementation](http://24ways.org/2012/css3-grid-layout/)
-- [Should I try to use the IE implementation of Grid Layout?](https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/)
-
 ## Blink Rendering Engine (Chrome, Opera)
 
 **Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome.** Chrome 57 is when we expect to see it, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
@@ -59,4 +45,16 @@ Firefox Nightlies and Firefox Developer Edition [include a grid highlighter](htt
 
 If you are using Firefox then you can use the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
 
+## Microsoft Edge
 
+On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid). Do add your votes to encourage implementation.
+
+You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
+
+## Internet Explorer 10 and 11
+
+The original Grid implementation was part of IE10, also in IE11. This implementation is now quite different to the current spec and other implementations. Internet Explorer 11 will never be updated to the new specification. There is some possibility in using the old spec to provide some grid layout for these browsers however.
+
+- [April 2011 Grid Spec](http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/)
+- [My 24 Ways Article covering the IE implementation](http://24ways.org/2012/css3-grid-layout/)
+- [Should I try to use the IE implementation of Grid Layout?](https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/)
