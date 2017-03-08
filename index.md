@@ -10,7 +10,7 @@ The CSS Grid Layout specification is one of a few new specifications that are re
 This site is growing collection of [examples](/examples) and [video](/video), with the aim of helping people understand how Grid Layout works.
 
 <div class="box info">
-	<p>To view any of the examples in this site you need to enable CSS Grid Layout in your browser, or use a "Nightly" version of a browser that has Grid available. <a href="/browsers">Read more about browser support for Grid</a>.</p>
+	<p>Grid is starting to ship in browsers. If your browser doesn't have support you may need to enable a flag. <a href="/browsers">Read more about browser support for Grid</a>.</p>
 </div>
 
 ## About this site
