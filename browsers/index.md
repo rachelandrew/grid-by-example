@@ -33,17 +33,13 @@ On the 24th January 2017, [Apple announced the features](https://developer.apple
 
 ## Gecko Rendering Engine (Firefox)
 
-**Firefox have indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).** The release date for Firefox 52 is listed as the [7th March 2017](https://wiki.mozilla.org/RapidRelease/Calendar).
+**Firefox have shipped support for Grid with Firefox 52 on 7th March 2017.**
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about:config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly and Developer Edition you do not need to enable the flag - Grid should just work!
+Grid has been implemented in Gecko. In Firefox versions before 52 you need to enable the layout.css.grid.enabled flag by going to about:config in Firefox. 
 
-## A Grid Layout tool for Firefox
-
-Firefox Nightlies and Firefox Developer Edition [include a grid highlighter](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
-
-If you are using Firefox then you can use the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
+Starting with version 52, Firefox also [includes a grid highlighter](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
 
 ## Microsoft Edge
 
