@@ -9,6 +9,16 @@ You can view data across different browsers at [Can I Use](http://caniuse.com/#f
 
 If you find a bug in a browser implementation then the best thing to do is to search the logged bugs for that browser as this will include known bugs and issues still being worked on. If you have found something new then you can find [information about logging bugs with browsers here](http://testthewebforward.org/docs/bugs.html).
 
+## Gecko Rendering Engine (Firefox)
+
+Firefox were first to land grid support, on the 7th March 2017 in Firefox 52.
+
+[Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
+
+## A Grid Layout tool for Firefox
+
+Firefox [includes a grid inspector](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
+
 ## Blink Rendering Engine (Chrome, Opera)
 
 Chrome 57 is when we expect to see Grid in Chrome, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
@@ -29,15 +39,6 @@ Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and als
 
 On the 24th January 2017, [Apple announced the features](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) that would be part of the Safari 10.1 Spring update now in beta. This includes Grid!
 
-## Gecko Rendering Engine (Firefox)
-
-Firefox were first to land grid support, on the 7th March 2017 in irefox 52.
-
-[Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
-
-## A Grid Layout tool for Firefox
-
-Firefox [includes a grid inspector](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
 
 
 ## Microsoft Edge
