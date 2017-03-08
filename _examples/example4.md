@@ -2,7 +2,7 @@
 title: "Line-based placement shorthand - grid-area"
 image: example4.png
 image_alt: Image of display after placing items
-desc: Positioning items on the grid using the shorthand properties.
+desc: Positioning items on the grid using the shorthand property grid-area.
 layout: example
 active: examples
 group: child
