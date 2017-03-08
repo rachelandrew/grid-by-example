@@ -5,17 +5,15 @@ title: Browser Support for CSS Grid Layout
 
 # Current Browser/Rendering Engine Information
 
-You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). However this information tends to confuse people as it looks as though IE is the only browser with support. Read on to understand the status of Grid Layout in browsers.
+You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). 
 
 If you find a bug in a browser implementation then the best thing to do is to search the logged bugs for that browser as this will include known bugs and issues still being worked on. If you have found something new then you can find [information about logging bugs with browsers here](http://testthewebforward.org/docs/bugs.html).
 
 ## Blink Rendering Engine (Chrome, Opera)
 
-**Igalia have posted the [Intent to Ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/hBx1ffTS9CQ) for Grid into Chrome.** Chrome 57 is when we expect to see it, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
+Chrome 57 is when we expect to see Grid in Chrome, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
 
 [Blink Meta Bug](https://code.google.com/p/chromium/issues/detail?id=79180)
-
-My reference implementation is the one in Blink, unless stated otherwise on an example. I am typically using Chrome and Chrome Canary.
 
 The Blink implementation has been carried out by Igalia, sponsored by Bloomberg. You can [read about the implementation work in this post from Igalia](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/).
 
@@ -33,17 +31,14 @@ On the 24th January 2017, [Apple announced the features](https://developer.apple
 
 ## Gecko Rendering Engine (Firefox)
 
-**Firefox have indicated they [intend to ship Grid in March](https://groups.google.com/forum/#!topic/mozilla.dev.platform/6shk3TZX5vo).** The release date for Firefox 52 is listed as the [7th March 2017](https://wiki.mozilla.org/RapidRelease/Calendar).
+Firefox were first to land grid support, on the 7th March 2017 in irefox 52.
 
 [Gecko Meta Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=616605)
 
-Grid is currently being implemented in Gecko. You need to enable the layout.css.grid.enabled flag by going to about:config in regular Firefox. For the latest features download a [Firefox Nightly](https://nightly.mozilla.org/) or the [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/). In Nightly and Developer Edition you do not need to enable the flag - Grid should just work!
-
 ## A Grid Layout tool for Firefox
 
-Firefox Nightlies and Firefox Developer Edition [include a grid highlighter](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
+Firefox [includes a grid inspector](https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/) in DevTools.
 
-If you are using Firefox then you can use the experimental [CSS Grid Inspector](https://addons.mozilla.org/en-US/firefox/addon/css-grid-inspector/) to help you visualize your grids. It is a tool in development - just like Grid Layout.
 
 ## Microsoft Edge
 
