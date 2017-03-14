@@ -21,15 +21,12 @@ Firefox [includes a grid inspector](https://hacks.mozilla.org/2016/12/css-grid-a
 
 ## Blink Rendering Engine (Chrome, Opera)
 
-Chrome 57 is when we expect to see Grid in Chrome, estimated release date [March 14th 2017](https://www.chromium.org/developers/calendar).
+Chrome 57 has now shipped with Grid Layout included. The listed date was March 14th 2017, however 57 was updating in browsers at the end of the previous week.
 
 [Blink Meta Bug](https://code.google.com/p/chromium/issues/detail?id=79180)
 
 The Blink implementation has been carried out by Igalia, sponsored by Bloomberg. You can [read about the implementation work in this post from Igalia](http://blogs.igalia.com/mrego/2015/01/08/css-grid-layout-2014-recap-implementation-status/).
 
-At the present time you need to enable the Experimental Web Platform Features Flag in Chrome or Opera.
-
-Download Chrome Canary if you want to get the very latest features that have been implemented. Chrome Canary does not need flags enabled.
 
 ## Safari
 
