@@ -32,11 +32,7 @@ The Blink implementation has been carried out by Igalia, sponsored by Bloomberg.
 
 [Webkit Meta Bug](https://bugs.webkit.org/show_bug.cgi?id=60731)
 
-Grid is available in [Webkit Nightly builds](http://nightly.webkit.org/) and also in the new [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/release-notes/). Grid is now unprefixed in the Nightly and Preview versions.
-
-On the 24th January 2017, [Apple announced the features](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) that would be part of the Safari 10.1 Spring update now in beta. This includes Grid!
-
-
+[Safari 10.1 and iOS Safari ](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) support CSS Grid as of March 27, 2017.
 
 ## Microsoft Edge
 
