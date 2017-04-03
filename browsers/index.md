@@ -36,7 +36,9 @@ The Blink implementation has been carried out by Igalia, sponsored by Bloomberg.
 
 ## Microsoft Edge
 
-On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. In September 2015 Microsoft indicated that updating Grid to the current spec is [on the backlog with a priority of High](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid). Do add your votes to encourage implementation.
+On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. 
+
+On Monday 3rd April, 2017 - on stage at An Event Apart - Microsoft announced that work has started to update the Edge Grid implementation to the new spec. Thank you to everyone who voted for the feature, it demonstrated that this was something we wanted.
 
 You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
 
