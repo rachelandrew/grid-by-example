@@ -2,7 +2,7 @@
 title: "Layering items"
 image: example15.png
 image_alt: Image of display after stacking items
-desc: Placement of items on the grid can be separate to their order in the source
+desc: Items can be stacked, and the stacking order controlled with z-index
 layout: example
 active: examples
 group: child
