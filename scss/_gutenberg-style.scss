@@ -247,6 +247,13 @@ h1 small {
     color: #fff;
   }
 
+  .panel-primary a:link,
+  .panel-primary a:visited,
+  .homepage-bar a:link,
+  .homepage-bar a:visited {
+    color: #fff;
+  }
+
 .panel-box > a:link, .panel-box > a:visited {
   text-decoration: none;
   color: #000;
@@ -328,12 +335,7 @@ h1 small {
     grid-column: 1 / 4;
   }
 
-  .panel-primary a:link,
-  .panel-primary a:visited,
-  .homepage-bar a:link,
-  .homepage-bar a:visited {
-    color: #fff;
-  }
+  
 
 }
 

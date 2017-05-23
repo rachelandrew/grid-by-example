@@ -549,6 +549,12 @@ h1 small {
   background-image: url(/img/inflicted.png);
   color: #fff; }
 
+.panel-primary a:link,
+.panel-primary a:visited,
+.homepage-bar a:link,
+.homepage-bar a:visited {
+  color: #fff; }
+
 .panel-box > a:link, .panel-box > a:visited {
   text-decoration: none;
   color: #000; }
@@ -604,12 +610,7 @@ h1 small {
   .home-layout .panel-g {
     grid-column: auto / span 1; }
   .home-layout .panel-primary {
-    grid-column: 1 / 4; }
-  .panel-primary a:link,
-  .panel-primary a:visited,
-  .homepage-bar a:link,
-  .homepage-bar a:visited {
-    color: #fff; } }
+    grid-column: 1 / 4; } }
 
 .examples-listing ul {
   list-style: none;
