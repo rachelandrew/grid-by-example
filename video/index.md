@@ -1,5 +1,5 @@
 ---
-layout: learn
+layout: examples
 active: video
 title: Free Learn Grid Layout video series
 ---

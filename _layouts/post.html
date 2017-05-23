@@ -11,12 +11,15 @@
 
 
       <h1>{{ page.title }}</h1>
+      <div class="content">
       <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
 
       {{ content }}
       <div class="back">⇦ <a href="/posts">Back to Blog listing</a></div>
+      </div>
     </div>
+    {% include track.html %}
 </body>
 
 </html>

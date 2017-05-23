@@ -6,10 +6,12 @@
     <body>
 
     {% include sidebar.html %}
-    <div class="wrapper">
-
+    <main class="wrapper">
+      <div class="content">
       {{ content }}
-    </div>
+      </div>
+    </main>
+    {% include track.html %}
 </body>
 
 </html>

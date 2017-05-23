@@ -3,7 +3,7 @@ pattern-name: "Hero Image Panel"
 title: "Multiple image responsive hero panel"
 main-image: pattern-3-listing.jpg
 pattern-desc: "A panel with neatly lined up blocks yet still enabling additional content to be added to any block."
-layout: pattern
+layout: bigpattern
 active: patterns
 images:
   - pattern-3-3.jpg: "Image at mobile view"

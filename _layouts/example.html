@@ -6,23 +6,23 @@
     <body>
 
     {% include sidebar.html %}
-    {% include learn_nav.html %}
     <div class="wrapper">
-
+      
 
         <h1>{{ page.title }}</h1>
 
 
-        <div class="examplecontent">
+        <div class="content">
         {{ content }}
 
         <p>Read the <a href="{{ page.spec }}">specification</a> | <a href="/examples/code/{{ page.code }}">View example as full page</a></p>
 
-        {{ page.example-codepen-embed }}
+     
       </div>
-      <div class="back">⇦ <a href="/examples">Back to list of examples</a></div>
+         {{ page.example-codepen-embed }}
     </div>
     <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    {% include track.html %}
 </body>
 
 </html>

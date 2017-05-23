@@ -1,5 +1,5 @@
 ---
-layout: learn
+layout: examples
 active: layouts
 title: Page Layout Examples
 ---
@@ -20,9 +20,12 @@ The following examples are some page layout examples and experiments. I have inc
 10. [AG Grid Example](#layout6)
 11. [Simple Grid + Flexbox example](#layout7)
 12. [Auto Placement Example](#layout8)
+13. [Hero Image Panel](/examples/page-layout/hero-image-panel)
+14. [Listing with thumbnails](/examples/page-layout/listing-with-thumbnails)
+15. [Thumbnails with title](/examples/page-layout/thumbnails-with-title)
 
 {::nomarkdown}
-<div class="example" id="layout1">
+<div class="example-layout" id="layout1">
 <header><h3>A simple grid</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -48,7 +51,7 @@ This is a simple, non-responsive layout using the line-based placement propertie
 
 
 {::nomarkdown}
-<div class="example" id="layout2">
+<div class="example-layout" id="layout2">
 <header><h3>A simple responsive layout</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -78,7 +81,7 @@ I am using the shorthand `grid-row` and `grid-column` properties in this example
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout3">
+<div class="example-layout" id="layout3">
 <header><h3>A responsive layout using named Grid Areas</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -104,7 +107,7 @@ A simple responsive layout with three breakpoints. This time I am using the `gri
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout9">
+<div class="example-layout" id="layout9">
 <header><h3>Two column responsive layout with footer</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -128,7 +131,7 @@ A simple responsive layout with three breakpoints. This time I am using the `gri
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout10">
+<div class="example-layout" id="layout10">
 <header><h3>Two column responsive layout with footer using named grid lines</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -150,7 +153,7 @@ A simple responsive layout with three breakpoints. This time I am using the `gri
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout11">
+<div class="example-layout" id="layout11">
 <header><h3>Two column responsive layout with footer using Named Grid Areas</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -173,7 +176,7 @@ A simple responsive layout with three breakpoints. This time I am using the `gri
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout4">
+<div class="example-layout" id="layout4">
 <header><h3>16 column flexible grid</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -200,7 +203,7 @@ An example demonstrating how Grid can be used to create a flexible multiple colu
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout5">
+<div class="example-layout" id="layout5">
 <header><h3>Placing elements into Grid Areas on the 16 column grid</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -228,7 +231,7 @@ Creating a simple three column layout by placing items onto our 16 column grid, 
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout12">
+<div class="example-layout" id="layout12">
 <header><h3>Skeleton Grid Experiments</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -255,7 +258,7 @@ Taking the grid used by the <a href="http://getskeleton.com">Skeleton framework<
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout13">
+<div class="example-layout" id="layout13">
 <header><h3>Skeleton Grid Layout</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -282,7 +285,7 @@ Taking the grid used in my Skeleton experiments and using that for a layout.
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout6">
+<div class="example-layout" id="layout6">
 <header><h3>AG Grid Example</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -310,7 +313,7 @@ I was interested in whether I could recreate the example used in[this blog post]
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout7">
+<div class="example-layout" id="layout7">
 <header><h3>Simple Grid + Flexbox example</h3></header>
 <div class="body">
 <figure class="imagefig">
@@ -332,7 +335,7 @@ A simple example used in my presentation for the Responsive Web Design Summit, t
 {:/nomarkdown}
 
 {::nomarkdown}
-<div class="example" id="layout8">
+<div class="example-layout" id="layout8">
 <header><h3>Auto Placement Example</h3></header>
 <div class="body">
 <figure class="imagefig">

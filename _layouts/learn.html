@@ -6,11 +6,188 @@
     <body>
 
     {% include sidebar.html %}
-    {% include learn_nav.html %}
+    
     <div class="wrapper">
-
+      <div class="content">
       {{ content }}
+      </div>
+      <section class="learn-section">
+          <h2>Get Started</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="/video/series-define-a-grid/">Defining a grid</a></li>
+              <li><a href="/video/series-the-fr-unit/">The fr unit</a></li>
+              <li><a href="/video/series-repeat/">Repeat notation</a></li>
+              <li><a href="/video/series-auto-placement-order/">Auto-placement and order</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">MDN: Basic Concepts of Grid Layout</a></li>
+              <li><a href="/what">About Grid Layout</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="/examples/example1">Defining a grid</a></li>
+              <li><a href="/examples/example10">Explicit and Implicit Grid</a></li>
+              <li><a href="/examples/example17">Grid auto-placement</a></li>
+            </ul>
+          </div>
+
+      </section>
+
+      <section class="learn-section">
+          <h2>Placing items onto the grid</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="/video/series-line-based-placement/">Line-based placement</a></li>
+              <li><a href="/video/grid-template-areas/">Grid Template Areas</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+             <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid">MDN: Line-based placement</a></li>
+             <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas">MDN: Grid Template Areas</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="/examples/example2">Line-based placement</a></li>
+            </ul>
+          </div>
+
+      </section>
+
+       <section class="learn-section">
+          <h2>Sizing of tracks and items</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="/video/series-minmax/">Introducing minmax()</a></li>
+              <li><a href="/video/series-auto-fill-auto-fit/">Introducing auto-fill and auto-fit</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#The_Grid_container">MDN: The grid container</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="/examples/example36/">Percentage-based tracks and gaps</a></li>
+              <li><a href="/examples/example31/">Simple minmax() example</a></li>
+              <li><a href="/examples/example29/">minmax() spanning columns and rows</a></li>
+            </ul>
+          </div>
+
+      </section>
+
+       <section class="learn-section">
+          <h2>Alignment of the grid and grid items</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="/video/align-grid-items/">Aligning and justifying Grid Items</a></li>
+              <li><a href="/video/align-grid/">Aligning and Justifying the Grid</a></li>
+
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout">MDN: Box Alignment in CSS Grid Layout</a></li>
+              
+              <li><a href="https://rachelandrew.co.uk/css/cheatsheets/box-alignment">Box Alignment cheatsheet</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="/examples/example32/">Aligning the grid</a></li>
+              <li><a href="/examples/example33/">Using space-around and space-between</a></li>
+            </ul>
+          </div>
+
+      </section>
+
+      <section class="learn-section">
+          <h2>How does grid work with Flexbox and other specs?</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="https://vimeo.com/215091807">Smashing Conference SF 2017: Laying out the future with grid and flexbox</a></li>
+              <li><a href="https://www.youtube.com/watch?v=MXEzJ-IncX0">Fluent 2016: Making Sense of the New CSS Layout</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout">MDN: Relationship of grid layout to other layout methods</a></li>
+              <li><a href="https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/">Smashing Magazine: Grid, Flexbox and Box Alignment</a></li>
+              <li><a href="https://rachelandrew.co.uk/archives/2017/01/18/css-grid-one-layout-method-not-the-only-layout-method/">CSS Grid. One layout method, not the only layout method</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid,_Logical_Values_and_Writing_Modes">MDN: Logical values and writing modes</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="http://codepen.io/rachelandrew/pen/evjdLM">Flexible tracks with flexible number of columns. Comparing Grid and Flexbox.</a></li>
+            </ul>
+          </div>
+
+      </section>
+
+       <section class="learn-section">
+          <h2>Accessibility, browsers and backwards compatibility</h2>
+          <div class="learn-video panel-box">
+            <h3>Video and Presentations</h3>
+            <ul>
+              <li><a href="/video/feature-queries/">Feature Queries and grid</a></li>
+              <li><a href="https://vimeo.com/215091807">Smashing Conference SF 2017: Laying out the future with grid and flexbox (latter part covers fallbacks)</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-article panel-box">
+            <h3>Articles and blog posts</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_and_Progressive_Enhancement">MDN: CSS Grid Layout and Progressive enhancement</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility">MDN: CSS Grid Layout and accessibility</a></li>
+              <li><a href="https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks">Fallbacks and Overrides cheatsheet</a></li>
+              <li><a href="https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/">Article about using the IE/Edge implementation</a></li>
+            </ul>
+          </div>
+
+          <div class="learn-examples panel-box">
+            <h3>Example code</h3>
+            <ul>
+              <li><a href="http://codepen.io/collection/AQKYaW/">CodePen collection of simple override examples</a></li>
+            </ul>
+          </div>
+
+      </section>
+      
     </div>
+    {% include track.html %}
 </body>
 
 </html>

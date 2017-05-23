@@ -3,7 +3,7 @@ pattern-name: "List of thumbnails with section titles"
 title: "Thumbnails with section titles"
 main-image: pattern-1-1.jpg
 pattern-desc: "A listing which has thumbnails plus section titles, displayed at three breakpoints. Grid with flexbox and float fallbacks."
-layout: pattern
+layout: bigpattern
 active: patterns
 images:
   - pattern-1-2.jpg: "Image at mobile view"

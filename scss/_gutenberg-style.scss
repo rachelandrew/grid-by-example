@@ -77,41 +77,60 @@ body > footer {
 /* Put your styles below this line
    ========================================================================== */
 
-
+* { box-sizing: border-box;}
 .wrapper {
   margin: 0 auto;
   width: 90%;
-  max-width: 1050px;
+  max-width: 1600px;
+}
+
+.content {
+  max-width: 780px;
 }
 
 .header {
   background-color: rgba(0,0,0,0.98);
   background-image: url('/img/inflicted.png');
   color: #fff;
-  padding: .5rem 0;
+  padding: .5rem 0 0 0;
   margin: 0;
 }
 
 .main {
   border-bottom: 1px solid #222;
+  background-color: rgba(255,255,255,.6);
+  transition: all;
+  transition-duration: .5s;
 }
 
 .main .nav {
   list-style: none;
   margin: 0 auto;
   width: 90%;
-  max-width: 1050px;
+  max-width: 1600px;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+}
+
+.main .nav a:link,
+.main .nav a:visited {
+  font-weight: bold;
+  color: #000;
+}
+
+.nav a:hover:link,
+.nav a:hover:visited {
+  background-color: rgba(255,255,255,.6);
 }
 
 .subnav {
   list-style: none;
   margin: 0 auto;
   width: 90%;
-  max-width: 1050px;
+  max-width: 1600px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -146,7 +165,7 @@ body > footer {
 .main .nav a:visited {
   text-decoration: none;
   display: block;
-  padding: .5rem;
+  padding: .5rem 2rem;
   margin: 0;
 }
 
@@ -175,40 +194,120 @@ h1 small {
   margin-bottom: 0;
 }
 
+.flag-new::before {
+  content: "New!";
+  background-color:#087f23;
+  position: absolute;
+  top: -.8rem;
+  left: -.8rem;
+  padding: .3rem .5rem;
+  display: inline-block;
+  color: #fff;
+  font-weight: both;
+  transform: rotate(-20deg)
+}
+
+.panel-box {
+    background-image: url(/img/tiny_grid.png);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 1rem;
+    position: relative;
+}
+
+.panel-primary {
+    background-image: url(/img/inflicted.png);
+    color: #fff;
+  }
+
+.panel-box > a:link, .panel-box > a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.panel-box ul {
+  margin: 1rem 0 ;
+  padding: 0 0 0 1.2em;
+}
+
+.home-layout h1, .home-layout h2, .panel-box h3, .example-layout h3 {
+  margin: 0;
+}
+
+.homepage-bar {
+  background-color:#5e35b1;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.homepage-bar a {
+  text-decoration: none;
+}
+
+.learn-section h2 {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 1rem;
+}
+
+.learn-section h2::before {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  align-self: center;
+}
+
+.learn-section h2::after {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  align-self: center;
+}
+
 @media screen and (min-width: 640px) {
+
+  .learn-section {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+
+  .learn-section h2 {
+    grid-column: 1 / -1;
+  }
 
   .home-layout {
     display: grid;
-    grid-gap: 40px;
-    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
   }
 
-  .home-content {
-    max-width: 800px;
-    float: left;
-    width: 75%;
+.homepage-bar {
+  grid-column: 1 / -1;
+}
+
+  .home-layout .panel-box  {
+    grid-column: auto / span 2;
   }
 
-  .examples-listing {
-    @include margin-top(3);
-    float: right;
-    width: 22%;
+   .home-layout .panel-c, .home-layout .panel-d {
+    grid-column: auto / span 3;
   }
 
-  @supports (grid-gap: 10px) {
-    .home-content {
-      float: none;
-      grid-column: 1;
-      width: auto;
-    }
-
-    .examples-listing {
-      float: none;
-      grid-column: 2;
-      width: auto;
-      min-width: 1%;
-    }
+  .home-layout .panel-g {
+    grid-column: auto / span 1;
   }
+
+  .home-layout .panel-primary {
+    grid-column: 1 / 4;
+  }
+
+  .panel-primary a:link,
+  .panel-primary a:visited,
+  .homepage-bar a:link,
+  .homepage-bar a:visited {
+    color: #fff;
+  }
+
 }
 
 .examples-listing ul {
@@ -221,78 +320,76 @@ h1 small {
   @include margin-top(1);
 }
 
-.example footer {
-  padding: 0 0 1em 0;
-  text-align: right;
-  border-bottom: 1px solid #ccc;
-}
-
-figure.codefig,
-figure.codefig div {
-  margin: 0;
-}
-
-.example figcaption {
-  text-align: left;
-}
-
 .examples-detail-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.example img {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 350px;
+}
+
+@supports(display: grid) {
+  .example {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .example img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+}
+
+.example h3 {
+  margin: 0;
+}
+
+.example header {
+  order: 2;
+}
+
+.example .description {
+  order: 3;
+}
+
+.example figure {
+  margin: 0;
+  order: 1;
+}
+
+.example footer {
+  order: 4;
+  margin-top: auto;
+}
+
+.example-layout {
+  background-image: url(/img/tiny_grid.png);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 1rem;
 }
 
 
+
 @media screen and (min-width: 640px) {
-  .example .body:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-
-  .example .imagefig {
-    float: left;
-    width: 45%;
-    min-width: 1%;
-  }
-
-  .example .description {
-    float: right;
-    width: 45%;
-    min-width: 1%;
-  }
-  .example footer {
-    clear: both;
-  }
-
-  @supports (grid-gap: 10px) {
-  .example .body {
+  .example-layout .body {
     display: grid;
-    grid-gap: 2em;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-columns: 300px 1fr;
+    background-color: #fff;
+  border-radius: 3px;
+  padding: .5rem;
   }
 
-  .example .body::after {
-    content: "";
-    clear: none;
-  }
-
-  .example .description,
-  .example .imagefig {
-    float: none;
-    width: auto;
-  }
-
-  .example .codefig {
-    grid-column: 1 / 3;
-  }
-
-  .example footer {
-    grid-column-end: span 2;
-  }
-
-  }
-
+  
 }
 
 code {
@@ -313,14 +410,17 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
 }
 
 .card-listing li {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  background-image: url(/img/tiny_grid.png);
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: 2rem;
 }
 
 .card-listing h3 {
   background-color: #fff;
   color: #fff;
   margin: 0;
-  padding: .8rem 20px ;
+  padding: 1rem 20px ;
 }
 
 .card-listing li:hover h3 {
@@ -416,7 +516,7 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
 }
 
 .card-listing .details {
-  padding: .8rem 20px 0.2rem 20px;
+  padding: .8rem 1rem 0.2rem 1rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -424,8 +524,12 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
 @supports (grid-gap: 10px) {
     .card-listing {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 2rem;
+    }
+
+    .card-listing li {
+      margin: 0;
     }
 
   }
@@ -534,3 +638,4 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   top: 20px;
   right: 20px;
 }
+

@@ -9,22 +9,58 @@
 
     <div class="wrapper home-layout">
 
-      <div class="home-content">
-      {{ content }}
+      <div class="panel-box panel-primary">
+        {{ content }}
+      </div>
 
-      <h2>Latest Grid News</h2>
-      <ul class="blog-list-home">
-        {% for post in site.categories.news limit:4 %}
-          <li>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.content }}
-          </li>
-        {% endfor %}
-      </ul>
+
+      <div class="panel-box panel-a"><a href="/video">
+        <h2>The Video Tutorial</h2>
+        <p>A collection of short and to the point videos, demonstrating various parts of the CSS Grid Layout specification.</p>
+      </a></div>
+
+      <div class="homepage-bar flag-new"><a href="/learn">
+        <h2>Get Started Guide</h2>
+        <p>A structured guide to resources that will help you to start learning CSS Grid Layout.</p>
+      </a></div>
+
+      <div class="panel-box panel-b"><a href="/examples">
+        <h2>The Examples</h2>
+        <p>Small examples of the CSS Grid Layout specification. Each demonstrates a feature of the specification.</p>
+      </a></div>
+
+      <div class="panel-box panel-c flag-new"><a href="/patterns">
+        <h2>Patterns</h2>
+        <p>Grab &amp; Go. A set of example patterns with fallbacks for older browsers. </p>
+      </a></div>
+
+      <div class="panel-box panel-d"><a href="/resources">
+        <h2>Resources</h2>
+        <p>More links to articles, tutorials and conference presentations that will help you learn CSS Grid Layout.</p>
+      </a></div>
+      
+      <div class="panel-box panel-e offsite"><a href="http://csslayout.news">
+        <h2>CSS Layout News</h2>
+        <p>Sign up for a weekly email full of CSS Layout links and resources.</p>
+      </a></div>
+
+      <div class="panel-box panel-f offsite"><a href="https://github.com/rachelandrew/cssgrid-ama">
+        <h2>Questions?</h2>
+        <p><strong>Ask me anything</strong> about Grid Layout over at my GitHub Grid AMA.</p>
+      </a></div>
+
+      <div class="panel-box panel-g"><a href="/what">
+        <h2>About CSS Grid</h2>
+        <p>What even is this? Do I need to care?</p>
+      </a></div>
+      
+      <div class="panel-box panel-h"><a href="/posts">
+        <h2>News</h2>
+        <p>Infrequent updates on this site.</p>
+      </a></div>
     </div>
 
-      {% include examples.html %}
-    </div>
+ {% include track.html %}  
 </body>
 
 </html>
