@@ -2,8 +2,7 @@
    ========================================================================== */
 
 // Maximum width of the article (Mobile)
-article,
-body > footer {
+article {
   width: 80%;
   margin: 0 auto;
 }
@@ -94,6 +93,34 @@ body > footer {
   color: #fff;
   padding: .5rem 0 0 0;
   margin: 0;
+}
+
+.footer {
+  background-color: rgba(0,0,0,0.98);
+  background-image: url('/img/inflicted.png');
+  color: #000;
+  padding: 1rem 0;
+  margin: 4rem 0 0 0;
+  font-size: 85%;
+}
+
+.footer a:link, .footer a:visited {
+  color: #000;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer p.thanks {
+  
+}
+
+.footer .wrapper {
+  background-color: rgba(255,255,255,.6);
+  padding: 1rem;
+  border-radius: 3px;
 }
 
 .main {

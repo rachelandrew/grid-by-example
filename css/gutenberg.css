@@ -12,7 +12,8 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
 html {
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  margin: 0; }
 
 body {
   margin: 0; }
@@ -352,8 +353,7 @@ code {
 
 /* Gutenberg defaults
    ========================================================================== */
-article,
-body > footer {
+article {
   width: 80%;
   margin: 0 auto; }
 
@@ -423,6 +423,26 @@ body > footer {
   color: #fff;
   padding: .5rem 0 0 0;
   margin: 0; }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.98);
+  background-image: url("/img/inflicted.png");
+  color: #000;
+  padding: 1rem 0;
+  margin: 4rem 0 0 0;
+  font-size: 85%; }
+
+.footer a:link, .footer a:visited {
+  color: #000; }
+
+.footer p {
+  margin: 0;
+  padding: 0; }
+
+.footer .wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 3px; }
 
 .main {
   border-bottom: 1px solid #222;

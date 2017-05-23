@@ -13,6 +13,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  margin: 0;
 }
 
 body {
