@@ -5,7 +5,7 @@ title: Credits and information about this site
 
 # Credits and information about this site
 
-This site is hosted on GitHub Pages and built using Jekyll. I'm using Bootstrap and the Simple Sidebar HTML Template from [Start Bootstrap](http://startbootstrap.com).
+This site is [hosted](https://github.com/rachelandrew/grid-by-example) on GitHub Pages and built using Jekyll. I'm using Bootstrap and the Simple Sidebar HTML Template from [Start Bootstrap](http://startbootstrap.com).
 
 It's my first time using GitHub Pages so I am grateful for the tutorial by Anna Debenham, [Get Started With GitHub Pages](http://24ways.org/2013/get-started-with-github-pages/).
 
