@@ -9,7 +9,7 @@ title: What is CSS Grid Layout?
 
 ## Status of the spec and browser support
 
-With the exception of Edge, which supports an older version of the spec currently all major browsers now support grid layout as of March 2017. See [Can I Use](http://caniuse.com/#feat=css-grid), and also the [browsers page](/browsers) on this site which details where to log bugs should you find any.
+Chrome, Firefox and Safari shipped grid support in March 2017. IE10, 11 and Edge 15 and lower support an older, prefixed spec. In October 2017 Edge will update to the new specification to match other implementations. See [Can I Use](http://caniuse.com/#feat=css-grid), and also the [browsers page](/browsers) on this site which details where to log bugs should you find any.
 
 ## Basic Concepts
 

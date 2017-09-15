@@ -7,7 +7,7 @@ title: Browser Support for CSS Grid Layout
 
 You can view data across different browsers at [Can I Use](http://caniuse.com/#feat=css-grid). 
 
-If you find a bug in a browser implementation then the best thing to do is to search the logged bugs for that browser as this will include known bugs and issues still being worked on. If you have found something new then you can find [information about logging bugs with browsers here](http://testthewebforward.org/docs/bugs.html).
+I am collecting known interoperability issues over at my [GridBugs repository](https://github.com/rachelandrew/gridbugs). Check there for known issues.
 
 ## Gecko Rendering Engine (Firefox)
 
@@ -38,7 +38,7 @@ The Blink implementation has been carried out by Igalia, sponsored by Bloomberg.
 
 On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. 
 
-On Monday 3rd April, 2017 - on stage at An Event Apart - Microsoft announced that work has started to update the Edge Grid implementation to the new spec. Thank you to everyone who voted for the feature, it demonstrated that this was something we wanted.
+On Monday 3rd April, 2017 - on stage at An Event Apart - Microsoft announced that work has started to update the Edge Grid implementation to the new spec. This updated implementation is in Edge 16 and expected to ship October 17th 2017.
 
 You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
 
