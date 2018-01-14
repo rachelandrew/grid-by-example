@@ -36,16 +36,15 @@ The Blink implementation has been carried out by Igalia, sponsored by Bloomberg.
 
 ## Microsoft Edge
 
-On launch Edge shipped with the IE11 Grid implementation. Therefore the current implementation in Edge is against the original and not the new spec. 
+On launch Edge shipped with the IE11 Grid implementation. 
 
-On Monday 3rd April, 2017 - on stage at An Event Apart - Microsoft announced that work has started to update the Edge Grid implementation to the new spec. This updated implementation is in Edge 16 and expected to ship October 17th 2017.
-
-You can [keep track of the Edge Status of updating Grid Layout](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/gridupdate/?q=grid%20update).
+The updated implementation is in Edge 16 and shipped October 17th 2017.
 
 ## Internet Explorer 10 and 11
 
 The original Grid implementation was part of IE10, also in IE11. This implementation is now quite different to the current spec and other implementations. Internet Explorer 11 will never be updated to the new specification. There is some possibility in using the old spec to provide some grid layout for these browsers however.
 
+- [Using CSS Grid - Supporting Browsers Without Grid](https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/)
 - [April 2011 Grid Spec](http://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/)
 - [My 24 Ways Article covering the IE implementation](http://24ways.org/2012/css3-grid-layout/)
 - [Should I try to use the IE implementation of Grid Layout?](https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/)
