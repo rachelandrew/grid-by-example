@@ -6,7 +6,7 @@ title: Grid by Example - Usage examples of CSS Grid Layout
 # The examples
 
 <div class="content">
-  <p>The following examples include an image of how the example should look in a supporting browser, they each link to a page with more information about the technique being shown, code and a CodePen of the example. Unless otherwise noted these examples work in any browser supporting the up to date Grid Specification. <em>They will not work in IE10, 11 or current Edge.</em></p>
+  <p>The following examples include an image of how the example should look in a supporting browser, they each link to a page with more information about the technique being shown, code and a CodePen of the example. Unless otherwise noted these examples work in any browser supporting the up to date Grid Specification. <em>They will not work in IE10 or 11.</em></p>
 
   <p>For page layout examples see a collection of <a href="/examples/page-layout">page layouts here</a>.</p>
   

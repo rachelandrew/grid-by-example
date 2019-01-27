@@ -9,7 +9,11 @@ title: What is CSS Grid Layout?
 
 ## Status of the spec and browser support
 
-Chrome, Firefox and Safari shipped grid support in March 2017. IE10, 11 and Edge 15 and lower support an older, prefixed spec. In October 2017 Edge will update to the new specification to match other implementations. See [Can I Use](http://caniuse.com/#feat=css-grid), and also the [browsers page](/browsers) on this site which details where to log bugs should you find any.
+Chrome, Firefox and Safari shipped grid support in March 2017. Edge shipped support in October 2017. IE10, 11 and Edge 15 and lower support an older, prefixed spec. See [Can I Use](http://caniuse.com/#feat=css-grid), and also the [browsers page](/browsers) on this site which details where to log bugs should you find any.
+
+## Level 2 of the specification
+
+Almost as soon as grid shipped in production browsers work began on level 2 of the spec. This contains the subgrid feature moved out of level 1 in order to allow implementations to ship. As I write (January 2019) there are no current implementations of the subgrid feature. You can read about how it should work in my post on Smashing Magazine - [CSS Grid Level 2: Here Comes Subgrid](https://www.smashingmagazine.com/2018/07/css-grid-2/).
 
 ## Basic Concepts
 

@@ -694,7 +694,14 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {
   background-image: url(/img/tiny_grid.png);
   border: 1px solid #999;
   border-radius: 3px;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto; }
+
+.card-listing .date {
+  font-size: 85%;
+  padding: .8rem 1rem 0.2rem 1rem;
+  justify-self: end; }
 
 .card-listing h3 {
   background-color: #fff;

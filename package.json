@@ -1,0 +1,30 @@
+{
+  "name": "grid-by-example",
+  "version": "1.0.0",
+  "description": "grid-by-example ===============",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelandrew/grid-by-example.git"
+  },
+  "author": "Rachel Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelandrew/grid-by-example/issues"
+  },
+  "homepage": "https://github.com/rachelandrew/grid-by-example#readme"
+}
