@@ -12,11 +12,28 @@ title: Grid by Example - Usage examples of CSS Grid Layout
   
 </div>
 
-
-
 {% assign examples = site.examples | sort: 'order' %}
 <ul class="examples-detail-list">
   {% for example in examples %}
+  <li class="example" id="example{{ example.number }}">
+    <header><h3><a href="{{example.url}}">{{example.title}}</a></h3></header>
+    
+      <figure class="imagefig">
+        <a href="{{example.url}}"><img src="/examples/images/{{ example.image }}" alt="Screenshot of {{example.title}}"></a>
+      </figure>
+      <div class="description">
+      {{example.desc}}
+      </div>
+      <footer><a href="{{example.url}}">View example</a> | <a href="{{example.spec}}">Read specification</a></footer>
+  </li>
+ {% endfor %}
+</ul>
+
+## CSS Grid Level 2 Examples
+
+{% assign examples2 = site.examples2 | sort: 'order' %}
+<ul class="examples-detail-list">
+  {% for example in examples2 %}
   <li class="example" id="example{{ example.number }}">
     <header><h3><a href="{{example.url}}">{{example.title}}</a></h3></header>
     

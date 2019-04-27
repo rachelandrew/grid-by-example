@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 2-6</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 40px;
+      }
+
+      .wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: [main-1] 150px [main-2] 100px [main-3] 150px [main-4] 100px [main-5];
+        grid-template-rows: repeat(3, minmax(100px, auto));
+        background-color: #fff;
+        color: #444;
+      }
+
+      .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+      }
+
+      .box .box {
+        background-color: #ccc;
+        color: #444;
+      }
+
+      .a {
+        grid-column: main-1 / main-3;
+      }
+
+      .b {
+        grid-column: main-4;
+      }
+
+      .c {
+        grid-column: main-1;
+        grid-row: 2 / 4;
+      }
+
+      .d {
+        gap: 10px;
+        grid-column: main-2 / main-5;
+        grid-row: 2 / 4;
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-template-rows: subgrid;
+      }
+
+      .e {
+        grid-row: 1 / 3;
+        grid-column: main-2;
+      }
+
+      .f {
+        grid-row: 1;
+        grid-column: main-3 / main-5;
+      }
+
+      .g {
+        grid-row: 2;
+        grid-column: main-4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="box a">A</div>
+      <div class="box b">B</div>
+      <div class="box c">C</div>
+      <div class="box d">
+        <div class="box e">E</div>
+        <div class="box f">F</div>
+        <div class="box g">G</div>
+      </div>
+    </div>
+  </body>
+</html>

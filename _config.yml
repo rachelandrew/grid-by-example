@@ -1,7 +1,7 @@
 # Site settings
 title: Grid by Example
 email: me@rachelandrew.co.uk
-description: "My collection of simple examples of the CSS3 Grid Layout Module."
+description: "My collection of simple examples of the CSS Grid Layout Module."
 baseurl: ""
 url: "http://gridbyexample.com"
 twitter_username: rachelandrew
@@ -17,6 +17,8 @@ collections:
   patterns:
     output: true
   examples:
+    output: true
+  examples2:
     output: true
   video:
     output: true
