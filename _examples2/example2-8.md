@@ -2,7 +2,7 @@
 title: "Padding is honored on the subgrid"
 image: example2-8.png
 image_alt: image of layout with a subgrid with padding making the first and last tracks smaller.
-desc: Subgrids can have their own padding which will be deducated from the first and/or last tracks.
+desc: Subgrids can have their own padding which will be deducted from the first and/or last tracks.
 layout: example
 active: examples
 group: parent

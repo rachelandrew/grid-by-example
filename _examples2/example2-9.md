@@ -2,7 +2,7 @@
 title: "Margin is honored on the subgrid"
 image: example2-9.png
 image_alt: image of layout with a subgrid with margins making the first and last tracks smaller.
-desc: Subgrids can have their own margin which will be deducated from the first and/or last tracks.
+desc: Subgrids can have their own margin which will be deducted from the first and/or last tracks.
 layout: example
 active: examples
 group: parent
